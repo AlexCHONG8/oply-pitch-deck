@@ -1,0 +1,1672 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oply — 投资者演示文稿 | Reimagine ME Sdn. Bhd.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<style>
+/* ========== RESET & BASE ========== */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#0B1221;--surface:#131B2E;--border:#1E2A45;--surface-hover:#1A2540;
+  --text:#FFFFFF;--text2:#8892A7;--text3:#5A6580;
+  --gold:#C9A84C;--green:#00BFA5;--red:#FF5252;
+  --font-heading:'DM Serif Display',Georgia,serif;
+  --font-body:'DM Sans',system-ui,sans-serif;
+  --font-mono:'JetBrains Mono',monospace;
+}
+html{font-size:16px;scroll-behavior:smooth}
+body{font-family:var(--font-body);background:var(--bg);color:var(--text);overflow:hidden;height:100vh;width:100vw}
+a{color:var(--gold);text-decoration:none;transition:color .2s}
+a:hover{color:#e0c068}
+
+/* ========== NAVIGATION ========== */
+.nav-bar{position:fixed;top:0;left:0;right:0;height:52px;background:rgba(11,18,33,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);display:flex;align-items:center;padding:0 24px;z-index:100;gap:4px}
+.nav-logo{font-family:var(--font-heading);font-size:20px;color:var(--gold);letter-spacing:3px;margin-right:32px}
+.nav-tabs{display:flex;gap:2px;flex:1;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
+.nav-tabs::-webkit-scrollbar{display:none}
+.nav-tab{padding:6px 14px;font-size:11px;font-weight:500;color:var(--text2);cursor:pointer;border-radius:4px;white-space:nowrap;transition:all .2s;text-transform:uppercase;letter-spacing:.5px}
+.nav-tab:hover{color:var(--text);background:var(--surface)}
+.nav-tab.active{color:var(--gold);background:var(--surface)}
+.nav-tab.section-divider{color:var(--text3);cursor:default;font-size:10px;padding:6px 8px}
+.nav-tab.section-divider:hover{background:transparent}
+.nav-info{font-family:var(--font-mono);font-size:11px;color:var(--text3);margin-left:auto;white-space:nowrap}
+
+/* ========== SLIDES CONTAINER ========== */
+.slides-container{position:fixed;top:52px;left:0;right:0;bottom:0;overflow:hidden}
+.slide{position:absolute;inset:0;padding:40px 56px 60px;display:none;flex-direction:column;opacity:0;transition:opacity .4s ease}
+.slide.active{display:flex;opacity:1}
+
+/* ========== SOURCE FOOTER ========== */
+.slide-sources{position:absolute;bottom:0;left:56px;right:56px;padding:10px 0;font-size:9px;color:var(--text3);line-height:1.6;border-top:1px solid var(--border)}
+.slide-sources a{color:var(--text3);font-size:9px}
+.slide-sources a:hover{color:var(--gold)}
+.source-label{font-weight:600;color:var(--text2);margin-right:6px;text-transform:uppercase;letter-spacing:.5px;font-size:8px}
+
+/* ========== TYPOGRAPHY ========== */
+h1{font-family:var(--font-heading);font-weight:400;line-height:1.15}
+h2{font-family:var(--font-heading);font-weight:400;font-size:28px;line-height:1.2;color:var(--text);margin-bottom:8px}
+h3{font-family:var(--font-body);font-weight:600;font-size:15px;text-transform:uppercase;letter-spacing:1.5px;color:var(--gold);margin-bottom:16px}
+.subtitle{font-size:14px;color:var(--text2);line-height:1.5}
+.section-tag{font-family:var(--font-mono);font-size:10px;color:var(--gold);letter-spacing:2px;text-transform:uppercase;margin-bottom:8px}
+
+/* ========== COMPONENTS ========== */
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:24px;flex:1;min-height:0}
+.grid-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px;flex:1;min-height:0}
+.grid-4{display:grid;grid-template-columns:1fr 1fr;gap:24px;flex:1;min-height:0}
+.grid-5{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;flex:1;min-height:0}
+.split-60-40{display:grid;grid-template-columns:3fr 2fr;gap:32px;flex:1;min-height:0}
+.split-40-60{display:grid;grid-template-columns:2fr 3fr;gap:32px;flex:1;min-height:0}
+.split-50-50{display:grid;grid-template-columns:1fr 1fr;gap:32px;flex:1;min-height:0}
+
+.card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:24px;display:flex;flex-direction:column}
+.card:hover{border-color:rgba(201,168,76,.3);background:var(--surface-hover)}
+.card-title{font-family:var(--font-body);font-weight:600;font-size:14px;color:var(--gold);margin-bottom:8px}
+.card-value{font-family:var(--font-mono);font-size:32px;font-weight:600;color:var(--text);line-height:1.2}
+.card-unit{font-size:14px;color:var(--text2);font-weight:400}
+.card-desc{font-size:12px;color:var(--text2);line-height:1.5;margin-top:8px}
+
+.kpi-row{display:flex;gap:24px;margin-bottom:24px}
+.kpi{flex:1;text-align:center;padding:16px 8px;background:var(--surface);border:1px solid var(--border);border-radius:6px}
+.kpi-value{font-family:var(--font-mono);font-size:28px;font-weight:600;color:var(--gold)}
+.kpi-label{font-size:11px;color:var(--text2);margin-top:4px;text-transform:uppercase;letter-spacing:.5px}
+.kpi-green .kpi-value{color:var(--green)}
+
+.chart-container{position:relative;flex:1;min-height:0;display:flex;align-items:center;justify-content:center}
+.chart-container canvas{max-width:100%;max-height:100%}
+
+.bullet-list{list-style:none;padding:0}
+.bullet-list li{position:relative;padding:8px 0 8px 20px;font-size:13px;color:var(--text2);line-height:1.5;border-bottom:1px solid rgba(30,42,69,.5)}
+.bullet-list li::before{content:'';position:absolute;left:0;top:16px;width:6px;height:6px;background:var(--gold);border-radius:50%}
+.bullet-list li strong{color:var(--text)}
+
+.table-wrap{overflow:auto;flex:1}
+.data-table{width:100%;border-collapse:collapse;font-size:12px}
+.data-table th{text-align:left;font-weight:600;font-size:10px;text-transform:uppercase;letter-spacing:.5px;color:var(--text2);padding:8px 12px;border-bottom:2px solid var(--border);position:sticky;top:0;background:var(--bg)}
+.data-table td{padding:8px 12px;border-bottom:1px solid rgba(30,42,69,.5);color:var(--text2)}
+.data-table tr:hover td{background:var(--surface)}
+.data-table .val{font-family:var(--font-mono);color:var(--text);font-weight:500}
+.data-table .highlight{color:var(--green);font-weight:600}
+.data-table .warn{color:var(--red);font-weight:600}
+
+/* ========== COVER SLIDE ========== */
+.cover-slide{justify-content:center;align-items:center;text-align:center;background:var(--bg);position:relative;overflow:hidden}
+.cover-slide::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(135deg,transparent,transparent 60px,rgba(201,168,76,.03) 60px,rgba(201,168,76,.03) 61px);pointer-events:none}
+.cover-title{font-size:96px;letter-spacing:24px;color:var(--text);margin-bottom:8px}
+.cover-tagline{font-size:22px;color:var(--text2);font-weight:300;margin-bottom:40px;letter-spacing:2px}
+.cover-meta{font-family:var(--font-mono);font-size:13px;color:var(--text3);letter-spacing:1px}
+.cover-line{width:80px;height:2px;background:var(--gold);margin:24px auto}
+
+/* ========== SECTION DIVIDER ========== */
+.section-slide{justify-content:center;align-items:center;text-align:center}
+.section-slide .section-num{font-family:var(--font-mono);font-size:13px;color:var(--gold);letter-spacing:3px;margin-bottom:16px}
+.section-slide h1{font-size:48px;color:var(--text);margin-bottom:12px}
+.section-slide .section-sub{font-size:16px;color:var(--text2);max-width:600px;margin:0 auto}
+
+/* ========== PROCESS FLOW ========== */
+.process-flow{display:flex;align-items:center;gap:0;flex:1;min-height:0;padding:20px 0}
+.process-step{flex:1;text-align:center;padding:20px 12px;position:relative}
+.process-step .step-num{font-family:var(--font-mono);font-size:11px;color:var(--gold);margin-bottom:8px;letter-spacing:1px}
+.process-step .step-icon{width:56px;height:56px;margin:0 auto 12px;border-radius:50%;background:var(--surface);border:2px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:22px}
+.process-step .step-title{font-weight:600;font-size:13px;color:var(--text);margin-bottom:4px}
+.process-step .step-desc{font-size:11px;color:var(--text2);line-height:1.4}
+.process-arrow{font-size:20px;color:var(--text3);margin:0 -8px}
+
+/* ========== TIMELINE ========== */
+.timeline{display:flex;flex:1;min-height:0;align-items:stretch;gap:0}
+.timeline-item{flex:1;padding:16px;border-left:3px solid var(--border);position:relative}
+.timeline-item:first-child{border-left-color:var(--gold)}
+.timeline-item .t-phase{font-family:var(--font-mono);font-size:10px;color:var(--gold);letter-spacing:1px;margin-bottom:4px}
+.timeline-item .t-title{font-weight:600;font-size:13px;color:var(--text);margin-bottom:4px}
+.timeline-item .t-desc{font-size:11px;color:var(--text2);line-height:1.4}
+
+/* ========== PILLAR CARD ========== */
+.pillar{text-align:center;padding:24px 16px;background:var(--surface);border:1px solid var(--border);border-radius:8px;display:flex;flex-direction:column;align-items:center}
+.pillar:hover{border-color:rgba(201,168,76,.3)}
+.pillar-icon{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:12px;border:2px solid var(--gold);color:var(--gold)}
+.pillar-title{font-weight:600;font-size:12px;color:var(--gold);margin-bottom:6px;text-transform:uppercase;letter-spacing:.5px}
+.pillar-desc{font-size:11px;color:var(--text2);line-height:1.5}
+
+/* ========== CONNECTED INFOGRAPHIC ========== */
+.connected-flow{display:flex;align-items:stretch;gap:0;flex:1;min-height:0}
+.flow-block{flex:1;padding:24px;background:var(--surface);border:1px solid var(--border);border-radius:8px;display:flex;flex-direction:column;justify-content:center}
+.flow-block h4{font-size:13px;color:var(--gold);margin-bottom:8px;font-weight:600}
+.flow-block p{font-size:12px;color:var(--text2);line-height:1.5}
+.flow-arrow{display:flex;align-items:center;font-size:24px;color:var(--gold);padding:0 12px}
+
+/* ========== IMAGES ========== */
+.hero-bg{position:absolute;inset:0;background-size:cover;background-position:center;opacity:.35;filter:grayscale(10%) brightness(0.5)}
+.slide-image{width:100%;height:100%;object-fit:cover;border-radius:6px}
+.slide-image-contain{width:100%;height:100%;object-fit:contain;border-radius:6px}
+.image-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;overflow:hidden;display:flex;flex-direction:column}
+.image-card img{width:100%;height:140px;object-fit:cover}
+.image-card .image-caption{padding:10px 14px;font-size:11px;color:var(--text2);line-height:1.4}
+.cert-badge{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;background:var(--surface);border:1px solid var(--border);border-radius:6px;font-size:11px;font-weight:600;color:var(--gold)}
+.cert-badge img{height:20px;width:auto}
+.process-step .step-icon{background:none;border:none;width:72px;height:72px;padding:0}
+.process-step .step-icon svg{width:100%;height:100%}
+.logo-strip{display:flex;align-items:center;gap:24px;justify-content:center;padding:16px 0}
+.logo-strip img{height:32px;width:auto;opacity:.7;filter:grayscale(100%) brightness(0.8);transition:all .3s}
+.logo-strip img:hover{opacity:1;filter:none}
+.map-svg{width:100%;max-height:320px}
+.pillar-icon svg{width:28px;height:28px}
+
+/* ========== FULL-BLEED IMAGE SECTIONS ========== */
+.img-hero{position:relative;border-radius:10px;overflow:hidden;min-height:0}
+.img-hero img{width:100%;height:100%;object-fit:cover;display:block}
+.img-hero .img-overlay{position:absolute;bottom:0;left:0;right:0;padding:14px 18px;background:linear-gradient(transparent,rgba(0,0,0,.9));font-size:12px;color:#fff;font-weight:500}
+.img-duo{display:flex;gap:16px}
+.img-duo .img-hero{flex:1}
+
+/* ========== PRINT ========== */
+@media print{
+  .nav-bar{display:none}
+  .slides-container{position:static;overflow:visible}
+  .slide{position:static;display:flex!important;opacity:1!important;page-break-after:always;min-height:100vh}
+  .slide-sources{position:static;border-top:1px solid #ccc;margin-top:20px}
+}
+
+/* ========== RESPONSIVE ========== */
+@media(max-width:900px){
+  .slide{padding:24px 24px 52px}
+  .slide-sources{left:24px;right:24px}
+  .grid-2,.grid-3,.grid-4,.grid-5,.split-60-40,.split-40-60{grid-template-columns:1fr}
+  .kpi-row{flex-wrap:wrap}
+  .kpi{min-width:45%}
+  .cover-title{font-size:56px;letter-spacing:12px}
+  .process-flow{flex-direction:column}
+  .process-arrow{transform:rotate(90deg)}
+  .connected-flow{flex-direction:column}
+  .flow-arrow{transform:rotate(90deg);padding:8px 0;justify-content:center}
+}
+</style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="nav-bar">
+  <div class="nav-logo">OPLY</div>
+  <div class="nav-tabs" id="navTabs"></div>
+  <div class="nav-info" id="navInfo">1 / 30</div>
+</nav>
+
+<!-- SLIDES -->
+<div class="slides-container" id="slidesContainer">
+
+<!-- ===== SLIDE 1: COVER ===== -->
+<div class="slide cover-slide" data-slide="1">
+  <img class="hero-bg" src="images/palm_plantation_aerial.jpg" alt="">
+  <div class="cover-tagline">REIMAGINE ME SDN. BHD.</div>
+  <h1 class="cover-title">OPLY</h1>
+  <div class="cover-line"></div>
+  <div class="cover-tagline">将棕榈废料转化为板材未来</div>
+  <div class="cover-meta" style="margin-top:32px">$12-18M A轮融资 &nbsp;|&nbsp; EFB Strand Board &nbsp;|&nbsp; 马来西亚砂拉越</div>
+  <div class="cover-meta" style="margin-top:8px">机密投资者演示文稿 &middot; 2026年5月</div>
+</div>
+
+<!-- ===== SLIDE 2: EXECUTIVE SUMMARY ===== -->
+<div class="slide" data-slide="2">
+  <h3>执行摘要</h3>
+  <div class="grid-4" style="flex:1">
+    <div class="card">
+      <div class="card-title">市场机遇</div>
+      <div class="card-value" style="font-size:36px">$217B</div>
+      <div class="card-unit">全球人造板材市场（2024年）</div>
+      <div class="card-desc">东南亚尚无EFB strand board竞争对手。Oply开创品类，原材料成本优势达30-300倍。</div>
+    </div>
+    <div class="card">
+      <div class="card-title">产品性能</div>
+      <div class="card-value" style="font-size:28px">FRIM + MTIB</div>
+      <div class="card-unit">双重认证性能</div>
+      <div class="card-desc">无甲醛EFB strand board，在BS EN 310、317、319、311、312标准上达到或超越胶合板性能。</div>
+    </div>
+    <div class="card">
+      <div class="card-title">投资回报</div>
+      <div class="card-value" style="color:var(--green)">153%</div>
+      <div class="card-unit">3年ROI（基准情景）</div>
+      <div class="card-desc">毛利率55-62% &middot; 回收期0.6年 &middot; 第3年EBITDA $24.2M，收入$48M。</div>
+    </div>
+    <div class="card">
+      <div class="card-title">碳信用收益</div>
+      <div class="card-value" style="color:var(--green)">$1M</div>
+      <div class="card-unit">年度碳信用收入（2030年）</div>
+      <div class="card-desc">Verra VMR0009核证抵消。AI数据中心碳红利。马来西亚2026年开征碳税。</div>
+    </div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">资料来源：</span>
+    <a href="https://www.gminsights.com/industry-analysis/wood-based-panel-market" target="_blank">GM Insights &ndash; Wood Panel Market</a> &middot;
+    <a href="https://www.frim.gov.my" target="_blank">FRIM</a> &middot;
+    <a href="https://verra.org/methodologies/revision-to-am0057-avoided-emissions-from-biomass-wastes-through-use-as-feed-stock-in-pulp-and-paper-cardboard-fiberboard-or-bio-oil-production/" target="_blank">Verra VMR0009</a> &middot;
+    内部财务模型
+  </div>
+</div>
+
+<!-- ===== SLIDE 3: THE $349B PROBLEM ===== -->
+<div class="slide" data-slide="3">
+  <h3>问题</h3>
+  <h2>价值$349亿的市场亟待可持续供应</h2>
+  <div class="split-60-40" style="margin-top:16px;flex:1;min-height:0">
+    <div style="display:flex;flex-direction:column;gap:12px;flex:1;min-height:0">
+      <div class="chart-container" style="flex:2"><canvas id="chart3"></canvas></div>
+      <div class="img-hero" style="height:240px;flex:none">
+        <img src="images/oil_palm_fruit.jpg" alt="Oil palm fruit bunches — EFB waste available at 7-8M tonnes/year in Sarawak">
+        <div class="img-overlay">油棕果串 — 砂拉越EFB废料年供应量7-8百万吨</div>
+      </div>
+    </div>
+    <div>
+      <ul class="bullet-list">
+        <li><strong>$217B（2024年）&rarr; $349B（2034年）</strong> — 人造板材市场年复合增长率4.8%</li>
+        <li><strong>森林砍伐法规</strong> — EUDR禁止不合规木制品进入欧盟市场</li>
+        <li><strong>原材料短缺</strong> — 木质纤维成本$80-150/吨且持续上涨</li>
+        <li><strong>甲醛禁令</strong> — CARB Phase II、欧盟限制全球趋严</li>
+        <li><strong>供应缺口</strong> — 传统MDF/胶合板无法满足可持续发展要求</li>
+      </ul>
+    </div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">资料来源：</span>
+    <a href="https://www.gminsights.com/industry-analysis/wood-based-panel-market" target="_blank">GM Insights &ndash; $217B&rarr;$349B at 4.8% CAGR</a> &middot;
+    <a href="https://www.grandviewresearch.com/horizon/outlook/wood-based-panel-market-size/global" target="_blank">Grand View Research</a>
+  </div>
+</div>
+
+<!-- ===== SLIDE 4: AI'S ELECTRICITY PROBLEM ===== -->
+<div class="slide" data-slide="4">
+  <h3>问题</h3>
+  <h2>AI的电力问题就是您的碳问题</h2>
+  <div class="split-40-60" style="margin-top:16px;flex:1;min-height:0">
+    <div style="display:flex;flex-direction:column;gap:12px;flex:1;min-height:0">
+      <div class="card" style="border-left:3px solid var(--gold)">
+        <div class="card-value" style="font-size:36px;color:var(--gold)">+165%</div>
+        <div class="card-unit">2030年数据中心电力需求增长</div>
+        <div class="card-desc">Goldman Sachs Research</div>
+      </div>
+      <div class="card" style="border-left:3px solid var(--green)">
+        <div class="card-value" style="font-size:36px;color:var(--green)">+50%</div>
+        <div class="card-unit">AI数据中心激增（2025年）</div>
+        <div class="card-desc">International Energy Agency</div>
+      </div>
+      <div class="card" style="border-left:3px solid var(--red)">
+        <div class="card-value" style="font-size:36px;color:var(--red)">3x</div>
+        <div class="card-unit">2030年美国数据中心消耗量</div>
+        <div class="card-desc">McKinsey &amp; Company</div>
+      </div>
+      <div class="img-hero" style="height:200px;flex:none">
+        <img src="images/data_center.jpg" alt="AI data center energy demand surging">
+        <div class="img-overlay">AI数据中心能源需求激增</div>
+      </div>
+    </div>
+    <div class="chart-container"><canvas id="chart4"></canvas></div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">资料来源：</span>
+    <a href="https://www.goldmansachs.com/insights/articles/ai-to-drive-165-increase-in-data-center-power-demand-by-2030" target="_blank">Goldman Sachs &ndash; AI Power Demand +165%</a> &middot;
+    <a href="https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary" target="_blank">IEA &ndash; AI &amp; Energy 2025</a> &middot;
+    <a href="https://www.mckinsey.com/featured-insights/week-in-charts/ais-power-binge" target="_blank">McKinsey &ndash; AI's Power Binge</a>
+  </div>
+</div>
+
+<!-- ===== SLIDE 5: REGULATORY TAILWINDS ===== -->
+<div class="slide" data-slide="5">
+  <h3>问题</h3>
+  <h2>为何此时：监管利好趋同</h2>
+  <div class="grid-3" style="margin-top:24px">
+    <div class="card" style="border-top:3px solid var(--gold)">
+      <div class="card-title" style="font-size:18px;font-family:var(--font-mono)">2026</div>
+      <div class="card-value" style="font-size:20px;margin:12px 0">马来西亚碳税</div>
+      <div class="card-desc">针对钢铁和能源行业。创造有利于低碳材料的政策环境。国内碳信用需求将激增。</div>
+    </div>
+    <div class="card" style="border-top:3px solid var(--green)">
+      <div class="card-title" style="font-size:18px;font-family:var(--font-mono)">2025+</div>
+      <div class="card-value" style="font-size:20px;margin:12px 0">欧盟毁林法规</div>
+      <div class="card-desc">EUDR禁止不合规木制品进入欧盟市场。Oply使用农业废料 — 天然零毁林。完全符合欧盟出口要求。</div>
+    </div>
+    <div class="card" style="border-top:3px solid #7C8CF8">
+      <div class="card-title" style="font-size:18px;font-family:var(--font-mono)">2024+</div>
+      <div class="card-value" style="font-size:20px;margin:12px 0">CARB Phase II / 甲醛</div>
+      <div class="card-desc">美国甲醛排放限制趋严。Oply使用PMDI树脂 — 零甲醛。出厂即符合最严格的全球标准。</div>
+    </div>
+  </div>
+  <div class="kpi-row" style="margin-top:24px">
+    <div class="kpi kpi-green"><div class="kpi-value">零</div><div class="kpi-label">甲醛排放</div></div>
+    <div class="kpi"><div class="kpi-value">EUDR</div><div class="kpi-label">天然合规</div></div>
+    <div class="kpi"><div class="kpi-value">CARB P-II</div><div class="kpi-label">美国市场就绪</div></div>
+    <div class="kpi kpi-green"><div class="kpi-value">Verra</div><div class="kpi-label">VMR0009碳信用</div></div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">资料来源：</span>
+    <a href="https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/102124-malaysia-sets-2026-carbon-tax-reaffirms-decarbonization-goals-in-budget-2025" target="_blank">S&amp;P Global &ndash; Malaysia Carbon Tax 2026</a> &middot;
+    <a href="https://www.iea.org/policies/25681-malaysia-carbon-tax" target="_blank">IEA Policy Database</a> &middot;
+    <a href="https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en" target="_blank">European Commission &ndash; EUDR</a> &middot;
+    <a href="https://ww2.arb.ca.gov/our-work/programs/composite-wood-products-program" target="_blank">CARB &ndash; Composite Wood Products</a>
+  </div>
+</div>
+
+<!-- ===== SLIDE 6: INTRODUCING OPLY ===== -->
+<div class="slide" data-slide="6">
+  <h3>解决方案</h3>
+  <h2>介绍Oply：EFB Strand Board</h2>
+  <div style="margin-bottom:12px;display:flex;gap:12px;align-items:center">
+    <span style="font-size:11px;color:var(--text3)">支持机构：</span>
+    <span class="cert-badge"><img src="images/logos/mpob.png" alt="MPOB"> MPOB MoA</span>
+    <span class="cert-badge"><img src="images/logos/frim.png" alt="FRIM"> FRIM Tested</span>
+    <span class="cert-badge"><img src="images/logos/mtib.png" alt="MTIB"> MTIB Certified</span>
+  </div>
+  <p class="subtitle" style="margin-bottom:16px;max-width:700px">全球首款完全由油棕空果串（EFB）废料制成的商业化可行性strand board — 原材料成本比木质纤维低30-300倍，仅砂拉越一地年供应量就达7-8百万吨。</p>
+  <div class="split-60-40" style="flex:1;min-height:0">
+    <div class="grid-3">
+      <div class="card" style="text-align:center;border-top:3px solid var(--gold)">
+        <div class="card-value" style="font-size:28px;color:var(--gold)">650</div>
+        <div class="card-unit">kg/m&sup3; 密度</div>
+        <div class="card-desc">测试范围600-725 kg/m&sup3;。胶合板和MDF的直接替代品。</div>
+      </div>
+      <div class="card" style="text-align:center;border-top:3px solid var(--green)">
+        <div class="card-value" style="font-size:28px;color:var(--green)">11%</div>
+        <div class="card-unit">PMDI树脂含量</div>
+        <div class="card-desc">无甲醛。零有毒排放。室内空气质量安全。</div>
+      </div>
+      <div class="card" style="text-align:center;border-top:3px solid #7C8CF8">
+        <div class="card-value" style="font-size:28px">4'&times;8'</div>
+        <div class="card-unit">标准板材尺寸</div>
+        <div class="card-desc">行业标准4'&times;8'&times;12mm。即插即用替代 — 无需重新装备。</div>
+      </div>
+    </div>
+    <div class="img-hero">
+      <img src="images/palm_oil_plantation.jpg" alt="Oil palm plantation — sustainable EFB raw material source">
+      <div class="img-overlay" style="text-align:center">油棕种植园 — 可持续EFB原料来源</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SLIDE 7: CERTIFIED PERFORMANCE ===== -->
+<div class="slide" data-slide="7">
+  <h3>解决方案</h3>
+  <h2>认证性能：超越所有BS EN标准</h2>
+  <div style="margin-bottom:12px;display:flex;gap:12px;align-items:center">
+    <span style="font-size:12px;color:var(--text2)">独立检测机构：</span>
+    <span class="cert-badge"><img src="images/logos/frim.png" alt="FRIM"> FRIM</span>
+    <span class="cert-badge"><img src="images/logos/mtib.png" alt="MTIB"> MTIB</span>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;flex:1;min-height:0">
+    <div class="table-wrap">
+      <table class="data-table">
+        <thead>
+          <tr><th>测试标准</th><th>性能指标</th><th class="val">Oply结果</th><th class="val">胶合板基准</th><th>状态</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>BS EN 310</td><td>弯曲强度（MOR）</td><td class="val">符合标准</td><td class="val">参考值</td><td class="highlight">通过</td></tr>
+          <tr><td>BS EN 310</td><td>弹性模量（MOE）</td><td class="val">符合标准</td><td class="val">参考值</td><td class="highlight">通过</td></tr>
+          <tr><td>BS EN 317</td><td>厚度膨胀（24小时）</td><td class="val">符合标准</td><td class="val">参考值</td><td class="highlight">通过</td></tr>
+          <tr><td>BS EN 319</td><td>内结合强度</td><td class="val">符合标准</td><td class="val">参考值</td><td class="highlight">通过</td></tr>
+          <tr><td>BS EN 311</td><td>表面结合强度</td><td class="val">符合标准</td><td class="val">参考值</td><td class="highlight">通过</td></tr>
+          <tr><td>BS EN 312</td><td>刨花板规范</td><td class="val">完全合规</td><td class="val">参考值</td><td class="highlight">通过</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div style="display:flex;flex-direction:column;min-height:0">
+      <h4 style="margin:0 0 12px 0;font-size:15px;color:var(--text2);text-align:center">性能与最低标准对比</h4>
+      <div class="chart-container"><canvas id="chart7"></canvas></div>
+      <div style="margin-top:12px;font-size:11px;color:var(--text3);line-height:1.4">
+        <strong>图表说明：</strong> 数值显示为BS EN最低要求的百分比。Oply在所有机械和物理性能上均超过100%基准线，确认与传统胶合板结构等效。
+      </div>
+    </div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">资料来源：</span>
+    <a href="https://www.frim.gov.my" target="_blank">FRIM &ndash; Forest Research Institute Malaysia</a> &middot;
+    <a href="https://www.testinglab.net/en-310-bending-strength-of-wood-based-panels" target="_blank">EN 310 Standard</a> &middot;
+    <a href="https://www.instron.com/en/testing-solutions/other-standards/bs-en-319/" target="_blank">EN 319 Standard</a> &middot;
+    FRIM Report: OPLY_FRIM_260429_181427.pdf
+  </div>
+</div>
+
+<!-- ===== SLIDE 8: MANUFACTURING PROCESS ===== -->
+<div class="slide" data-slide="8">
+  <h3>解决方案</h3>
+  <h2>制造工艺</h2>
+  <div class="process-flow" style="margin-top:24px">
+    <div class="process-step">
+      <div class="step-num">01</div>
+      <div class="step-icon"><svg viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="36" cy="36" r="34" stroke="#C9A84C" stroke-width="2"/><path d="M36 18c-1 0-2 .5-2.5 1.5L24 32h6v14h12V32h6L38.5 19.5C38 18.5 37 18 36 18z" fill="#C9A84C" opacity=".3"/><path d="M24 50c0 2 4 4 12 4s12-2 12-4" stroke="#C9A84C" stroke-width="2" stroke-linecap="round"/><path d="M20 28c-4 2-6 6-6 10s2 8 6 10M52 28c4 2 6 6 6 10s-2 8-6 10" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round" opacity=".5"/></svg></div>
+      <div class="step-title">EFB收集</div>
+      <div class="step-desc">从棕油厂采购，成本$0.45-2.70/吨。砂拉越年供应量7-8百万吨。</div>
+    </div>
+    <div class="process-arrow">&rarr;</div>
+    <div class="process-step">
+      <div class="step-num">02</div>
+      <div class="step-icon"><svg viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="36" cy="36" r="34" stroke="#C9A84C" stroke-width="2"/><rect x="18" y="28" width="36" height="20" rx="3" stroke="#C9A84C" stroke-width="2"/><path d="M18 34h36M30 28v-4M42 28v-4M26 40h20M26 44h12" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+      <div class="step-title">纤维制备</div>
+      <div class="step-desc">粉碎、清洗、干燥至最佳含水率，用于条束成型。</div>
+    </div>
+    <div class="process-arrow">&rarr;</div>
+    <div class="process-step">
+      <div class="step-num">03</div>
+      <div class="step-icon"><svg viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="36" cy="36" r="34" stroke="#C9A84C" stroke-width="2"/><path d="M36 20v8M28 24l4 4M44 24l-4 4" stroke="#C9A84C" stroke-width="2" stroke-linecap="round"/><circle cx="36" cy="40" r="8" stroke="#C9A84C" stroke-width="2"/><path d="M33 40h6M36 37v6" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/><path d="M24 52c2 2 6 4 12 4s10-2 12-4" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round" opacity=".5"/></svg></div>
+      <div class="step-title">树脂混合</div>
+      <div class="step-desc">11% PMDI树脂（无甲醛）。基于样本70和71的优化参数。</div>
+    </div>
+    <div class="process-arrow">&rarr;</div>
+    <div class="process-step">
+      <div class="step-num">04</div>
+      <div class="step-icon"><svg viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="36" cy="36" r="34" stroke="#C9A84C" stroke-width="2"/><rect x="22" y="22" width="28" height="28" rx="3" stroke="#C9A84C" stroke-width="2"/><path d="M22 32h28M22 42h28M32 22v28" stroke="#C9A84C" stroke-width="1.5"/><circle cx="40" cy="47" r="6" fill="#C9A84C" opacity=".3" stroke="#C9A84C" stroke-width="1.5"/><path d="M38 47l2 2 4-4" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+      <div class="step-title">铺装与热压</div>
+      <div class="step-desc">热压至目标密度600-725 kg/m&sup3;。标准4'&times;8'&times;12mm板材。</div>
+    </div>
+    <div class="process-arrow">&rarr;</div>
+    <div class="process-step">
+      <div class="step-num">05</div>
+      <div class="step-icon"><svg viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="36" cy="36" r="34" stroke="#C9A84C" stroke-width="2"/><path d="M24 36l8 8 16-16" stroke="#00BFA5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="36" cy="36" r="16" stroke="#C9A84C" stroke-width="2"/></svg></div>
+      <div class="step-title">精加工与质检</div>
+      <div class="step-desc">裁边、砂光、按BS EN标准质量控制。FRIM/MTIB认证。</div>
+    </div>
+  </div>
+  <div class="img-duo" style="margin-top:12px;height:130px;flex:none">
+    <div class="img-hero">
+      <img src="images/oil_palm_fruit.jpg" alt="Oil palm EFB raw material">
+      <div class="img-overlay">原材料：油棕EFB纤维</div>
+    </div>
+    <div class="img-hero">
+      <img src="images/palm_oil_plantation.jpg" alt="Oil palm plantation supply chain">
+      <div class="img-overlay">可持续油棕供应链</div>
+    </div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">资料来源：</span>
+    内部工艺文档 &middot;
+    <a href="https://mpob.gov.my/" target="_blank">MPOB &ndash; EFB Supply</a> &middot;
+    <a href="https://www.frim.gov.my" target="_blank">FRIM &ndash; Test Standards</a>
+  </div>
+</div>
+
+
+<!-- ===== SLIDE 9: TAM / SAM / SOM ===== -->
+<div class="slide" data-slide="9">
+  <h3>市场机遇</h3>
+  <h2>TAM / SAM / SOM</h2>
+  <div class="split-40-60" style="margin-top:16px">
+    <div>
+      <div class="card" style="margin-bottom:16px;border-left:3px solid var(--gold)">
+        <div class="card-title">TAM — 总可寻址市场</div>
+        <div class="card-value">$349B</div>
+        <div class="card-desc">2034年全球木质板材市场规模（GM Insights，年复合增长率4.8%）</div>
+      </div>
+      <div class="card" style="margin-bottom:16px;border-left:3px solid var(--green)">
+        <div class="card-title">SAM — 可服务市场</div>
+        <div class="card-value">$9.49B</div>
+        <div class="card-desc">亚太地区中密度纤维板市场（Cognitive Market Research）</div>
+      </div>
+      <div class="card" style="border-left:3px solid #7C8CF8">
+        <div class="card-title">SOM — 可获得市场</div>
+        <div class="card-value">$48M</div>
+        <div class="card-desc">第三年收入目标（基准情况）。单座工厂年产能60,000立方米。</div>
+      </div>
+    </div>
+    <div class="chart-container"><canvas id="chart9"></canvas></div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">资料来源：</span>
+    <a href="https://www.gminsights.com/industry-analysis/wood-based-panel-market" target="_blank">GM Insights &ndash; 全球板材市场</a> &middot;
+    <a href="https://www.mordorintelligence.com/industry-reports/medium-density-fiberboard-mdf-market" target="_blank">Mordor Intelligence &ndash; 全球MDF</a> &middot;
+    <a href="https://www.cognitivemarketresearch.com/regional-analysis/asia-pacific-mdf-board-market-report" target="_blank">Cognitive MR &ndash; 亚太MDF $9.49B</a>
+  </div>
+</div>
+
+<!-- ===== SLIDE 10: GROWTH DRIVERS ===== -->
+<div class="slide" data-slide="10">
+  <h3>市场机遇</h3>
+  <h2>四大结构性增长驱动因素</h2>
+  <div class="grid-4" style="margin-top:24px">
+    <div class="card">
+      <div class="card-title" style="font-size:24px;margin-bottom:12px">&#127758;</div>
+      <div class="card-title">森林砍伐法规</div>
+      <div class="card-desc">EUDR（欧盟零毁林法案）从2025年起禁止不合规木制品进入欧盟市场。为非木材替代品创造结构性需求转变。</div>
+    </div>
+    <div class="card">
+      <div class="card-title" style="font-size:24px;margin-bottom:12px">&#128683;</div>
+      <div class="card-title">甲醛禁令</div>
+      <div class="card-desc">CARB Phase II（美国）和欧盟甲醛限制日趋严格。Oply的PMDI树脂零甲醛排放——设计上面向未来。</div>
+    </div>
+    <div class="card">
+      <div class="card-title" style="font-size:24px;margin-bottom:12px">&#127959;&#65039;</div>
+      <div class="card-title">绿色建筑标准</div>
+      <div class="card-desc">LEED、BREEAM和GreenRE认证越来越青睐可持续、低碳建筑材料。Oply符合绿色建筑积分要求。</div>
+    </div>
+    <div class="card">
+      <div class="card-title" style="font-size:24px;margin-bottom:12px">&#127474;&#127486;</div>
+      <div class="card-title">反倾销保护</div>
+      <div class="card-desc">马来西亚对中国进口MDF征收反倾销税，造成国内供应缺口，Oply有条件填补这一缺口。</div>
+    </div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">资料来源：</span>
+    <a href="https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en" target="_blank">欧盟委员会 &ndash; EUDR</a> &middot;
+    <a href="https://ww2.arb.ca.gov/our-work/programs/composite-wood-products-program" target="_blank">CARB &ndash; 甲醛标准</a>
+  </div>
+</div>
+
+<!-- ===== SLIDE 11: COMPETITIVE LANDSCAPE ===== -->
+<div class="slide" data-slide="11">
+  <h3>竞争优势</h3>
+  <h2>竞争格局：独此一家</h2>
+  <div style="margin-bottom:8px;display:flex;gap:16px;align-items:center">
+    <span style="font-size:11px;color:var(--text3)">现有企业：</span>
+    <img src="images/logos/samling.png" style="height:20px;opacity:.6" alt="Samling">
+    <img src="images/logos/daiken.png" style="height:20px;opacity:.6" alt="Daiken">
+    <img src="images/logos/evergreen.png" style="height:20px;opacity:.6" alt="Evergreen">
+  </div>
+  <div class="split-60-40" style="margin-top:0;flex:1;min-height:0">
+    <div class="chart-container"><canvas id="chart11"></canvas></div>
+    <div>
+      <div class="card" style="margin-bottom:12px;border-left:3px solid var(--gold)">
+        <div class="card-title">Oply — 品类开创者</div>
+        <div class="card-desc">东南亚唯一的空果束（EFB）strand board制造商。低成本+高可持续性——无竞争对手占据此位置。</div>
+      </div>
+      <div class="card" style="margin-bottom:12px">
+        <div class="card-title">Samling / Daiken / Evergreen</div>
+        <div class="card-desc">使用木纤维的成熟MDF企业。无农业废弃物的研发。砂拉越每家产能10-12万立方米/年。</div>
+      </div>
+      <div class="card" style="margin-bottom:12px">
+        <div class="card-title">中国进口</div>
+        <div class="card-desc">低成本但低质量、高甲醛。受马来西亚反倾销税阻挡。</div>
+      </div>
+      <div class="card">
+        <div class="card-title">欧洲板材（EGGER、Kronospan等）</div>
+        <div class="card-desc">高可持续性但高成本。在亚太市场无竞争力。</div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">资料来源：</span>
+    <a href="https://www.samling.com/downstream-timber-operations/" target="_blank">Samling Group &ndash; MDF运营</a> &middot;
+    <a href="https://www.daiken-ad.com/industrialmaterials/mdf/" target="_blank">Daiken Corporation &ndash; MDF工厂</a> &middot;
+    <a href="https://evergreengroup.com.my/en/share_information" target="_blank">Evergreen Fibreboard (5101.KL)</a>
+  </div>
+</div>
+
+<!-- ===== SLIDE 12: RAW MATERIAL COST ADVANTAGE ===== -->
+<div class="slide" data-slide="12">
+  <h3>竞争优势</h3>
+  <h2>原材料成本：比木纤维便宜30-300倍</h2>
+  <div class="chart-container" style="max-height:60%">
+    <canvas id="chart12"></canvas>
+  </div>
+  <div class="kpi-row" style="margin-top:16px">
+    <div class="kpi kpi-green"><div class="kpi-value">$0.45</div><div class="kpi-label">EFB成本/吨（低）</div></div>
+    <div class="kpi kpi-green"><div class="kpi-value">$2.70</div><div class="kpi-label">EFB成本/吨（高）</div></div>
+    <div class="kpi"><div class="kpi-value">$80-150</div><div class="kpi-label">木纤维成本/吨</div></div>
+    <div class="kpi kpi-green"><div class="kpi-value">30-300&times;</div><div class="kpi-label">Oply成本优势</div></div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">资料来源：</span>
+    内部市场研究（market_research_agricultural_waste_raw_materials.md） &middot;
+    <a href="https://mpob.gov.my/" target="_blank">MPOB &ndash; EFB定价与供应数据</a>
+  </div>
+</div>
+
+<!-- ===== SLIDE 13: 5 PILLARS ===== -->
+<div class="slide" data-slide="13">
+  <h3>竞争优势</h3>
+  <h2>不公平优势的五大支柱</h2>
+  <div class="grid-5" style="margin-top:24px;gap:20px">
+    <div class="pillar" style="padding:32px 20px;flex:1">
+      <div class="pillar-icon" style="width:52px;height:52px;margin-bottom:16px"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2"/><text x="24" y="30" text-anchor="middle" fill="currentColor" font-size="18" font-weight="700" font-family="DM Sans,system-ui">$</text></svg></div>
+      <div class="pillar-title" style="font-size:16px;margin-bottom:12px">结构性成本</div>
+      <div class="pillar-desc" style="font-size:13px;line-height:1.6">原材料成本优势30-300倍。EFB每吨$0.45-2.70 vs 木纤维每吨$80-150。这是结构性的，而非运营性的。</div>
+    </div>
+    <div class="pillar" style="padding:32px 20px;flex:1">
+      <div class="pillar-icon" style="width:52px;height:52px;margin-bottom:16px"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2"/><path d="M24 12v12M18 18l6-6 6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 30h20M16 36h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".6"/></svg></div>
+      <div class="pillar-title" style="font-size:16px;margin-bottom:12px">性能</div>
+      <div class="pillar-desc" style="font-size:13px;line-height:1.6">FRIM和MTIB双认证。在所有BS EN标准上达到或超过商业胶合板。质量不妥协。</div>
+    </div>
+    <div class="pillar" style="padding:32px 20px;flex:1">
+      <div class="pillar-icon" style="width:52px;height:52px;margin-bottom:16px"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2"/><path d="M18 14c0 6 6 10 6 10s6-4 6-10c0-3.3-2.7-6-6-6s-6 2.7-6 6z" fill="currentColor" opacity=".3"/><path d="M14 34c0 0 4-6 10-6s10 6 10 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="24" cy="20" r="3" fill="currentColor"/></svg></div>
+      <div class="pillar-title" style="font-size:16px;margin-bottom:12px">无甲醛</div>
+      <div class="pillar-desc" style="font-size:13px;line-height:1.6">PMDI树脂零甲醛排放。室内空气安全。针对全球日益收紧的法规面向未来。</div>
+    </div>
+    <div class="pillar" style="padding:32px 20px;flex:1">
+      <div class="pillar-icon" style="width:52px;height:52px;margin-bottom:16px"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2"/><rect x="16" y="14" width="16" height="20" rx="2" stroke="currentColor" stroke-width="2"/><path d="M20 20h8M20 24h8M20 28h5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M28 28l4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+      <div class="pillar-title" style="font-size:16px;margin-bottom:12px">法规就绪</div>
+      <div class="pillar-desc" style="font-size:13px;line-height:1.6">设计上符合EUDR（农业废弃物、零森林砍伐）。CARB Phase II就绪。从第一天起即可出口。</div>
+    </div>
+    <div class="pillar" style="padding:32px 20px;flex:1">
+      <div class="pillar-icon" style="width:52px;height:52px;margin-bottom:16px"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2"/><path d="M20 16c0 0-4 4-4 8s4 8 8 8 8-4 8-8-4-8-4-8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M24 14v10l4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="24" r="2" fill="currentColor"/></svg></div>
+      <div class="pillar-title" style="font-size:16px;margin-bottom:12px">碳信用</div>
+      <div class="pillar-desc" style="font-size:13px;line-height:1.6">Verra VMR0009核证抵消。$70K-300K收入（2026年）扩展至$500K-$1M/年（2030年）。模型内置的额外收入流。</div>
+    </div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">资料来源：</span>
+    <a href="https://www.frim.gov.my" target="_blank">FRIM &ndash; 认证</a> &middot;
+    <a href="https://verra.org/methodologies/revision-to-am0057-avoided-emissions-from-biomass-wastes-through-use-as-feed-stock-in-pulp-and-paper-cardboard-fiberboard-or-bio-oil-production/" target="_blank">Verra VMR0009</a> &middot;
+    <a href="https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en" target="_blank">欧盟委员会 &ndash; EUDR</a>
+  </div>
+</div>
+
+<!-- ===== SLIDE 14: BARRIERS TO ENTRY ===== -->
+<div class="slide" data-slide="14">
+  <h3>竞争优势</h3>
+  <h2>进入壁垒：可防御的护城河</h2>
+  <div class="split-60-40" style="margin-top:16px">
+    <div class="chart-container"><canvas id="chart14"></canvas></div>
+    <div>
+      <ul class="bullet-list">
+        <li><strong>工艺诀窍</strong> — 优化参数（样品70和71）代表多年的研发。无法从公开信息复制。</li>
+        <li><strong>FRIM/MTIB认证</strong> — 需要12-18个月的前置时间。Oply已获得双认证。</li>
+        <li><strong>MPOB MoA</strong> — Reimagine ME与MPOB签署了合作协议。机构供应支持。</li>
+        <li><strong>EFB供应协议</strong> — 在砂拉越锁定棕油工厂供应合同方面的先发优势。</li>
+        <li><strong>设备采购</strong> — 长前置时间的专用设备。Oply已确定供应链。</li>
+      </ul>
+    </div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">资料来源：</span>
+    <a href="https://www.frim.gov.my" target="_blank">FRIM &ndash; 认证时间表</a> &middot;
+    <a href="https://mpob.gov.my/" target="_blank">MPOB &ndash; 与Reimagine ME的MoA</a>
+  </div>
+</div>
+
+
+<!-- ===== SLIDE 15: UNIT ECONOMICS ===== -->
+<div class="slide" data-slide="15">
+  <h3>财务证明</h3>
+  <h2>单位经济效益：行业领先利润率</h2>
+  <div class="kpi-row" style="margin-bottom:24px;flex-wrap:wrap;gap:12px">
+    <div class="kpi" style="flex:1 1 45%;min-width:140px"><div class="kpi-value">$12-14</div><div class="kpi-label">每张板成本</div></div>
+    <div class="kpi kpi-green" style="flex:1 1 45%;min-width:140px"><div class="kpi-value">$28-38</div><div class="kpi-label">市场售价</div></div>
+    <div class="kpi kpi-green" style="flex:1 1 45%;min-width:140px"><div class="kpi-value">55-62%</div><div class="kpi-label">毛利率</div></div>
+    <div class="kpi" style="flex:1 1 45%;min-width:140px"><div class="kpi-value">$2.8M</div><div class="kpi-label">年原材料节省</div></div>
+  </div>
+  <div class="chart-container" style="max-height:50%">
+    <canvas id="chart15"></canvas>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">资料来源：</span>
+    内部财务模型 (Oply_Study_Report.md) &middot;
+    板材规格：4'&times;8'&times;12mm 标准板
+  </div>
+</div>
+
+<!-- ===== SLIDE 16: REVENUE SCENARIOS ===== -->
+<div class="slide" data-slide="16">
+  <h3>财务证明</h3>
+  <h2>收入场景：第三年预测</h2>
+  <div class="chart-container" style="max-height:50%;margin-top:16px">
+    <canvas id="chart16"></canvas>
+  </div>
+  <div class="kpi-row" style="margin-top:16px">
+    <div class="card" style="text-align:center;flex:1">
+      <div class="card-title">保守情景</div>
+      <div class="card-value" style="font-size:24px">$33M</div>
+      <div class="card-unit">收入 &middot; 46% 毛利率 &middot; 77% 投资回报率</div>
+    </div>
+    <div class="card" style="text-align:center;flex:1;border-color:var(--gold)">
+      <div class="card-title">基准情景</div>
+      <div class="card-value" style="font-size:24px;color:var(--gold)">$48M</div>
+      <div class="card-unit">收入 &middot; 59% 毛利率 &middot; 153% 投资回报率</div>
+    </div>
+    <div class="card" style="text-align:center;flex:1">
+      <div class="card-title">乐观情景</div>
+      <div class="card-value" style="font-size:24px;color:var(--green)">$54M</div>
+      <div class="card-unit">收入 &middot; 67% 毛利率 &middot; 219% 投资回报率</div>
+    </div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">资料来源：</span>
+    内部财务模型 (Oply_Study_Report.md) &middot;
+    <a href="https://www.gminsights.com/industry-analysis/wood-based-panel-market" target="_blank">GM Insights &ndash; 市场定价基准</a>
+  </div>
+</div>
+
+<!-- ===== SLIDE 17: EBITDA TRAJECTORY ===== -->
+<div class="slide" data-slide="17">
+  <h3>财务证明</h3>
+  <h2>EBITDA 轨迹：快速价值创造</h2>
+  <div class="split-60-40" style="margin-top:16px">
+    <div class="chart-container"><canvas id="chart17"></canvas></div>
+    <div>
+      <div class="card" style="margin-bottom:16px;border-left:3px solid var(--green)">
+        <div class="card-title">盈亏平衡</div>
+        <div class="card-value" style="color:var(--green)">6-8 月</div>
+        <div class="card-desc">从首次生产到现金流转正。板材行业最快回本。</div>
+      </div>
+      <div class="card" style="margin-bottom:16px">
+        <div class="card-title">第三年 EBITDA</div>
+        <div class="card-value" style="color:var(--gold)">$24.2M</div>
+        <div class="card-desc">基准情景 EBITDA 利润率 50%。保守情景：$11.6M。乐观情景：$32.8M。</div>
+      </div>
+      <div class="card">
+        <div class="card-title">回本期</div>
+        <div class="card-value" style="color:var(--green)">0.6 年</div>
+        <div class="card-desc">基准情景投资回本。保守情景：1.3 年。乐观情景：0.5 年。</div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">资料来源：</span>
+    内部财务模型 (Oply_Study_Report.md) &middot;
+    所有情景假设 60,000 m&sup3;/年 产能
+  </div>
+</div>
+
+<!-- ===== SLIDE 18: COMPARABLE VALUATIONS ===== -->
+<div class="slide" data-slide="18">
+  <h3>财务证明</h3>
+  <h2>可比公司与隐含估值</h2>
+  <div class="table-wrap" style="margin-top:16px">
+    <table class="data-table">
+      <thead>
+        <tr><th>公司</th><th>产品</th><th class="val">产能 (m&sup3;/年)</th><th class="val">原料</th><th class="val">预估收入</th><th>可持续性</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Samling Group</strong></td><td>MDF, 胶合板</td><td class="val">~100,000</td><td class="val">木纤维</td><td class="val">$60-80M</td><td>低</td></tr>
+        <tr><td><strong>Daiken Corporation</strong></td><td>MDF</td><td class="val">~120,000</td><td class="val">木纤维</td><td class="val">$70-90M</td><td>低</td></tr>
+        <tr><td><strong>Evergreen Fibreboard</strong></td><td>MDF, 刨花板</td><td class="val">~150,000</td><td class="val">木纤维</td><td class="val">$80-100M</td><td>中</td></tr>
+        <tr><td><strong>中国 MDF 平均</strong></td><td>MDF</td><td class="val">不一</td><td class="val">木纤维</td><td class="val">低价</td><td>低</td></tr>
+        <tr style="background:rgba(201,168,76,.08)"><td><strong style="color:var(--gold)">Oply (预测)</strong></td><td style="color:var(--gold)">EFB 定向板</td><td class="val highlight">60,000</td><td class="val highlight">EFB (废料)</td><td class="val highlight">$33-54M</td><td class="highlight">高</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="kpi-row" style="margin-top:16px">
+    <div class="kpi kpi-green"><div class="kpi-value">2-5&times;</div><div class="kpi-label">EV/EBITDA 倍数潜力</div></div>
+    <div class="kpi"><div class="kpi-value">$48-160M</div><div class="kpi-label">第三年隐含估值区间</div></div>
+    <div class="kpi kpi-green"><div class="kpi-value">4-13&times;</div><div class="kpi-label">退出时投资回报率</div></div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">资料来源：</span>
+    <a href="https://www.samling.com/" target="_blank">Samling Group</a> &middot;
+    <a href="https://www.daiken-ad.com/" target="_blank">Daiken Corporation</a> &middot;
+    <a href="https://finance.yahoo.com/quote/5101.KL/" target="_blank">Yahoo Finance &ndash; Evergreen (5101.KL)</a>
+  </div>
+</div>
+
+<!-- ===== SLIDE 19: THE CARBON MATH ===== -->
+<div class="slide" data-slide="19">
+  <h3>碳抵消业务</h3>
+  <h2>碳账：废料转化收入</h2>
+  <div style="margin-bottom:12px;display:flex;gap:12px;align-items:center">
+    <span class="cert-badge"><img src="images/logos/verra.png" alt="Verra"> Verra VMR0009 认证</span>
+  </div>
+  <div class="split-40-60" style="margin-top:0;flex:1;min-height:0">
+    <div>
+      <div class="card" style="margin-bottom:12px;border-left:3px solid var(--green)">
+        <div class="card-title">Oply 如何产生碳信用</div>
+        <div class="card-desc" style="font-size:13px;line-height:1.6">
+          EFB 通常被焚烧或自然分解，释放甲烷和 CO&#x2082;。通过将 EFB 转化为纤维板生产，Oply 创造了在 Verra VMR0009 方法论下认证的<strong style="color:var(--green)">避免排放</strong>。
+        </div>
+      </div>
+      <div class="card" style="margin-bottom:12px">
+        <div class="card-title">碳信用收入</div>
+        <div class="card-value" style="font-size:24px;color:var(--green)">$70K-300K</div>
+        <div class="card-unit">2026 年（第一年）</div>
+      </div>
+      <div class="card">
+        <div class="card-title">规模化至</div>
+        <div class="card-value" style="font-size:24px;color:var(--green)">$500K-$1M</div>
+        <div class="card-unit">2030 年每年</div>
+      </div>
+    </div>
+    <div class="chart-container"><canvas id="chart19"></canvas></div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">资料来源：</span>
+    <a href="https://verra.org/methodologies/revision-to-am0057-avoided-emissions-from-biomass-wastes-through-use-as-feed-stock-in-pulp-and-paper-cardboard-fiberboard-or-bio-oil-production/" target="_blank">Verra VMR0009</a> &middot;
+    <a href="https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/102124-malaysia-sets-2026-carbon-tax-reaffirms-decarbonization-goals-in-budget-2025" target="_blank">S&amp;P Global &ndash; 马来西亚 2026 碳税</a> &middot;
+    <a href="https://www.iea.org/policies/25681-malaysia-carbon-tax" target="_blank">IEA &ndash; 马来西亚碳税政策</a>
+  </div>
+</div>
+
+<!-- ===== SLIDE 20: AI × CARBON ===== -->
+<div class="slide" data-slide="20">
+  <h3>碳抵消业务</h3>
+  <h2>AI &times; 碳：Oply 对冲</h2>
+  <div class="connected-flow" style="margin-top:24px">
+    <div class="flow-block" style="border-left:3px solid var(--red)">
+      <h4>AI 数据中心爆发</h4>
+      <p>数据中心电力需求激增 <strong>至 2030 年 +165%</strong> (Goldman Sachs)。仅 2025 年 AI 专用数据中心增长 <strong>50%</strong> (IEA)。</p>
+    </div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-block">
+      <h4>碳税压力</h4>
+      <p>更多电力 = 更多碳 = 更多税。马来西亚 2026 年碳税。欧盟 CBAM 扩大。企业急需认证抵消。</p>
+    </div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-block" style="border-left:3px solid var(--green)">
+      <h4>Oply 碳抵消</h4>
+      <p>来自 EFB 废料转化的 Verra VMR0009 认证信用。<strong>至 2030 年 $500K-$1M/年</strong>。随产能扩张可扩展。</p>
+    </div>
+  </div>
+  <div class="card" style="margin-top:24px;text-align:center;border-color:var(--gold)">
+    <div class="card-title" style="font-size:16px">核心洞察</div>
+    <div class="card-desc" style="font-size:15px;color:var(--text);max-width:700px;margin:0 auto">
+      Oply 不仅是板材公司 — 它是<strong style="color:var(--gold)">碳抵消基础设施</strong>。每售出一张板材即产生认证碳信用。随着 AI 推动碳税压力上升，Oply 的抵消价值增值。损益表中内置的结构性对冲。
+    </div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">资料来源：</span>
+    <a href="https://www.goldmansachs.com/insights/articles/ai-to-drive-165-increase-in-data-center-power-demand-by-2030" target="_blank">Goldman Sachs &ndash; AI 电力 +165%</a> &middot;
+    <a href="https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary" target="_blank">IEA &ndash; AI 与能源</a> &middot;
+    <a href="https://www.mckinsey.com/featured-insights/week-in-charts/ais-power-binge" target="_blank">McKinsey &ndash; AI 的电力盛宴</a> &middot;
+    <a href="https://verra.org/methodologies/revision-to-am0057-avoided-emissions-from-biomass-wastes-through-use-as-feed-stock-in-pulp-and-paper-cardboard-fiberboard-or-bio-oil-production/" target="_blank">Verra VMR0009</a>
+  </div>
+</div>
+
+
+<!-- ===== SLIDE 21: MVP LOCATION ===== -->
+<div class="slide" data-slide="21">
+  <h3>Go-to-Market</h3>
+  <h2>MVP 地点：Sarawak — 评分 4.80/5.00</h2>
+  <div class="split-60-40" style="margin-top:16px">
+    <div>
+      <div class="grid-2" style="grid-template-columns:1fr 1fr;gap:12px">
+        <div class="card" style="padding:16px">
+          <div class="card-title">水电</div>
+          <div class="card-value" style="font-size:22px;color:var(--green)">28 sen/kWh</div>
+          <div class="card-desc" style="font-size:11px">马来西亚最便宜的工业用电。</div>
+        </div>
+        <div class="card" style="padding:16px;border-left:3px solid var(--gold)">
+          <div class="card-title">SCORE 工业区</div>
+          <div class="card-value" style="font-size:22px">RM 2.50/sqft</div>
+          <div class="card-desc" style="font-size:11px">补贴土地。<strong style="color:var(--gold)">MVP 地点</strong> — 最高排名选址（4.80/5.00）。</div>
+        </div>
+        <div class="card" style="padding:16px">
+          <div class="card-title">先锋身份</div>
+          <div class="card-value" style="font-size:22px;color:var(--green)">100% 免税期</div>
+          <div class="card-desc" style="font-size:11px">MIDA 批准的全额税收豁免。</div>
+        </div>
+        <div class="card" style="padding:16px">
+          <div class="card-title">民都鲁港口</div>
+          <div class="card-value" style="font-size:22px">5-14天至上海</div>
+          <div class="card-desc" style="font-size:11px">直达中国、日本、韩国的航运。</div>
+        </div>
+      </div>
+      <div class="kpi-row" style="margin-top:12px">
+        <div class="kpi kpi-green"><div class="kpi-value" style="font-size:20px">7-8M 吨/年</div><div class="kpi-label">EFB 供应量</div></div>
+        <div class="kpi"><div class="kpi-value" style="font-size:20px">4.80/5</div><div class="kpi-label">MVP 评分</div></div>
+        <div class="kpi"><div class="kpi-value" style="font-size:20px">MPOB MoA</div><div class="kpi-label">支持机构</div></div>
+      </div>
+    </div>
+    <div style="position:relative;display:flex;align-items:center;justify-content:center;padding:8px;width:100%;height:100%">
+      <img src="images/borneo_blank_map.svg" alt="Map of Borneo" style="max-width:100%;max-height:100%;border-radius:8px;filter:brightness(0.45) contrast(1.3) sepia(0.15) saturate(0.7)">
+      <div style="position:absolute;inset:8px;pointer-events:none">
+        <div style="position:absolute;top:32%;left:44%;transform:translate(-50%,-50%)">
+          <div style="width:8px;height:8px;border-radius:50%;background:#C9A84C;margin:0 auto;box-shadow:0 0 10px rgba(201,168,76,.8)"></div>
+          <div style="color:#C9A84C;font-size:12px;font-weight:600;font-family:'DM Sans';text-align:center;margin-top:4px;text-shadow:0 1px 4px rgba(0,0,0,.8)">BINTULU</div>
+        </div>
+        <div style="position:absolute;top:26%;left:49%;transform:translate(-50%,-50%)">
+          <div style="width:7px;height:7px;border-radius:50%;background:rgba(255,82,82,.6);margin:0 auto"></div>
+          <div style="color:rgba(255,82,82,.8);font-size:8px;font-family:'DM Sans';text-align:center;margin-top:3px;text-shadow:0 1px 4px rgba(0,0,0,.8)">Miri</div>
+        </div>
+        <div style="position:absolute;top:50%;left:24%;transform:translate(-50%,-50%)">
+          <div style="width:7px;height:7px;border-radius:50%;background:#8892A7;margin:0 auto"></div>
+          <div style="color:#8892A7;font-size:9px;font-family:'DM Sans';text-align:center;margin-top:3px;text-shadow:0 1px 4px rgba(0,0,0,.8)">Kuching</div>
+        </div>
+        <div style="position:absolute;top:42%;left:32%;color:rgba(136,146,167,.7);font-size:11px;font-family:'DM Sans';font-weight:600;text-shadow:0 1px 4px rgba(0,0,0,.8)">SARAWAK</div>
+        <div style="position:absolute;top:10%;left:44%;border-left:2px dashed rgba(201,168,76,.4);height:50px"></div>
+        <div style="position:absolute;top:6%;left:44%;transform:translateX(-50%);color:rgba(201,168,76,.8);font-size:9px;font-family:'DM Sans';text-shadow:0 1px 4px rgba(0,0,0,.8);white-space:nowrap">&#x2693; 5-14天至上海</div>
+        <div style="position:absolute;top:44%;left:44%;color:rgba(0,191,165,.5);font-size:8px;font-family:'JetBrains Mono';text-shadow:0 1px 4px rgba(0,0,0,.8)">&#9889; 28sen/kWh</div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">来源：</span>
+    <a href="https://recoda.gov.my/sarawak-corridor-of-renewable-energy/" target="_blank">RECODA – SCORE 工业区</a> &middot;
+    <a href="https://www.sarawakenergy.com/customers/tariffs" target="_blank">Sarawak Energy – 工业电价</a> &middot;
+    <a href="https://www.bintuluport.com.my/" target="_blank">民都鲁港口集团</a> &middot;
+    <a href="https://www.mida.gov.my/forms-and-guidelines/manufacturing-sector/manufacturing-sector-group-application-pioneer-status/" target="_blank">MIDA – 先锋身份</a> &middot;
+    <a href="https://mpob.gov.my/" target="_blank">MPOB – EFB 供应数据</a>
+  </div>
+</div>
+
+<!-- ===== SLIDE 22: SUPPLY CHAIN ===== -->
+<div class="slide" data-slide="22">
+  <h3>Go-to-Market</h3>
+  <h2>供应链与原材料安全</h2>
+  <div class="img-hero" style="height:220px;margin-bottom:12px;flex:none">
+    <img src="images/port_shipping.jpg" alt="Bintulu Port — 5-14 day shipping to Shanghai">
+    <div class="img-overlay" style="font-size:14px;font-weight:600">民都鲁港口 — 5-14天航运至上海，直达中国、日本、韩国</div>
+  </div>
+  <div class="process-flow" style="margin-top:0">
+    <div class="process-step" style="background:var(--surface);border-radius:8px;border:1px solid var(--border);min-height:160px">
+      <div class="step-num">来源</div>
+      <div class="step-title">426家棕榈油厂</div>
+      <div class="step-desc">马来西亚拥有426家棕榈油厂。仅 Sarawak 每年就产生700-800万吨 EFB — 永续性、非季节性的废料流。</div>
+    </div>
+    <div class="process-arrow">&rarr;</div>
+    <div class="process-step" style="background:var(--surface);border-radius:8px;border:1px solid var(--border);min-height:160px">
+      <div class="step-num">价格</div>
+      <div class="step-title">RM 2-12/吨</div>
+      <div class="step-desc">工厂门口 EFB 价格：0.45-2.70 美元/吨。棕榈油厂将 EFB 视为废料 — 他们通常需要付费处理。潜在负成本。</div>
+    </div>
+    <div class="process-arrow">&rarr;</div>
+    <div class="process-step" style="background:var(--surface);border-radius:8px;border:1px solid var(--border);min-height:160px">
+      <div class="step-num">运输</div>
+      <div class="step-title">$2-5/吨</div>
+      <div class="step-desc">从工厂到 SCORE 工厂的短途卡车运输（<50公里）。EFB 轻质且不易腐烂。低物流复杂度。</div>
+    </div>
+    <div class="process-arrow">&rarr;</div>
+    <div class="process-step" style="background:var(--surface);border-radius:8px;border:1px solid var(--border);min-height:160px">
+      <div class="step-num">保障</div>
+      <div class="step-title">MPOB MoA</div>
+      <div class="step-desc">Reimagine ME 已与 MPOB 签署谅解备忘录。机构支持确保 EFB 供应链的优先获取权。</div>
+    </div>
+  </div>
+  <div class="kpi-row" style="margin-top:16px">
+    <div class="kpi kpi-green"><div class="kpi-value">全年供应</div><div class="kpi-label">非季节性供应</div></div>
+    <div class="kpi"><div class="kpi-value">$0.45-2.70</div><div class="kpi-label">美元/吨（工厂门口）</div></div>
+    <div class="kpi"><div class="kpi-value">7-8M 吨/年</div><div class="kpi-label">Sarawak EFB 产量</div></div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">来源：</span>
+    <a href="https://mpob.gov.my/" target="_blank">MPOB – 棕榈油厂统计与 EFB 数据</a> &middot;
+    内部市场研究 (market_research_agricultural_waste_raw_materials.md)
+  </div>
+</div>
+
+<!-- ===== SLIDE 23: EXPANSION ROADMAP ===== -->
+<div class="slide" data-slide="23">
+  <h3>Go-to-Market</h3>
+  <h2>扩张路线图</h2>
+  <div class="split-50-50" style="margin-top:16px">
+    <div>
+      <div class="card" style="margin-bottom:12px;padding:14px;border-left:3px solid var(--gold)">
+        <div class="card-title" style="font-size:13px;color:var(--gold);margin-bottom:4px">第一阶段 · 第1年</div>
+        <div style="font-size:15px;font-weight:700;color:var(--text);margin-bottom:4px">Sarawak MVP</div>
+        <div style="font-size:11px;color:var(--text2);line-height:1.4">SCORE 60,000 m³/年产能。单生产线。国内市场 + 出口中国/日本。6-8个月盈亏平衡。</div>
+      </div>
+      <div class="card" style="margin-bottom:12px;padding:14px">
+        <div class="card-title" style="font-size:13px;color:var(--gold);margin-bottom:4px">第二阶段 · 第2-3年</div>
+        <div style="font-size:15px;font-weight:700;color:var(--text);margin-bottom:4px">产能扩张</div>
+        <div style="font-size:11px;color:var(--text2);line-height:1.4">SCORE 第二条生产线。合计120,000 m³/年。抢占 Samling 和 Daiken 市场份额。</div>
+      </div>
+      <div class="card" style="margin-bottom:12px;padding:14px">
+        <div class="card-title" style="font-size:13px;color:var(--gold);margin-bottom:4px">第三阶段 · 第3-5年</div>
+        <div style="font-size:15px;font-weight:700;color:var(--text);margin-bottom:4px">区域扩张</div>
+        <div style="font-size:11px;color:var(--text2);line-height:1.4">马来西亚半岛、印尼、泰国。在棕榈油集群附近新建工厂。多站点运营。</div>
+      </div>
+      <div class="card" style="margin-bottom:0;padding:14px">
+        <div class="card-title" style="font-size:13px;color:var(--gold);margin-bottom:4px">第四阶段 · 第5年以上</div>
+        <div style="font-size:15px;font-weight:700;color:var(--text);margin-bottom:4px">多原料平台</div>
+        <div style="font-size:11px;color:var(--text2);line-height:1.4">扩展至稻壳、蔗渣、玉米秸秆。全球技术授权。农业废料平台。</div>
+      </div>
+    </div>
+    <div style="display:flex;flex-direction:column">
+      <div class="chart-container" style="height:320px;flex:1">
+        <canvas id="chart23"></canvas>
+      </div>
+    </div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">来源：</span>
+    内部战略计划 (Oply_Study_Report.md) &middot;
+    <a href="https://recoda.gov.my/sarawak-corridor-of-renewable-energy/" target="_blank">RECODA – SCORE 扩张区</a>
+  </div>
+</div>
+
+<!-- ===== SLIDE 24: INVESTMENT OVERVIEW ===== -->
+<div class="slide" data-slide="24">
+  <h3>The Ask</h3>
+  <h2>投资概览：$12-18M A轮融资</h2>
+  <div class="split-40-60" style="margin-top:16px">
+    <div>
+      <div class="card" style="margin-bottom:16px;border-left:3px solid var(--gold)">
+        <div class="card-title">总投资额</div>
+        <div class="card-value" style="font-size:36px;color:var(--gold)">$12-18M</div>
+      </div>
+      <div class="card" style="margin-bottom:12px">
+        <div class="card-title">工厂资本支出</div>
+        <div class="card-value" style="font-size:24px">$10.8-16.0M</div>
+        <div class="card-desc">设备、土建工程、安装。SCORE 工业用地 RM 2.50/平方英尺。</div>
+      </div>
+      <div class="card" style="margin-bottom:12px">
+        <div class="card-title">营运资金</div>
+        <div class="card-value" style="font-size:24px">$2.0-3.0M</div>
+        <div class="card-desc">初始原材料库存、试运营阶段的运营费用。</div>
+      </div>
+      <div class="card">
+        <div class="card-title">工厂产能</div>
+        <div class="card-value" style="font-size:24px">60,000 m³/年</div>
+        <div class="card-desc">单条生产线。通过第二阶段投资可扩展至120,000 m³/年。</div>
+      </div>
+    </div>
+    <div class="chart-container"><canvas id="chart24"></canvas></div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">来源：</span>
+    内部财务模型 (Oply_Study_Report.md) &middot;
+    <a href="https://recoda.gov.my/sarawak-corridor-of-renewable-energy/" target="_blank">RECODA – 土地成本</a> &middot;
+    <a href="https://www.mida.gov.my/forms-and-guidelines/manufacturing-sector/manufacturing-sector-group-application-pioneer-status/" target="_blank">MIDA – 先锋身份免税期</a>
+  </div>
+</div>
+
+<!-- ===== SLIDE 25: MILESTONES ===== -->
+<div class="slide" data-slide="25">
+  <h3>The Ask</h3>
+  <h2>里程碑与时间表</h2>
+  <div style="margin-top:24px;flex:1">
+    <div class="card" style="margin-bottom:12px;display:grid;grid-template-columns:100px 1fr;gap:16px;align-items:center">
+      <div class="card-title" style="font-family:var(--font-mono);font-size:14px;margin:0">Q1-Q2</div>
+      <div><div class="card-title" style="margin:0">工厂设计与许可</div><div class="card-desc" style="margin:4px 0 0">最终工程设计、环境影响评估、SCORE 区许可、MIDA 先锋身份申请。</div></div>
+    </div>
+    <div class="card" style="margin-bottom:12px;display:grid;grid-template-columns:100px 1fr;gap:16px;align-items:center">
+      <div class="card-title" style="font-family:var(--font-mono);font-size:14px;margin:0">Q3-Q4</div>
+      <div><div class="card-title" style="margin:0">设备采购与安装</div><div class="card-desc" style="margin:4px 0 0">订购并安装定向 strand board 生产线。土建工程和公用设施连接。辅助系统调试。</div></div>
+    </div>
+    <div class="card" style="margin-bottom:12px;display:grid;grid-template-columns:100px 1fr;gap:16px;align-items:center;border-color:var(--gold)">
+      <div class="card-title" style="font-family:var(--font-mono);font-size:14px;margin:0;color:var(--gold)">Q5-Q6</div>
+      <div><div class="card-title" style="margin:0;color:var(--gold)">试运营与首批生产</div><div class="card-desc" style="margin:4px 0 0">生产线调试。首批板材生产。FRIM 质量验证生产样品。初始客户发货。</div></div>
+    </div>
+    <div class="card" style="margin-bottom:12px;display:grid;grid-template-columns:100px 1fr;gap:16px;align-items:center">
+      <div class="card-title" style="font-family:var(--font-mono);font-size:14px;margin:0">Q7-Q8</div>
+      <div><div class="card-title" style="margin:0">满产运营与收入增长</div><div class="card-desc" style="margin:4px 0 0">产能达到60,000 m³/年。国内和出口客户开发。营运资金循环开始。</div></div>
+    </div>
+    <div class="card" style="display:grid;grid-template-columns:100px 1fr;gap:16px;align-items:center;border-color:var(--green)">
+      <div class="card-title" style="font-family:var(--font-mono);font-size:14px;margin:0;color:var(--green)">Q9-12</div>
+      <div><div class="card-title" style="margin:0;color:var(--green)">实现盈亏平衡</div><div class="card-desc" style="margin:4px 0 0">生产启动后6-8个月内现金流为正。投资回收期0.6年（基准情况）。第二阶段规划开始。</div></div>
+    </div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">来源：</span>
+    内部项目时间表 (Oply_Study_Report.md) &middot;
+    <a href="https://www.mida.gov.my/" target="_blank">MIDA – 制造业审批流程</a>
+  </div>
+</div>
+
+<!-- ===== SLIDE 26: WHY OPLY, WHY NOW ===== -->
+<div class="slide" data-slide="26">
+  <h3>The Ask</h3>
+  <h2>为什么选择 Oply。为什么是现在。</h2>
+  <div class="grid-3" style="margin-top:24px">
+    <div class="card" style="border-top:3px solid var(--gold);text-align:center;padding:32px 24px">
+      <div style="font-size:36px;margin-bottom:16px">&#127942;</div>
+      <div class="card-title" style="font-size:16px;margin-bottom:12px">品类开创者</div>
+      <div class="card-desc" style="font-size:13px;line-height:1.6">
+        东南亚无 EFB strand board 竞争对手。农业废料板材的首创者。可申请专利的工艺参数。唯一拥有 FRIM + MTIB 双重 EFB strand board 认证的公司。
+      </div>
+    </div>
+    <div class="card" style="border-top:3px solid var(--green);text-align:center;padding:32px 24px">
+      <div style="font-size:36px;margin-bottom:16px">&#128200;</div>
+      <div class="card-title" style="font-size:16px;margin-bottom:12px">卓越回报</div>
+      <div class="card-desc" style="font-size:13px;line-height:1.6">
+        55-62%毛利率。0.6年投资回收期。153%三年ROI（基准情况）。风险投资规模回报与基础设施风险特征。结构性成本优势，而非运营性优势。
+      </div>
+    </div>
+    <div class="card" style="border-top:3px solid #7C8CF8;text-align:center;padding:32px 24px">
+      <div style="font-size:36px;margin-bottom:16px">&#9851;&#65039;</div>
+      <div class="card-title" style="font-size:16px;margin-bottom:12px">碳抵消基础设施</div>
+      <div class="card-desc" style="font-size:13px;line-height:1.6">
+        Verra VMR0009验证碳信用。AI数据中心推动抵消需求增长。马来西亚2026年碳税。ESG超额收益嵌入损益表。随碳价上涨而增值的收入。
+      </div>
+    </div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">来源：</span>
+    <a href="https://www.gminsights.com/industry-analysis/wood-based-panel-market" target="_blank">GM Insights</a> &middot;
+    <a href="https://www.goldmansachs.com/insights/articles/ai-to-drive-165-increase-in-data-center-power-demand-by-2030" target="_blank">Goldman Sachs</a> &middot;
+    <a href="https://verra.org/methodologies/revision-to-am0057-avoided-emissions-from-biomass-wastes-through-use-as-feed-stock-in-pulp-and-paper-cardboard-fiberboard-or-bio-oil-production/" target="_blank">Verra VMR0009</a> &middot;
+    <a href="https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/102124-malaysia-sets-2026-carbon-tax-reaffirms-decarbonization-goals-in-budget-2025" target="_blank">S&P Global – 马来西亚碳税</a>
+  </div>
+</div>
+
+
+<!-- ===== SLIDE 27: TEST RESULTS DETAIL (APPENDIX) ===== -->
+<div class="slide" data-slide="27">
+  <h3>附录</h3>
+  <h2>测试结果 — 详细数据</h2>
+  <div class="table-wrap" style="margin-top:16px">
+    <table class="data-table">
+      <thead>
+        <tr><th>标准</th><th>测试项目</th><th>方法</th><th class="val">Oply 样品 70</th><th class="val">Oply 样品 71</th><th class="val">胶合板参考</th><th>状态</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>BS EN 310</td><td>Modulus of Rupture (MOR)</td><td>三点弯曲</td><td class="val">已测试</td><td class="val">已测试</td><td class="val">参考</td><td class="highlight">通过</td></tr>
+        <tr><td>BS EN 310</td><td>Modulus of Elasticity (MOE)</td><td>三点弯曲</td><td class="val">已测试</td><td class="val">已测试</td><td class="val">参考</td><td class="highlight">通过</td></tr>
+        <tr><td>BS EN 317</td><td>Thickness Swelling (24h)</td><td>水浸泡</td><td class="val">已测试</td><td class="val">已测试</td><td class="val">参考</td><td class="highlight">通过</td></tr>
+        <tr><td>BS EN 319</td><td>Internal Bond (IB)</td><td>拉伸 &#x22A5;</td><td class="val">已测试</td><td class="val">已测试</td><td class="val">参考</td><td class="highlight">通过</td></tr>
+        <tr><td>BS EN 311</td><td>Surface Soundness</td><td>表面拉伸</td><td class="val">已测试</td><td class="val">已测试</td><td class="val">参考</td><td class="highlight">通过</td></tr>
+        <tr><td>BS EN 312</td><td>Particleboard Spec</td><td>完全符合</td><td class="val">符合</td><td class="val">符合</td><td class="val">参考</td><td class="highlight">通过</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="subtitle" style="margin-top:16px;font-size:11px">注：详细数值包含在 FRIM 测试报告（OPLY_FRIM_260429_181427.pdf）中。样品 70 和 71 代表用于生产工艺的优化参数。</p>
+  <div style="display:flex;gap:12px;margin-top:12px">
+    <div style="flex:1;border:1px solid var(--border);border-radius:6px;overflow:hidden;background:var(--surface)">
+      <div style="padding:8px 12px;font-size:10px;color:var(--gold);font-weight:600;border-bottom:1px solid var(--border)">FRIM 测试报告 — 弯曲强度</div>
+      <img src="images/frim_test_data.jpg" style="width:100%;max-height:280px;object-fit:contain" alt="FRIM test results">
+    </div>
+    <div style="flex:1;border:1px solid var(--border);border-radius:6px;overflow:hidden;background:var(--surface)">
+      <div style="padding:8px 12px;font-size:10px;color:var(--gold);font-weight:600;border-bottom:1px solid var(--border)">OPLY vs 胶合板 — 螺丝拔出力</div>
+      <img src="images/test_screw_withdrawal.jpg" style="width:100%;max-height:280px;object-fit:contain" alt="Test comparison data">
+    </div>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">来源：</span>
+    <a href="https://www.frim.gov.my" target="_blank">FRIM &ndash; Test Report OPLY_FRIM_260429_181427.pdf</a> &middot;
+    <a href="https://www.testinglab.net/en-310-bending-strength-of-wood-based-panels" target="_blank">EN 310</a> &middot;
+    <a href="https://www.instron.com/en/testing-solutions/other-standards/bs-en-319/" target="_blank">EN 319</a>
+  </div>
+</div>
+
+<!-- ===== SLIDE 28: DETAILED FINANCIAL MODEL ===== -->
+<div class="slide" data-slide="28">
+  <h3>附录</h3>
+  <h2>详细财务模型 — 第 1-5 年</h2>
+  <div class="table-wrap" style="margin-top:16px">
+    <table class="data-table">
+      <thead>
+        <tr><th>指标</th><th class="val">第 1 年</th><th class="val">第 2 年</th><th class="val">第 3 年</th><th class="val">第 4 年</th><th class="val">第 5 年</th></tr>
+      </thead>
+      <tbody>
+        <tr style="background:rgba(201,168,76,.05)"><td><strong>Revenue</strong></td><td class="val">$12M</td><td class="val">$30M</td><td class="val">$48M</td><td class="val">$55M</td><td class="val">$62M</td></tr>
+        <tr><td>COGS</td><td class="val">($6.5M)</td><td class="val">($13.5M)</td><td class="val">($19.7M)</td><td class="val">($21.5M)</td><td class="val">($23.6M)</td></tr>
+        <tr style="background:rgba(201,168,76,.05)"><td><strong>Gross Profit</strong></td><td class="val">$5.5M</td><td class="val">$16.5M</td><td class="val">$28.3M</td><td class="val">$33.5M</td><td class="val">$38.4M</td></tr>
+        <tr><td>毛利率</td><td class="val">46%</td><td class="val">55%</td><td class="val highlight">59%</td><td class="val">61%</td><td class="val">62%</td></tr>
+        <tr><td>运营费用</td><td class="val">($3.0M)</td><td class="val">($4.5M)</td><td class="val">($4.1M)</td><td class="val">($4.4M)</td><td class="val">($4.6M)</td></tr>
+        <tr style="background:rgba(0,191,165,.08)"><td><strong>EBITDA</strong></td><td class="val">$2.5M</td><td class="val">$12.0M</td><td class="val" style="color:var(--green)">$24.2M</td><td class="val">$29.1M</td><td class="val">$33.8M</td></tr>
+        <tr><td>EBITDA 利率</td><td class="val">21%</td><td class="val">40%</td><td class="val highlight">50%</td><td class="val">53%</td><td class="val">55%</td></tr>
+        <tr style="background:rgba(201,168,76,.05)"><td><strong>Net Income</strong></td><td class="val">$1.0M</td><td class="val">$8.4M</td><td class="val">$22.6M</td><td class="val">$27.5M</td><td class="val">$32.3M</td></tr>
+        <tr><td>净利率</td><td class="val">8%</td><td class="val">28%</td><td class="val highlight">47%</td><td class="val">50%</td><td class="val">52%</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="subtitle" style="margin-top:12px;font-size:11px">所有数字为基础情景预测。保守和乐观情景方案详见完整财务模型。所有金额以美元计。</p>
+  <div class="slide-sources">
+    <span class="source-label">来源：</span>
+    内部财务模型（Oply_Study_Report.md）&middot;
+    <a href="https://www.gminsights.com/industry-analysis/wood-based-panel-market" target="_blank">GM Insights &ndash; Market Sizing</a>
+  </div>
+</div>
+
+<!-- ===== SLIDE 29: COMPETITIVE DEEP DIVE ===== -->
+<div class="slide" data-slide="29">
+  <h3>附录</h3>
+  <h2>竞争格局深度分析</h2>
+  <div class="table-wrap" style="margin-top:16px">
+    <table class="data-table">
+      <thead>
+        <tr><th>公司</th><th>地点</th><th class="val">产能</th><th>产品</th><th>原料</th><th>成本优势</th><th>可持续性</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Samling Group</strong></td><td>美里，砂拉越</td><td class="val">~10万 m³/年</td><td>MDF，胶合板</td><td>木纤维</td><td>中等</td><td>低</td></tr>
+        <tr><td><strong>Daiken Corp.</strong></td><td>民都鲁，砂拉越</td><td class="val">~12万 m³/年</td><td>MDF</td><td>木纤维</td><td>中等</td><td>低</td></tr>
+        <tr><td><strong>Evergreen Fibreboard</strong></td><td>马来半岛</td><td class="val">~15万 m³/年</td><td>MDF，PB</td><td>木纤维</td><td>中等</td><td>中等</td></tr>
+        <tr><td><strong>Chinese MDF Mfrs</strong></td><td>中国各地</td><td class="val">4064万 m³/年（总计）</td><td>MDF</td><td>木纤维</td><td>低（倾销）</td><td>极低</td></tr>
+        <tr><td><strong>EGGER Group</strong></td><td>欧洲</td><td class="val">多基地</td><td>刨花板，MDF</td><td>木材（回收）</td><td>高</td><td>高</td></tr>
+        <tr><td><strong>Panel Plus (Thailand)</strong></td><td>泰国</td><td class="val">N/A</td><td>MDF（甘蔗）</td><td>蔗渣</td><td>中等</td><td>中等</td></tr>
+        <tr style="background:rgba(201,168,76,.08)"><td><strong style="color:var(--gold)">Oply</strong></td><td style="color:var(--gold)">砂拉越，马来西亚</td><td class="val highlight">6万 m³/年</td><td style="color:var(--gold)">EFB 条状板</td><td class="highlight">EFB（废料）</td><td class="highlight">最低</td><td class="highlight">最高</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="slide-sources">
+    <span class="source-label">来源：</span>
+    <a href="https://www.samling.com/downstream-timber-operations/" target="_blank">Samling</a> &middot;
+    <a href="https://www.daiken-ad.com/industrialmaterials/mdf/" target="_blank">Daiken</a> &middot;
+    <a href="https://evergreengroup.com.my/en/share_information" target="_blank">Evergreen</a> &middot;
+    <a href="https://www.cognitivemarketresearch.com/mdf-board-market-report" target="_blank">Cognitive MR &ndash; China MDF $4.27B</a>
+  </div>
+</div>
+
+<!-- ===== SLIDE 30: REFERENCES & CONTACT ===== -->
+<div class="slide" data-slide="30">
+  <h3>参考文献</h3>
+  <h2>完整来源参考</h2>
+  <div class="grid-2" style="margin-top:16px;font-size:11px">
+    <div>
+      <h3 style="font-size:11px;margin-bottom:8px">市场与行业</h3>
+      <ul class="bullet-list" style="font-size:10px">
+        <li><a href="https://www.gminsights.com/industry-analysis/wood-based-panel-market" target="_blank">GM Insights &mdash; Wood Panel Market $217B&rarr;$349B</a></li>
+        <li><a href="https://www.grandviewresearch.com/horizon/outlook/wood-based-panel-market-size/global" target="_blank">Grand View Research &mdash; Global Panel Market</a></li>
+        <li><a href="https://www.mordorintelligence.com/industry-reports/medium-density-fiberboard-mdf-market" target="_blank">Mordor Intelligence &mdash; Global MDF Market</a></li>
+        <li><a href="https://www.cognitivemarketresearch.com/regional-analysis/asia-pacific-mdf-board-market-report" target="_blank">Cognitive MR &mdash; APAC MDF $9.49B</a></li>
+        <li><a href="https://www.cognitivemarketresearch.com/mdf-board-market-report" target="_blank">Cognitive MR &mdash; China MDF $4.27B, 9.4% CAGR</a></li>
+      </ul>
+      <h3 style="font-size:11px;margin:12px 0 8px">AI 与碳</h3>
+      <ul class="bullet-list" style="font-size:10px">
+        <li><a href="https://www.goldmansachs.com/insights/articles/ai-to-drive-165-increase-in-data-center-power-demand-by-2030" target="_blank">Goldman Sachs &mdash; AI Power Demand +165%</a></li>
+        <li><a href="https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary" target="_blank">IEA &mdash; AI &amp; Energy 2025</a></li>
+        <li><a href="https://www.mckinsey.com/featured-insights/week-in-charts/ais-power-binge" target="_blank">McKinsey &mdash; AI's Power Binge</a></li>
+        <li><a href="https://verra.org/methodologies/revision-to-am0057-avoided-emissions-from-biomass-wastes-through-use-as-feed-stock-in-pulp-and-paper-cardboard-fiberboard-or-bio-oil-production/" target="_blank">Verra VMR0009 &mdash; Biomass Waste to Fiberboard</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 style="font-size:11px;margin-bottom:8px">法规与政府</h3>
+      <ul class="bullet-list" style="font-size:10px">
+        <li><a href="https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/102124-malaysia-sets-2026-carbon-tax-reaffirms-decarbonization-goals-in-budget-2025" target="_blank">S&amp;P Global &mdash; Malaysia Carbon Tax 2026</a></li>
+        <li><a href="https://www.iea.org/policies/25681-malaysia-carbon-tax" target="_blank">IEA &mdash; Malaysia Carbon Tax Policy</a></li>
+        <li><a href="https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en" target="_blank">European Commission &mdash; EUDR</a></li>
+        <li><a href="https://ww2.arb.ca.gov/our-work/programs/composite-wood-products-program" target="_blank">CARB &mdash; Formaldehyde Standards</a></li>
+      </ul>
+      <h3 style="font-size:11px;margin:12px 0 8px">砂拉越与基础设施</h3>
+      <ul class="bullet-list" style="font-size:10px">
+        <li><a href="https://recoda.gov.my/sarawak-corridor-of-renewable-energy/" target="_blank">RECODA &ndash; SCORE Industrial Zone</a></li>
+        <li><a href="https://www.sarawakenergy.com/customers/tariffs" target="_blank">Sarawak Energy &ndash; Industrial Tariffs</a></li>
+        <li><a href="https://www.bintuluport.com.my/" target="_blank">Bintulu Port Holdings</a></li>
+        <li><a href="https://www.mida.gov.my/forms-and-guidelines/manufacturing-sector/manufacturing-sector-group-application-pioneer-status/" target="_blank">MIDA &ndash; Pioneer Status</a></li>
+      </ul>
+      <h3 style="font-size:11px;margin:12px 0 8px">竞争对手与合作伙伴</h3>
+      <ul class="bullet-list" style="font-size:10px">
+        <li><a href="https://www.samling.com/" target="_blank">Samling Group</a> &middot; <a href="https://www.daiken-ad.com/" target="_blank">Daiken Corp</a> &middot; <a href="https://evergreengroup.com.my/en/share_information" target="_blank">Evergreen</a></li>
+        <li><a href="https://mpob.gov.my/" target="_blank">MPOB &ndash; Malaysian Palm Oil Board</a> &middot; <a href="https://www.frim.gov.my" target="_blank">FRIM</a></li>
+        <li><a href="https://finance.yahoo.com/quote/5101.KL/" target="_blank">Yahoo Finance &ndash; Evergreen (5101.KL)</a></li>
+        <li><a href="https://www.bloomberg.com/news/articles/2024-12-18/malaysia-turns-to-china-for-investments-in-its-biomass-sector" target="_blank">Bloomberg &ndash; Malaysia Biomass Investment (Dec 2024)</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="slide-sources">
+    <div style="margin-bottom:8px">
+      <span class="source-label">合作伙伴与认证：</span>
+      <img src="images/logos/frim.png" style="height:16px;vertical-align:middle;margin:0 6px" alt="FRIM"> FRIM &middot;
+      <img src="images/logos/mtib.png" style="height:16px;vertical-align:middle;margin:0 6px" alt="MTIB"> MTIB &middot;
+      <img src="images/logos/mpob.png" style="height:16px;vertical-align:middle;margin:0 6px" alt="MPOB"> MPOB &middot;
+      <img src="images/logos/mida.png" style="height:16px;vertical-align:middle;margin:0 6px" alt="MIDA"> MIDA &middot;
+      <img src="images/logos/verra.png" style="height:16px;vertical-align:middle;margin:0 6px" alt="Verra"> Verra
+    </div>
+    <span class="source-label">联系方式：</span>
+    Reimagine ME Sdn. Bhd. &middot; 马来西亚 &middot; 机密
+  </div>
+</div>
+
+</div><!-- end slides-container -->
+
+<script>
+// ========== NAVIGATION ==========
+const slides = document.querySelectorAll('.slide');
+const navTabs = document.getElementById('navTabs');
+const navInfo = document.getElementById('navInfo');
+let current = 0;
+
+const slideLabels = [
+  '封面','摘要','$349B问题','AI与碳','法规',
+  '介绍Oply','性能','制造工艺',
+  'TAM/SAM/SOM','增长驱动',
+  '格局','成本优势','五大支柱','壁垒',
+  '单位经济','情景分析','EBITDA','估值对比',
+  '碳计算','AI与碳',
+  'Sarawak MVP','供应链','路线图',
+  '投资概览','里程碑','为什么选择 Oply',
+  '测试结果','财务模型','竞争对手','参考文献'
+];
+
+const sectionDividers = {
+  2: '开场', 5: '问题', 8: '解决方案', 10: '市场',
+  14: '优势', 18: '财务', 20: '碳', 23: '市场策略', 26: '融资', 27: '附录'
+};
+
+// Build nav tabs
+slideLabels.forEach((label, i) => {
+  if (sectionDividers[i] !== undefined) {
+    const div = document.createElement('span');
+    div.className = 'nav-tab section-divider';
+    div.textContent = sectionDividers[i];
+    navTabs.appendChild(div);
+  }
+  const tab = document.createElement('span');
+  tab.className = 'nav-tab' + (i === 0 ? ' active' : '');
+  tab.textContent = `${i+1}. ${label}`;
+  tab.addEventListener('click', () => goTo(i));
+  navTabs.appendChild(tab);
+});
+
+function goTo(index) {
+  if (index < 0 || index >= slides.length) return;
+  slides[current].classList.remove('active');
+  current = index;
+  slides[current].classList.add('active');
+  navInfo.textContent = `${current+1} / ${slides.length}`;
+  document.querySelectorAll('.nav-tab:not(.section-divider)').forEach((t, i) => {
+    t.classList.toggle('active', i === current);
+  });
+  const activeTab = document.querySelector('.nav-tab.active');
+  if (activeTab) activeTab.scrollIntoView({behavior:'smooth',block:'nearest',inline:'center'});
+  initCharts(current);
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight' || e.key === 'ArrowDown') goTo(current + 1);
+  if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') goTo(current - 1);
+});
+
+goTo(0);
+
+// ========== CHARTS ==========
+const chartInstances = {};
+
+function initCharts(slideIdx) {
+  const chartMap = {
+    2: 'chart3', 3: 'chart4', 6: 'chart7', 8: 'chart9',
+    10: 'chart11', 11: 'chart12', 13: 'chart14', 14: 'chart15',
+    15: 'chart16', 16: 'chart17', 18: 'chart19', 22: 'chart23', 23: 'chart24'
+  };
+
+  const id = chartMap[slideIdx];
+  if (!id || chartInstances[id]) return;
+
+  const canvas = document.getElementById(id);
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+
+  const gold = '#C9A84C';
+  const green = '#00BFA5';
+  const text2 = '#8892A7';
+  const border = '#1E2A45';
+  const gridColor = 'rgba(30,42,69,.6)';
+
+  const defaultOpts = {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { labels: { color: text2, font: { family: "'DM Sans'", size: 11 } } } },
+    scales: {
+      x: { ticks: { color: text2, font: { family: "'DM Sans'", size: 10 } }, grid: { color: gridColor } },
+      y: { ticks: { color: text2, font: { family: "'JetBrains Mono'", size: 10 } }, grid: { color: gridColor } }
+    }
+  };
+
+  switch(id) {
+    case 'chart3':
+      chartInstances[id] = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ['2024','2025','2026','2027','2028','2029','2030','2031','2032','2033','2034'],
+          datasets: [{
+            label: '全球人造板材市场（$B）',
+            data: [217, 227, 238, 250, 262, 274, 287, 301, 315, 331, 349],
+            borderColor: gold, backgroundColor: 'rgba(201,168,76,.15)',
+            fill: true, tension: .3, pointRadius: 3, pointBackgroundColor: gold, borderWidth: 2
+          }]
+        },
+        options: { ...defaultOpts, plugins: { ...defaultOpts.plugins, legend: { display: false } } }
+      });
+      break;
+
+    case 'chart4':
+      chartInstances[id] = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ['2020','2021','2022','2023','2024','2025','2026','2027','2028','2029','2030'],
+          datasets: [{
+            label: '数据中心电力需求（TWh）',
+            data: [270, 300, 340, 390, 450, 520, 610, 720, 850, 1000, 1180],
+            borderColor: '#FF5252', backgroundColor: 'rgba(255,82,82,.12)',
+            fill: true, tension: .3, pointRadius: 3, pointBackgroundColor: '#FF5252', borderWidth: 2
+          },{
+            label: 'AI数据中心（TWh）',
+            data: [15, 25, 40, 60, 90, 135, 190, 260, 350, 460, 600],
+            borderColor: gold, backgroundColor: 'rgba(201,168,76,.12)',
+            fill: true, tension: .3, pointRadius: 3, pointBackgroundColor: gold, borderWidth: 2
+          }]
+        },
+        options: defaultOpts
+      });
+      break;
+
+    case 'chart7':
+      chartInstances[id] = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['弯曲\n强度\n(MOR)','弹性\n模量\n(MOE)','厚度\n膨胀\n(24h)','内结合\n强度','表面\n结合\n强度'],
+          datasets: [{
+            label: 'Oply（认证通过）',
+            data: [108, 112, 104, 115, 110],
+            backgroundColor: 'rgba(201,168,76,.75)', borderColor: gold, borderWidth: 1
+          },{
+            label: 'BS EN最低标准（100%）',
+            data: [100, 100, 100, 100, 100],
+            backgroundColor: 'rgba(136,146,167,.25)', borderColor: text2, borderWidth: 1
+          }]
+        },
+        options: {
+          ...defaultOpts, indexAxis: 'y',
+          plugins: {
+            ...defaultOpts.plugins,
+            legend: { position: 'top', labels: { color: text2, font: { family: "'DM Sans'", size: 11 }, padding: 12 } },
+            title: { display: true, text: '所有测试均超过最低要求', color: text2, font: { size: 12, weight: 'normal' }, padding: { bottom: 8 } }
+          },
+          scales: {
+            x: { ...defaultOpts.scales.x, min: 80, max: 130, title: { display: true, text: 'BS EN最低标准百分比（%）', color: text2, font: { size: 11 } } },
+            y: { ...defaultOpts.scales.y, ticks: { ...defaultOpts.scales.y.ticks, font: { size: 11 } } }
+          }
+        }
+      });
+      break;
+
+    case 'chart9':
+      chartInstances[id] = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+          labels: ['TAM: $349B（全球板材）','SAM: $9.49B（亚太MDF）','SOM: $48M（第三年目标）','其余市场'],
+          datasets: [{
+            data: [349, 9.49, 0.048, 0],
+            backgroundColor: ['rgba(201,168,76,.25)','rgba(0,191,165,.4)',gold,'transparent'],
+            borderColor: [gold, green, gold,'transparent'], borderWidth: [1,1,2,0],
+            cutout: '55%'
+          }]
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: { legend: { position: 'bottom', labels: { color: text2, font: { family: "'DM Sans'", size: 11 }, padding: 16 } } }
+        }
+      });
+      break;
+
+    case 'chart11':
+      chartInstances[id] = new Chart(ctx, {
+        type: 'scatter',
+        data: {
+          datasets: [{
+            label: 'Oply',
+            data: [{x: 20, y: 90}], backgroundColor: gold, borderColor: gold, pointRadius: 12, pointHoverRadius: 14
+          },{
+            label: 'Samling / Daiken',
+            data: [{x: 55, y: 30}], backgroundColor: 'rgba(136,146,167,.6)', borderColor: text2, pointRadius: 10
+          },{
+            label: '中国进口',
+            data: [{x: 25, y: 15}], backgroundColor: 'rgba(255,82,82,.5)', borderColor: '#FF5252', pointRadius: 10
+          },{
+            label: '欧洲（EGGER等）',
+            data: [{x: 75, y: 75}], backgroundColor: 'rgba(124,140,248,.5)', borderColor: '#7C8CF8', pointRadius: 10
+          }]
+        },
+        options: {
+          ...defaultOpts,
+          scales: {
+            x: { ...defaultOpts.scales.x, min: 0, max: 100, title: { display: true, text: '成本位置（越低越便宜）', color: text2, font: { size: 10 } }, reverse: true },
+            y: { ...defaultOpts.scales.y, min: 0, max: 100, title: { display: true, text: '可持续性评分', color: text2, font: { size: 10 } } }
+          }
+        }
+      });
+      break;
+
+    case 'chart12':
+      chartInstances[id] = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['EFB (Oply)','甘蔗渣','稻壳','玉米秸秆','稻草','椰壳纤维','木纤维 (MDF)'],
+          datasets: [{
+            label: '每吨成本（美元）',
+            data: [1.58, 15, 35, 32.5, 15, 147.5, 115],
+            backgroundColor: [green,'rgba(201,168,76,.5)','rgba(201,168,76,.4)','rgba(201,168,76,.35)','rgba(201,168,76,.3)','rgba(255,82,82,.4)','rgba(255,82,82,.7)'],
+            borderColor: [green,gold,gold,gold,gold,'#FF5252','#FF5252'], borderWidth: 1
+          }]
+        },
+        options: {
+          ...defaultOpts, indexAxis: 'y',
+          plugins: { ...defaultOpts.plugins, legend: { display: false } },
+          scales: {
+            x: { ...defaultOpts.scales.x, type: 'logarithmic', title: { display: true, text: '美元每吨（对数刻度）', color: text2, font: { size: 10 } } },
+            y: { ...defaultOpts.scales.y }
+          }
+        }
+      });
+      break;
+
+    case 'chart14':
+      chartInstances[id] = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['工艺诀窍','FRIM/MTIB认证','MPOB MoA','EFB供应协议','设备','客户关系'],
+          datasets: [{
+            label: '壁垒强度',
+            data: [95, 90, 85, 75, 60, 55],
+            backgroundColor: [gold,'rgba(201,168,76,.8)','rgba(201,168,76,.7)','rgba(201,168,76,.5)','rgba(201,168,76,.35)','rgba(201,168,76,.25)'],
+            borderColor: gold, borderWidth: 1
+          }]
+        },
+        options: {
+          ...defaultOpts, indexAxis: 'y',
+          plugins: { ...defaultOpts.plugins, legend: { display: false } },
+          scales: {
+            x: { ...defaultOpts.scales.x, max: 100, title: { display: true, text: '壁垒强度', color: text2, font: { size: 10 } } },
+            y: { ...defaultOpts.scales.y }
+          }
+        }
+      });
+      break;
+
+    case 'chart15':
+      chartInstances[id] = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['原纤维','树脂(PMDI)','能源','人工','运输','管理','总成本','市场价','毛利'],
+          datasets: [{
+            label: '美元/板',
+            data: [1.5, 3.8, 2.0, 1.5, 1.2, 2.0, 12.0, 33.0, 21.0],
+            backgroundColor: ['rgba(255,82,82,.6)','rgba(255,82,82,.5)','rgba(255,82,82,.4)','rgba(255,82,82,.35)','rgba(255,82,82,.3)','rgba(255,82,82,.25)',gold,'rgba(0,191,165,.5)',green],
+            borderColor: ['#FF5252','#FF5252','#FF5252','#FF5252','#FF5252','#FF5252',gold,green,green], borderWidth: 1
+          }]
+        },
+        options: {
+          ...defaultOpts,
+          plugins: { ...defaultOpts.plugins, legend: { display: false } },
+          scales: { ...defaultOpts.scales, y: { ...defaultOpts.scales.y, title: { display: true, text: '美元/板', color: text2, font: { size: 10 } } } }
+        }
+      });
+      break;
+
+    case 'chart16':
+      chartInstances[id] = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['收入（$M）','毛利率（%）','EBITDA（$M）','EBITDA利率（%）','3年ROI（%）'],
+          datasets: [{
+            label: '保守情景',
+            data: [33, 46, 11.6, 35, 77],
+            backgroundColor: 'rgba(136,146,167,.5)', borderColor: text2, borderWidth: 1
+          },{
+            label: '基准情景',
+            data: [48, 59, 24.2, 50, 153],
+            backgroundColor: 'rgba(201,168,76,.6)', borderColor: gold, borderWidth: 1
+          },{
+            label: '乐观情景',
+            data: [54, 67, 32.8, 60, 219],
+            backgroundColor: 'rgba(0,191,165,.5)', borderColor: green, borderWidth: 1
+          }]
+        },
+        options: defaultOpts
+      });
+      break;
+
+    case 'chart17':
+      chartInstances[id] = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ['第1年','第2年','第3年','第4年','第5年'],
+          datasets: [{
+            label: '乐观情景',
+            data: [4, 16, 32.8, 38, 44],
+            borderColor: green, backgroundColor: 'rgba(0,191,165,.08)',
+            fill: '+1', tension: .3, pointRadius: 4, pointBackgroundColor: green, borderWidth: 2
+          },{
+            label: '基准情景',
+            data: [2.5, 12, 24.2, 29.1, 33.8],
+            borderColor: gold, backgroundColor: 'transparent',
+            fill: false, tension: .3, pointRadius: 5, pointBackgroundColor: gold, borderWidth: 2.5
+          },{
+            label: '保守情景',
+            data: [1, 7, 11.6, 15, 18],
+            borderColor: text2, backgroundColor: 'rgba(136,146,167,.08)',
+            fill: false, tension: .3, pointRadius: 4, pointBackgroundColor: text2, borderWidth: 1.5, borderDash: [5,5]
+          }]
+        },
+        options: {
+          ...defaultOpts,
+          plugins: { ...defaultOpts.plugins },
+          scales: { ...defaultOpts.scales, y: { ...defaultOpts.scales.y, title: { display: true, text: 'EBITDA（$M）', color: text2, font: { size: 10 } } } }
+        }
+      });
+      break;
+
+    case 'chart19':
+      chartInstances[id] = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ['2026','2027','2028','2029','2030'],
+          datasets: [{
+            label: '碳信用收入（$K）',
+            data: [185, 300, 500, 700, 1000],
+            borderColor: green, backgroundColor: 'rgba(0,191,165,.15)',
+            fill: true, tension: .3, pointRadius: 5, pointBackgroundColor: green, borderWidth: 2.5
+          },{
+            label: '保守估计',
+            data: [70, 120, 200, 350, 500],
+            borderColor: text2, backgroundColor: 'transparent',
+            fill: false, tension: .3, pointRadius: 3, pointBackgroundColor: text2, borderWidth: 1.5, borderDash: [5,5]
+          }]
+        },
+        options: {
+          ...defaultOpts,
+          scales: { ...defaultOpts.scales, y: { ...defaultOpts.scales.y, title: { display: true, text: '收入（$K）', color: text2, font: { size: 10 } } } }
+        }
+      });
+      break;
+
+    case 'chart23':
+      chartInstances[id] = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['第1年','第2年','第3年','第4年','第5年'],
+          datasets: [{
+            label: '产能（m³/年）',
+            data: [60000, 60000, 120000, 180000, 300000],
+            backgroundColor: 'rgba(201,168,76,.7)', borderColor: gold, borderWidth: 2
+          }]
+        },
+        options: {
+          ...defaultOpts,
+          plugins: {
+            ...defaultOpts.plugins,
+            legend: { display: false },
+            title: { display: true, text: '产能扩张（60K → 300K m³/年）', color: text2, font: { size: 13, weight: 'normal' }, padding: { top: 16, bottom: 12 } }
+          },
+          scales: {
+            ...defaultOpts.scales,
+            y: { ...defaultOpts.scales.y, title: { display: true, text: '产能（m³/年）', color: text2, font: { size: 11 } }, ticks: { ...defaultOpts.scales.y.ticks, callback: v => v/1000 + 'K' } }
+          }
+        }
+      });
+      break;
+
+    case 'chart24':
+      chartInstances[id] = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+          labels: ['生产设备（55%）','土木工程（20%）','营运资金（15%）','许可与设置（10%）'],
+          datasets: [{
+            data: [55, 20, 15, 10],
+            backgroundColor: [gold, 'rgba(201,168,76,.6)', green, 'rgba(0,191,165,.4)'],
+            borderColor: [gold, 'rgba(201,168,76,.8)', green, 'rgba(0,191,165,.6)'], borderWidth: 1, cutout: '60%'
+          }]
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: { legend: { position: 'bottom', labels: { color: text2, font: { family: "'DM Sans'", size: 11 }, padding: 12 } } }
+        }
+      });
+      break;
+  }
+}
+</script>
+</body>
+</html>
