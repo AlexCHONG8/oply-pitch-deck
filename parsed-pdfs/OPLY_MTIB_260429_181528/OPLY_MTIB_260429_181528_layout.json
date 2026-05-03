@@ -1,0 +1,2654 @@
+{
+    "pdf_info": [
+        {
+            "para_blocks": [
+                {
+                    "bbox": [
+                        245,
+                        158,
+                        420,
+                        179
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                245,
+                                158,
+                                420,
+                                179
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        245,
+                                        158,
+                                        420,
+                                        179
+                                    ],
+                                    "type": "text",
+                                    "content": "TEST REPORT"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        105,
+                        194,
+                        560,
+                        745
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                105,
+                                194,
+                                560,
+                                745
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        194,
+                                        560,
+                                        745
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                105,
+                                                194,
+                                                560,
+                                                745
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td>LABORATORY: MECHANICAL (ML)\nSERIES NO: FIDEC/10/2020\nTEST SAMPLE RECEIVED: 26 JUN 2020</td><td>DATE OF REPORT: 10 JUL 2020</td></tr><tr><td>COMPANY/ORGANIZATION:\nLEMBAGA MINYAK SAWIT\nMALAYSIA(MPOB),\nJALAN SEKOLAH, PEKAN BANGI LAMA,\n43000 KAJANG, SELANGOR</td><td>CONTACT PERSON: MR.ZAWAWI\nIBRAHIM\nTEL: 013-3547590\nFAX:\nEMAIL: zawawi@mpob.gov.my</td></tr><tr><td colspan=\"2\">TYPE OF MATERIAL: SB BOARD 12mm\nQUANTITY:\n10 PCS - BENDING STRENGTH\n10 PCS - THICKNESS SWELLING/ WATER ABSORPTION\n10 PCS - INTERNAL BONDING\n10 PCS - SCREW WITHDRAWAL (FACE)\n10 PCS - SURFACE SOUNDNESS</td></tr><tr><td colspan=\"2\">TEST REQUIREMENTS:\n• BS EN 310:1993 - Wood based panels. Determination of Modulus of Elasticity in Bending and of Bending Strength\n• *BS EN 319:1993 - Particleboards and fibreboards. Determination of tensile strength perpendicular the plane.\n• *BS EN 317: 1993 - Particleboards and fibreboards. Determination of swelling in thickness after immersion in water\n• *BS EN 320:2011 - Particleboards and fibreboards. Determination of resistance to axial withdrawal of screws.\n• *BS EN 311:2002 - Wood based panels. Surface Soundness. Test Method.</td></tr><tr><td colspan=\"2\">CONFORMANCE TO TEST REQUIREMENTS:\nSample FIBREBOARD (refers as a FIDEC/10/2020) has been tested according to BS EN 310:1993, BS EN 319: 1993, BS EN 317: 1993, BS EN 320:2011, BS EN 311:2002.</td></tr><tr><td colspan=\"2\">APPROVED SIGNATORY:\n(Available at\n(DR. LOH YUEH FENG)</td></tr></table>",
+                                            "image_path": "755e5e2f6a380edc39e2f927d8a220c87dd05091337cd2d91b2aaca7aea688ac.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 13,
+                            "angle": 0,
+                            "type": "table_body"
+                        }
+                    ],
+                    "index": 13
+                },
+                {
+                    "bbox": [
+                        105,
+                        794,
+                        239,
+                        807
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                105,
+                                794,
+                                239,
+                                807
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        794,
+                                        239,
+                                        807
+                                    ],
+                                    "type": "text",
+                                    "content": "Series No.: FIDEC/10/20"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14
+                },
+                {
+                    "bbox": [
+                        324,
+                        796,
+                        383,
+                        808
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                324,
+                                796,
+                                383,
+                                808
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        324,
+                                        796,
+                                        383,
+                                        808
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 1 of 3"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        475,
+                        780,
+                        512,
+                        821
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                475,
+                                780,
+                                512,
+                                821
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        475,
+                                        780,
+                                        512,
+                                        821
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                475,
+                                                780,
+                                                512,
+                                                821
+                                            ],
+                                            "type": "image",
+                                            "image_path": "541b7444628f743adabb02fda62280db3f4d0317dd4095de643efdb882d6102a.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 16,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 16
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        56,
+                        26,
+                        107,
+                        80
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                26,
+                                107,
+                                80
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        26,
+                                        107,
+                                        80
+                                    ],
+                                    "type": "text",
+                                    "content": "N"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        56,
+                        81,
+                        108,
+                        97
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                81,
+                                108,
+                                97
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        81,
+                                        108,
+                                        97
+                                    ],
+                                    "type": "text",
+                                    "content": "MTIB"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        118,
+                        24,
+                        388,
+                        37
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                118,
+                                24,
+                                388,
+                                37
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        118,
+                                        24,
+                                        388,
+                                        37
+                                    ],
+                                    "type": "text",
+                                    "content": "LEMBAGA PERINDUSTRIAN KAYU MALAYSIA"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "bbox": [
+                        118,
+                        38,
+                        295,
+                        47
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                118,
+                                38,
+                                295,
+                                47
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        118,
+                                        38,
+                                        295,
+                                        47
+                                    ],
+                                    "type": "text",
+                                    "content": "MALAYSIAN TIMBER INDUSTRY BOARD"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "bbox": [
+                        119,
+                        47,
+                        229,
+                        56
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                119,
+                                47,
+                                229,
+                                56
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        47,
+                                        229,
+                                        56
+                                    ],
+                                    "type": "text",
+                                    "content": "(Kementerian Industri Utama)"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "bbox": [
+                        393,
+                        21,
+                        483,
+                        74
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                393,
+                                21,
+                                483,
+                                74
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        393,
+                                        21,
+                                        483,
+                                        74
+                                    ],
+                                    "type": "text",
+                                    "content": "QUALITY SYSTEM UKA S QUANTUM MANAGEMENT 074"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5
+                },
+                {
+                    "bbox": [
+                        393,
+                        75,
+                        483,
+                        80
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                393,
+                                75,
+                                483,
+                                80
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        393,
+                                        75,
+                                        483,
+                                        80
+                                    ],
+                                    "type": "text",
+                                    "content": "MS ISO 9001:2008 REG NO. AR 3307"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        488,
+                        21,
+                        545,
+                        79
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                488,
+                                21,
+                                545,
+                                79
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        488,
+                                        21,
+                                        545,
+                                        79
+                                    ],
+                                    "type": "text",
+                                    "content": "Iac-MRA"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7
+                },
+                {
+                    "bbox": [
+                        545,
+                        22,
+                        611,
+                        60
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                545,
+                                22,
+                                611,
+                                60
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        545,
+                                        22,
+                                        611,
+                                        60
+                                    ],
+                                    "type": "text",
+                                    "content": "STANDARDS MALAYSIA ACRDTED CERTIFICATION BODY"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "bbox": [
+                        554,
+                        63,
+                        603,
+                        71
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                554,
+                                63,
+                                603,
+                                71
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        554,
+                                        63,
+                                        603,
+                                        71
+                                    ],
+                                    "type": "text",
+                                    "content": "MS ISO/IEC 17025"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9
+                },
+                {
+                    "bbox": [
+                        559,
+                        71,
+                        584,
+                        77
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                559,
+                                71,
+                                584,
+                                77
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        559,
+                                        71,
+                                        584,
+                                        77
+                                    ],
+                                    "type": "text",
+                                    "content": "TEST"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10
+                },
+                {
+                    "bbox": [
+                        559,
+                        77,
+                        599,
+                        80
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                559,
+                                77,
+                                599,
+                                80
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        559,
+                                        77,
+                                        599,
+                                        80
+                                    ],
+                                    "type": "text",
+                                    "content": "SAMM NO.671"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11
+                },
+                {
+                    "bbox": [
+                        156,
+                        822,
+                        489,
+                        835
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                156,
+                                822,
+                                489,
+                                835
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        156,
+                                        822,
+                                        489,
+                                        835
+                                    ],
+                                    "type": "text",
+                                    "content": "PERKHIDMATAN BERKUALITI KEPUASAN PELANGGAN"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17
+                }
+            ],
+            "page_size": [
+                618,
+                888
+            ],
+            "page_idx": 0
+        },
+        {
+            "para_blocks": [
+                {
+                    "type": "table",
+                    "bbox": [
+                        118,
+                        118,
+                        541,
+                        220
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                118,
+                                118,
+                                541,
+                                220
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        118,
+                                        118,
+                                        541,
+                                        220
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                118,
+                                                118,
+                                                541,
+                                                220
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=\"2\">DATE OF TEST:</td><td>START : 27 JUN 2020</td></tr><tr><td>END : 03 JUL 2020</td></tr><tr><td>TEMPERATURE TESTING ROOM:</td><td>23.5°C</td></tr><tr><td>RELATIVE HUMIDITY TESTING ROOM</td><td>50.2%\n%</td></tr><tr><td colspan=\"2\">NUMBER OF SAMPLES : FIDEC/10/20</td></tr></table>",
+                                            "image_path": "11446f914d1e04b4f36bbbbcb944878376019d8244bc406ccd4a7662edd55d6c.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 16,
+                            "angle": 0,
+                            "type": "table_body"
+                        }
+                    ],
+                    "index": 16
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        123,
+                        285,
+                        532,
+                        356
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                147,
+                                245,
+                                511,
+                                272
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        147,
+                                        245,
+                                        511,
+                                        272
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                147,
+                                                245,
+                                                511,
+                                                272
+                                            ],
+                                            "type": "text",
+                                            "content": "BS EN 310: 1993 Wood based panels. Determination of modulus of elasticity in bending and of bending strength."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 17,
+                            "angle": 0,
+                            "type": "table_caption"
+                        },
+                        {
+                            "bbox": [
+                                123,
+                                285,
+                                532,
+                                356
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        123,
+                                        285,
+                                        532,
+                                        356
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                123,
+                                                285,
+                                                532,
+                                                356
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td>No.</td><td>TEST DESCRIPTION</td><td>RESULT</td><td>STDV</td><td>CV%</td></tr><tr><td>1.0</td><td>Modulus of Rupture (MOR)</td><td>39.6 MPa</td><td>3.75</td><td>9.48%</td></tr><tr><td>2.0</td><td>Modulus of Elasticity (MOE)</td><td>2180 MPa</td><td>183.94</td><td>8.45%</td></tr></table>",
+                                            "image_path": "2dc1b0d23afcca376cd26f281c47d13dd563ec6da32603e1989d22b2b6dce483.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 18,
+                            "angle": 0,
+                            "type": "table_body"
+                        }
+                    ],
+                    "index": 18
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        121,
+                        448,
+                        532,
+                        502
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                136,
+                                407,
+                                505,
+                                440
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        136,
+                                        407,
+                                        505,
+                                        440
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                136,
+                                                407,
+                                                505,
+                                                440
+                                            ],
+                                            "type": "text",
+                                            "content": "* BS EN 319:1993 Particleboards and fibreboards- Determination of tensile strength perpendicular to the plane"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 19,
+                            "angle": 0,
+                            "type": "table_caption"
+                        },
+                        {
+                            "bbox": [
+                                121,
+                                448,
+                                532,
+                                502
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        121,
+                                        448,
+                                        532,
+                                        502
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                121,
+                                                448,
+                                                532,
+                                                502
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td>SAMPLE</td><td>Internal Bonding (MPa)</td></tr><tr><td>1.0</td><td>1.8 MPa</td></tr></table>",
+                                            "image_path": "c3241a12c0151697a997935f6d7a33c3be3cddf426e4869ef34a376eded17b71.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 20,
+                            "angle": 0,
+                            "type": "table_body"
+                        }
+                    ],
+                    "index": 20
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        119,
+                        588,
+                        532,
+                        702
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                144,
+                                547,
+                                524,
+                                573
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        144,
+                                        547,
+                                        524,
+                                        573
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                144,
+                                                547,
+                                                524,
+                                                573
+                                            ],
+                                            "type": "text",
+                                            "content": "* BS EN 317: 1993 - Particleboards and fibreboards. Determination of swelling in thickness after immersion in water"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 21,
+                            "angle": 0,
+                            "type": "table_caption"
+                        },
+                        {
+                            "bbox": [
+                                119,
+                                588,
+                                532,
+                                702
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        588,
+                                        532,
+                                        702
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                119,
+                                                588,
+                                                532,
+                                                702
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=\"3\">Sample</td><td rowspan=\"3\">Hours</td><td colspan=\"3\">Thickness Swelling</td><td colspan=\"3\">Water Absorption</td></tr><tr><td rowspan=\"2\">(%)</td><td colspan=\"2\">(mm)</td><td rowspan=\"2\">(%)</td><td colspan=\"2\">(gram)</td></tr><tr><td>Before</td><td>After</td><td>Before</td><td>After</td></tr><tr><td>1.0</td><td>24</td><td>9.0</td><td>11.72</td><td>12.78</td><td>34.6</td><td>21.74</td><td>29.19</td></tr></table>",
+                                            "image_path": "d95b5eb9617b3cf27421a1c22ab987e3f40663ea72b87ab5581530292bebaef8.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 22,
+                            "angle": 0,
+                            "type": "table_body"
+                        }
+                    ],
+                    "index": 22
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        60,
+                        26,
+                        112,
+                        81
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                60,
+                                26,
+                                112,
+                                81
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        60,
+                                        26,
+                                        112,
+                                        81
+                                    ],
+                                    "type": "text",
+                                    "content": "中"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        61,
+                        82,
+                        112,
+                        98
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                61,
+                                82,
+                                112,
+                                98
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        61,
+                                        82,
+                                        112,
+                                        98
+                                    ],
+                                    "type": "text",
+                                    "content": "MTIB"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        122,
+                        26,
+                        391,
+                        38
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                122,
+                                26,
+                                391,
+                                38
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        122,
+                                        26,
+                                        391,
+                                        38
+                                    ],
+                                    "type": "text",
+                                    "content": "LEMBAGA PERINDUSTRIAN KAYU MALAYSIA"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "bbox": [
+                        123,
+                        39,
+                        299,
+                        47
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                123,
+                                39,
+                                299,
+                                47
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        123,
+                                        39,
+                                        299,
+                                        47
+                                    ],
+                                    "type": "text",
+                                    "content": "MALAYSIAN TIMBER INDUSTRY BOARD"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "bbox": [
+                        124,
+                        48,
+                        233,
+                        57
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                124,
+                                48,
+                                233,
+                                57
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        124,
+                                        48,
+                                        233,
+                                        57
+                                    ],
+                                    "type": "text",
+                                    "content": "(Kementerian Industri Utama)"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "bbox": [
+                        397,
+                        25,
+                        487,
+                        76
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                397,
+                                25,
+                                487,
+                                76
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        397,
+                                        25,
+                                        487,
+                                        76
+                                    ],
+                                    "type": "text",
+                                    "content": "QUALITY SYSTEM UKA S QUALITY MANAGEMENT SIRIM 074"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5
+                },
+                {
+                    "bbox": [
+                        397,
+                        76,
+                        488,
+                        81
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                397,
+                                76,
+                                488,
+                                81
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        397,
+                                        76,
+                                        488,
+                                        81
+                                    ],
+                                    "type": "text",
+                                    "content": "MS ISO 9001:2008 REG NO. AR 3307"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        491,
+                        21,
+                        548,
+                        80
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                491,
+                                21,
+                                548,
+                                80
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        491,
+                                        21,
+                                        548,
+                                        80
+                                    ],
+                                    "type": "text",
+                                    "content": "Iac-MRA"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7
+                },
+                {
+                    "bbox": [
+                        548,
+                        23,
+                        611,
+                        61
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                548,
+                                23,
+                                611,
+                                61
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        548,
+                                        23,
+                                        611,
+                                        61
+                                    ],
+                                    "type": "text",
+                                    "content": "STANDARDS MALAYSIA"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "bbox": [
+                        559,
+                        65,
+                        608,
+                        71
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                559,
+                                65,
+                                608,
+                                71
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        559,
+                                        65,
+                                        608,
+                                        71
+                                    ],
+                                    "type": "text",
+                                    "content": "MS ISO/IEC 17025"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9
+                },
+                {
+                    "bbox": [
+                        569,
+                        72,
+                        603,
+                        78
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                569,
+                                72,
+                                603,
+                                78
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        569,
+                                        72,
+                                        603,
+                                        78
+                                    ],
+                                    "type": "text",
+                                    "content": "TESTING"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10
+                },
+                {
+                    "bbox": [
+                        562,
+                        78,
+                        603,
+                        82
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                562,
+                                78,
+                                603,
+                                82
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        562,
+                                        78,
+                                        603,
+                                        82
+                                    ],
+                                    "type": "text",
+                                    "content": "SAMM NO.671"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11
+                },
+                {
+                    "bbox": [
+                        118,
+                        62,
+                        260,
+                        71
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                118,
+                                62,
+                                260,
+                                71
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        118,
+                                        62,
+                                        260,
+                                        71
+                                    ],
+                                    "type": "text",
+                                    "content": "Pusat Biokomposit dan Gentian (FIDEC)"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12
+                },
+                {
+                    "bbox": [
+                        123,
+                        72,
+                        339,
+                        81
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                123,
+                                72,
+                                339,
+                                81
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        123,
+                                        72,
+                                        339,
+                                        81
+                                    ],
+                                    "type": "text",
+                                    "content": "Lot 152, Jalan 4, Kompleks Perabot Olak Lempit, 42700 Banting"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13
+                },
+                {
+                    "bbox": [
+                        124,
+                        82,
+                        284,
+                        90
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                124,
+                                82,
+                                284,
+                                90
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        124,
+                                        82,
+                                        284,
+                                        90
+                                    ],
+                                    "type": "text",
+                                    "content": "Tel: 603-3149 1502 / 1509 Fax: 603-3149 1607"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14
+                },
+                {
+                    "bbox": [
+                        124,
+                        92,
+                        232,
+                        102
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                124,
+                                92,
+                                232,
+                                102
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        124,
+                                        92,
+                                        232,
+                                        102
+                                    ],
+                                    "type": "text",
+                                    "content": "Portal Rasmi: www.mtib.gov.my"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15
+                },
+                {
+                    "bbox": [
+                        107,
+                        794,
+                        241,
+                        808
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                107,
+                                794,
+                                241,
+                                808
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        107,
+                                        794,
+                                        241,
+                                        808
+                                    ],
+                                    "type": "text",
+                                    "content": "Series No.: FIDEC/10/20"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23
+                },
+                {
+                    "bbox": [
+                        325,
+                        797,
+                        385,
+                        809
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                325,
+                                797,
+                                385,
+                                809
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        325,
+                                        797,
+                                        385,
+                                        809
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 2 of 3"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 24
+                },
+                {
+                    "bbox": [
+                        453,
+                        788,
+                        498,
+                        823
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                453,
+                                788,
+                                498,
+                                823
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        453,
+                                        788,
+                                        498,
+                                        823
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\therefore m : x = 1"
+                                },
+                                {
+                                    "bbox": [
+                                        453,
+                                        788,
+                                        498,
+                                        823
+                                    ],
+                                    "type": "text",
+                                    "content": " 或 "
+                                },
+                                {
+                                    "bbox": [
+                                        453,
+                                        788,
+                                        498,
+                                        823
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "{3x} + {4y} + 1 = 0"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25
+                },
+                {
+                    "bbox": [
+                        158,
+                        823,
+                        491,
+                        836
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                158,
+                                823,
+                                491,
+                                836
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        158,
+                                        823,
+                                        491,
+                                        836
+                                    ],
+                                    "type": "text",
+                                    "content": "PERKHIDMATAN BERKUALITI KEPUASAN PELANGGAN"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26
+                }
+            ],
+            "page_size": [
+                618,
+                888
+            ],
+            "page_idx": 1
+        },
+        {
+            "para_blocks": [
+                {
+                    "type": "table",
+                    "bbox": [
+                        119,
+                        177,
+                        533,
+                        262
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                153,
+                                137,
+                                525,
+                                162
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        153,
+                                        137,
+                                        525,
+                                        162
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                153,
+                                                137,
+                                                525,
+                                                162
+                                            ],
+                                            "type": "text",
+                                            "content": "*BS EN 320:2011 - Particleboards and fibreboards. Determination of resistance to axial withdrawal of screws."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 9,
+                            "angle": 0,
+                            "type": "table_caption"
+                        },
+                        {
+                            "bbox": [
+                                119,
+                                177,
+                                533,
+                                262
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        177,
+                                        533,
+                                        262
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                119,
+                                                177,
+                                                533,
+                                                262
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=\"2\">SAMPLE</td><td colspan=\"3\">Screw Withdrawal</td></tr><tr><td colspan=\"2\">Face</td><td>Edge</td></tr><tr><td rowspan=\"2\">1.0</td><td>Max Force (N)</td><td>Screw strength\n(N/mm)</td><td>Max Force (N)</td></tr><tr><td>1993</td><td>173.1</td><td>NR</td></tr></table>",
+                                            "image_path": "500e9c0a3dfc1356042aaa84c984a574e9ab5371021a10ab2e8564376d987d2b.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 10,
+                            "angle": 0,
+                            "type": "table_body"
+                        }
+                    ],
+                    "index": 10
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        119,
+                        335,
+                        532,
+                        390
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                152,
+                                295,
+                                501,
+                                318
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        152,
+                                        295,
+                                        501,
+                                        318
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                152,
+                                                295,
+                                                501,
+                                                318
+                                            ],
+                                            "type": "text",
+                                            "content": "*BS EN 311:2002 - Wood based panels. Surface Soundness. Test Method."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 11,
+                            "angle": 0,
+                            "type": "table_caption"
+                        },
+                        {
+                            "bbox": [
+                                119,
+                                335,
+                                532,
+                                390
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        335,
+                                        532,
+                                        390
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                119,
+                                                335,
+                                                532,
+                                                390
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td>SAMPLE</td><td>Surface Soundness (MPa)</td></tr><tr><td>1.0</td><td>2.64 MPa</td></tr></table>",
+                                            "image_path": "0db5825261994ad091bf40797531303a965c92ea77aad861ec0e575f22889feb.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 12,
+                            "angle": 0,
+                            "type": "table_body"
+                        }
+                    ],
+                    "index": 12
+                },
+                {
+                    "bbox": [
+                        117,
+                        499,
+                        207,
+                        523
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 15,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                117,
+                                499,
+                                207,
+                                510
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        117,
+                                        499,
+                                        207,
+                                        510
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                117,
+                                                499,
+                                                207,
+                                                510
+                                            ],
+                                            "type": "text",
+                                            "content": "* non accredited test"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "bbox": [
+                                118,
+                                511,
+                                195,
+                                523
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        118,
+                                        511,
+                                        195,
+                                        523
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                118,
+                                                511,
+                                                195,
+                                                523
+                                            ],
+                                            "type": "text",
+                                            "content": "* NR- no relevant"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 14
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        119,
+                        537,
+                        146,
+                        547
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                119,
+                                537,
+                                146,
+                                547
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        537,
+                                        146,
+                                        547
+                                    ],
+                                    "type": "text",
+                                    "content": "Note:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16
+                },
+                {
+                    "bbox": [
+                        117,
+                        561,
+                        540,
+                        614
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                117,
+                                561,
+                                540,
+                                614
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        117,
+                                        561,
+                                        540,
+                                        614
+                                    ],
+                                    "type": "text",
+                                    "content": "This report is neither a certificate of quality nor an approval certificate. This report is only covers sample supplied by customer to be tested at MTIB. Mechanical Testing Laboratory is not responsible in selection of samples for testing. This report or any part of it cannot be published or used of any other purpose except with the permission from MTIB."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17
+                },
+                {
+                    "bbox": [
+                        116,
+                        654,
+                        181,
+                        666
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                116,
+                                654,
+                                181,
+                                666
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        116,
+                                        654,
+                                        181,
+                                        666
+                                    ],
+                                    "type": "text",
+                                    "content": "TESTED BY:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        115,
+                        681,
+                        268,
+                        719
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                115,
+                                681,
+                                268,
+                                719
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        115,
+                                        681,
+                                        268,
+                                        719
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                115,
+                                                681,
+                                                268,
+                                                719
+                                            ],
+                                            "type": "image",
+                                            "image_path": "bd727370f914f25caf9d4f0f8301b2511e8e625bd68193a281c4e7a7bc75bc06.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 19,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 19
+                },
+                {
+                    "bbox": [
+                        116,
+                        721,
+                        255,
+                        732
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                116,
+                                721,
+                                255,
+                                732
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        116,
+                                        721,
+                                        255,
+                                        732
+                                    ],
+                                    "type": "text",
+                                    "content": "MOHD RADZI BIN BUANG"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20
+                },
+                {
+                    "bbox": [
+                        115,
+                        742,
+                        242,
+                        760
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                115,
+                                742,
+                                242,
+                                760
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        115,
+                                        742,
+                                        242,
+                                        760
+                                    ],
+                                    "type": "text",
+                                    "content": "TECHNICAL ASSISTANT"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21
+                },
+                {
+                    "bbox": [
+                        369,
+                        657,
+                        446,
+                        668
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                369,
+                                657,
+                                446,
+                                668
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        369,
+                                        657,
+                                        446,
+                                        668
+                                    ],
+                                    "type": "text",
+                                    "content": "CHECKED BY:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        330,
+                        673,
+                        497,
+                        722
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                330,
+                                673,
+                                497,
+                                722
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        330,
+                                        673,
+                                        497,
+                                        722
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                330,
+                                                673,
+                                                497,
+                                                722
+                                            ],
+                                            "type": "image",
+                                            "image_path": "7a4c403013f527737e7870a4a2612db03da788d3523e5091666cc11d3bec3cf5.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 23,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 23
+                },
+                {
+                    "bbox": [
+                        354,
+                        723,
+                        468,
+                        734
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                354,
+                                723,
+                                468,
+                                734
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        354,
+                                        723,
+                                        468,
+                                        734
+                                    ],
+                                    "type": "text",
+                                    "content": "DR LOH YUEH FENG"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 24
+                },
+                {
+                    "bbox": [
+                        348,
+                        745,
+                        474,
+                        756
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                348,
+                                745,
+                                474,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        348,
+                                        745,
+                                        474,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "APPROVED SIGNATORY"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        55,
+                        29,
+                        107,
+                        103
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                55,
+                                29,
+                                107,
+                                103
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        29,
+                                        107,
+                                        103
+                                    ],
+                                    "type": "text",
+                                    "content": "MTIB"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        117,
+                        28,
+                        387,
+                        60
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                117,
+                                28,
+                                387,
+                                60
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        117,
+                                        28,
+                                        387,
+                                        60
+                                    ],
+                                    "type": "text",
+                                    "content": "LEMBAGA PERINDUSTRIAN KAYU MALAYSIA  \nMALAYSIAN TIMBER INDUSTRY BOARD  \n(Kementerian Industri Utama)"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        118,
+                        64,
+                        257,
+                        74
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                118,
+                                64,
+                                257,
+                                74
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        118,
+                                        64,
+                                        257,
+                                        74
+                                    ],
+                                    "type": "text",
+                                    "content": "Pusat Biokomposit dan Gentian (FIDEC)"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "bbox": [
+                        118,
+                        75,
+                        335,
+                        85
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                118,
+                                75,
+                                335,
+                                85
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        118,
+                                        75,
+                                        335,
+                                        85
+                                    ],
+                                    "type": "text",
+                                    "content": "Lot 152, Jalan 4, Kompleks Olak Lempit, 42700 Banting"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "bbox": [
+                        118,
+                        85,
+                        281,
+                        94
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                118,
+                                85,
+                                281,
+                                94
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        118,
+                                        85,
+                                        281,
+                                        94
+                                    ],
+                                    "type": "text",
+                                    "content": "Tel: 603-3149 1502 / 1509 Fax: 603-3149 1607"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "bbox": [
+                        118,
+                        95,
+                        229,
+                        105
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                118,
+                                95,
+                                229,
+                                105
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        118,
+                                        95,
+                                        229,
+                                        105
+                                    ],
+                                    "type": "text",
+                                    "content": "Portal Rasmi: www.mtib.gov.my"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5
+                },
+                {
+                    "bbox": [
+                        393,
+                        26,
+                        484,
+                        83
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                393,
+                                26,
+                                484,
+                                83
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        393,
+                                        26,
+                                        484,
+                                        83
+                                    ],
+                                    "type": "text",
+                                    "content": "QUALITY SYSTEM UKAS QUALITY MANAGEMENT   \nSIRIM 074   \nMS ISO 9001:2008 REG NO.AR3307"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        488,
+                        23,
+                        543,
+                        82
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                488,
+                                23,
+                                543,
+                                82
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        488,
+                                        23,
+                                        543,
+                                        82
+                                    ],
+                                    "type": "text",
+                                    "content": "Iac-MRA"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7
+                },
+                {
+                    "bbox": [
+                        545,
+                        23,
+                        611,
+                        83
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                545,
+                                23,
+                                611,
+                                83
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        545,
+                                        23,
+                                        611,
+                                        83
+                                    ],
+                                    "type": "text",
+                                    "content": "STANDARDS MALAYSIA  \nACcredited CERTIFICATION CODE  \nMS ISO/IEC 17025 TESTING SAMM NO.671"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "bbox": [
+                        103,
+                        791,
+                        238,
+                        805
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                103,
+                                791,
+                                238,
+                                805
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        103,
+                                        791,
+                                        238,
+                                        805
+                                    ],
+                                    "type": "text",
+                                    "content": "Series No.: FIDEC/10/20"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26
+                },
+                {
+                    "bbox": [
+                        323,
+                        793,
+                        381,
+                        805
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                323,
+                                793,
+                                381,
+                                805
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        323,
+                                        793,
+                                        381,
+                                        805
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 3 of 3"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27
+                },
+                {
+                    "bbox": [
+                        473,
+                        783,
+                        507,
+                        827
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                473,
+                                783,
+                                507,
+                                827
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        473,
+                                        783,
+                                        507,
+                                        827
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\frac{5}{1} + u + {4q} = 1 + u + {uq}"
+                                },
+                                {
+                                    "bbox": [
+                                        473,
+                                        783,
+                                        507,
+                                        827
+                                    ],
+                                    "type": "text",
+                                    "content": " dH"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28
+                },
+                {
+                    "bbox": [
+                        157,
+                        825,
+                        490,
+                        838
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                157,
+                                825,
+                                490,
+                                838
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        157,
+                                        825,
+                                        490,
+                                        838
+                                    ],
+                                    "type": "text",
+                                    "content": "PERKHIDMATAN BERKUALITI KEPUASAN PELANGGAN"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29
+                }
+            ],
+            "page_size": [
+                618,
+                888
+            ],
+            "page_idx": 2
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": true,
+    "_vlm_ocr_enable": true,
+    "_version_name": "2.7.6"
+}

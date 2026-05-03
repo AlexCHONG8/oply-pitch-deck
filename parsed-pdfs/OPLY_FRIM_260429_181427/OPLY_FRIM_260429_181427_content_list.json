@@ -1,0 +1,2036 @@
+[
+    {
+        "type": "text",
+        "text": "Your reference: ",
+        "bbox": [
+            534,
+            126,
+            656,
+            138
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Our reference: FRIM (S).600-5/6/5 Klt. 12(39)",
+        "bbox": [
+            533,
+            139,
+            881,
+            153
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Date:4 September 2020 ",
+        "bbox": [
+            534,
+            154,
+            727,
+            167
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "CONFIDENTIAL ",
+        "text_level": 1,
+        "bbox": [
+            143,
+            214,
+            288,
+            229
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Reimagine ME Sdn. Bhd, ",
+        "bbox": [
+            143,
+            259,
+            339,
+            273
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "21-1 Jalan Putera Mahkota ",
+        "bbox": [
+            143,
+            275,
+            354,
+            286
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "7/6 B, Seksyen 7, Putera Height ",
+        "bbox": [
+            143,
+            288,
+            392,
+            302
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "47650 Subang Jaya, Selangor ",
+        "bbox": [
+            143,
+            303,
+            379,
+            317
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(Attn. Mr. Holy Lim) ",
+        "bbox": [
+            143,
+            330,
+            297,
+            346
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Sir, ",
+        "bbox": [
+            143,
+            375,
+            179,
+            391
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "EFB STRAND BOARD (OPLY) ",
+        "text_level": 1,
+        "bbox": [
+            143,
+            405,
+            410,
+            422
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Referring to the above, enclosed is report of EFB Strand Board (OPLY) sample tested for bending, internal bond, surface soundness, screw withdrawal, thickness swelling and water absorption. ",
+        "bbox": [
+            143,
+            435,
+            882,
+            483
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Thank you. ",
+        "bbox": [
+            143,
+            500,
+            239,
+            515
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Yours sincerely, ",
+        "bbox": [
+            143,
+            529,
+            280,
+            545
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/345c69898ab3986e086c6540fdc0907af5ec762a07729f3f5a9e6f52539a25dc.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            143,
+            555,
+            346,
+            608
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "DR. SUFFIAN MISRAN ",
+        "bbox": [
+            143,
+            608,
+            344,
+            621
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "for Director General ",
+        "bbox": [
+            143,
+            622,
+            311,
+            636
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "FRIM ",
+        "bbox": [
+            143,
+            636,
+            194,
+            651
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "PENYELIDIKAN PERHUTAN ",
+        "bbox": [
+            66,
+            39,
+            176,
+            116
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "INSTITUT PENYELIDIKAN PERHUTANAN MALAYSIA ",
+        "bbox": [
+            186,
+            48,
+            579,
+            61
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Forest Research Institute Malaysia (FRIM) ",
+        "bbox": [
+            186,
+            65,
+            504,
+            80
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "52109 Kepong, Selangor ",
+        "bbox": [
+            186,
+            80,
+            361,
+            94
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Tel: 603-6279 7000 Fax: 603 6273 1314 ",
+        "bbox": [
+            186,
+            95,
+            478,
+            109
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Portal Rasmi: www.frim.gov.my ",
+        "bbox": [
+            186,
+            110,
+            410,
+            125
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "CONFIDENTIAL ",
+        "bbox": [
+            740,
+            815,
+            881,
+            830
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "MAKMAL PENGUJIAN KOMPOSIT KAYU (WCTL) ",
+        "bbox": [
+            143,
+            875,
+            414,
+            886
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "CONFIDENTIAL ",
+        "text_level": 1,
+        "bbox": [
+            145,
+            150,
+            288,
+            163
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "TEST REPORT ",
+        "text_level": 1,
+        "bbox": [
+            435,
+            164,
+            559,
+            177
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/3c20e4d64f57da0a0f479aacdb5ed13492edaf8c66ef340250267adfd9bf5d56.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td colspan=\"2\">Job No.: 23/20</td></tr><tr><td>This report consists of 7 pages</td><td>Page 1 of 7</td></tr><tr><td colspan=\"2\">This report is neither a certificate of quality nor an approval certificate. This report only covers samples supplied by the customer to be tested at FRIM. Wood Composite Testing Laboratory is not responsible in the selection of samples for testing. This report or any part of it cannot be published or used for any other purposes except with the permission from FRIM. Test marked &quot;Not SAMM Accredited&quot; in this report are not included in the SAMM Accreditation Schedule of our laboratory.</td></tr></table>",
+        "bbox": [
+            140,
+            192,
+            872,
+            259
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "CUSTOMER ",
+        "text_level": 1,
+        "bbox": [
+            145,
+            271,
+            247,
+            285
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Name and Address: ",
+        "bbox": [
+            145,
+            300,
+            301,
+            313
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Reimagine ME Sdn. Bhd. ",
+        "bbox": [
+            422,
+            300,
+            618,
+            313
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "21-1 Jalan Putera Mahkota ",
+        "bbox": [
+            425,
+            315,
+            632,
+            327
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "7/6 B, Seksyen 7, Putera Height ",
+        "bbox": [
+            425,
+            329,
+            669,
+            342
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "47650 Subang Jaya, Selangor ",
+        "bbox": [
+            425,
+            342,
+            656,
+            357
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "SAMPLE DESCRIPTION ",
+        "text_level": 1,
+        "bbox": [
+            145,
+            370,
+            341,
+            384
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "WCTL serial number: ",
+        "bbox": [
+            145,
+            398,
+            310,
+            411
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1240620 ",
+        "bbox": [
+            433,
+            398,
+            501,
+            411
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Type of material & identity: ",
+        "bbox": [
+            145,
+            427,
+            349,
+            441
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "EFB Strand Board (OPLY) ",
+        "bbox": [
+            432,
+            426,
+            633,
+            441
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Thickness - 12mm ",
+        "bbox": [
+            433,
+            441,
+            577,
+            453
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Date received: ",
+        "bbox": [
+            145,
+            469,
+            259,
+            483
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "27 July 2020 ",
+        "bbox": [
+            432,
+            467,
+            531,
+            483
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Note: ",
+        "bbox": [
+            145,
+            495,
+            183,
+            505
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Test specimens were prepared by customer. The test specimens will be disposed after testing has been carried out. ",
+        "bbox": [
+            145,
+            505,
+            834,
+            529
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "TEST METHOD ",
+        "text_level": 1,
+        "bbox": [
+            145,
+            542,
+            270,
+            555
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Tested for and standard method used: ",
+        "bbox": [
+            145,
+            571,
+            392,
+            600
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "1. Bending (BS EN 310: 1993) ",
+            "2. Internal bond (BS EN 319: 1993)* ",
+            "3. Surface soundness (BS EN 311: 2002)* ",
+            "4. Screw withdrawal (BS EN 320: 2011)* ",
+            "5. Thickness swelling (BS EN 317:1993)* ",
+            "6. Water absorption (In-house method)* "
+        ],
+        "bbox": [
+            424,
+            571,
+            745,
+            655
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Date of test: ",
+        "bbox": [
+            145,
+            661,
+            240,
+            676
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "28 July 2020 - 6 August 2020 ",
+        "bbox": [
+            422,
+            661,
+            653,
+            676
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Not SAMM Accredited ",
+        "bbox": [
+            145,
+            686,
+            306,
+            698
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/240b82a0a6683e7201a5fcdfe2d0c6c7470e70f380d89bf2bec7e54152b5fca9.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            158,
+            723,
+            358,
+            809
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/825923adc8708f513decfde9b918c38c350ff4171f11487ca1eea6cbf58640b5.jpg",
+        "image_caption": [
+            "CONFIDENTIAL "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            653,
+            721,
+            877,
+            801
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "FRIIM ",
+        "bbox": [
+            54,
+            40,
+            163,
+            116
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "MAKMAL PENGUJIAN MEKANIKAL & FIZIKAL (MPTL) ",
+        "bbox": [
+            173,
+            39,
+            542,
+            53
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "INSTITUT PENYELIDIKAN PERHUTAHAN MALAYSIA (FRIM) ",
+        "bbox": [
+            174,
+            54,
+            570,
+            67
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "52109 KEPONG, SELANGOR DARUL EHSAN",
+        "bbox": [
+            174,
+            69,
+            468,
+            82
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "Tel: 603-6279 7288/7310 Fax: 603 62804620/4629 ",
+        "bbox": [
+            174,
+            84,
+            542,
+            97
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "www.frim.gov.my ",
+        "bbox": [
+            174,
+            100,
+            301,
+            113
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "HAC-MRA ",
+        "bbox": [
+            646,
+            36,
+            731,
+            100
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "STANDARDS MALAYSIA ",
+        "bbox": [
+            752,
+            39,
+            889,
+            92
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "MS ISO/IEC 17025 ",
+        "bbox": [
+            778,
+            94,
+            859,
+            100
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "TESTING ",
+        "bbox": [
+            797,
+            101,
+            841,
+            105
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "SAMM NO. 205 ",
+        "bbox": [
+            785,
+            107,
+            851,
+            115
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "Our reference: FRIM (S).600-5/6/5 Klt. 12(39)",
+        "bbox": [
+            145,
+            120,
+            493,
+            134
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "Date:4 September 2020 ",
+        "bbox": [
+            646,
+            119,
+            841,
+            133
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "MAKMAL PENGUJIAN KOMPOSIT KAYU (WCTL) ",
+        "bbox": [
+            145,
+            870,
+            414,
+            883
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "CONFIDENTIAL ",
+        "text_level": 1,
+        "bbox": [
+            146,
+            148,
+            288,
+            161
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "TEST REPORT ",
+        "text_level": 1,
+        "bbox": [
+            481,
+            163,
+            603,
+            176
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/a1d79aa55bbc5a422bc15165c7bbfc7f6c63d4482d149f6a28f0701df4551210.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td colspan=\"2\">Job No.: 23/20</td></tr><tr><td>This report consists of 7 pages</td><td>Page 2 of 7</td></tr><tr><td colspan=\"2\">This report is neither a certificate of quality nor an approval certificate. This report only covers samples supplied by the customer to be tested at FRIM. Wood Composite Testing Laboratory is not responsible in the selection of samples for testing. This report or any part of it cannot be published or used for any other purposes except with the permission from FRIM.</td></tr></table>",
+        "bbox": [
+            146,
+            191,
+            889,
+            250
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "TEST RESULTS ",
+        "text_level": 1,
+        "bbox": [
+            146,
+            261,
+            278,
+            275
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/c448cb9b3e9675aba77b4ef5e80176b8610e05b9b95d51c6272c56ac811c3a06.jpg",
+        "table_caption": [
+            "Table 1: Bending (BS EN 310: 1993) - EFB Strand Board (OPLY) "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Specimen</td><td>Modulus of \nRupture \n(N/mm2)</td><td>Modulus of \nElasticity \n(N/mm2)</td></tr><tr><td>1</td><td>28.5</td><td>1740</td></tr><tr><td>2</td><td>23.8</td><td>1570</td></tr><tr><td>3</td><td>38.2</td><td>2220</td></tr><tr><td>4</td><td>34.5</td><td>2220</td></tr><tr><td>5</td><td>36.2</td><td>2110</td></tr><tr><td>6</td><td>32.2</td><td>1860</td></tr><tr><td>7</td><td>25.4</td><td>1600</td></tr><tr><td>8</td><td>31.6</td><td>1720</td></tr><tr><td>9</td><td>37.4</td><td>2060</td></tr><tr><td>10</td><td>34.1</td><td>1950</td></tr><tr><td>Average</td><td>32.2</td><td>1910</td></tr><tr><td>Std. Deviation</td><td>4.9</td><td>244</td></tr></table>",
+        "bbox": [
+            259,
+            316,
+            735,
+            569
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/cfa209e2a3a9bb9de9ad2eb2da80c3d00f374aff4166d53ba6dad52f2f8efaee.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            146,
+            611,
+            344,
+            694
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/c4d785079213e679a313cb1b54a9870b35c2944775a036161ba7939710a55d0f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            633,
+            608,
+            859,
+            690
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "CONFIDENTIAL ",
+        "bbox": [
+            702,
+            738,
+            844,
+            752
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "PENYELIDIKAN PERHUTAN ",
+        "bbox": [
+            54,
+            40,
+            163,
+            116
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "MAKMAL PENGUJIAN MEKANIKAL & FIZIKAL (MPTL) ",
+        "bbox": [
+            174,
+            39,
+            542,
+            52
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "INSTITUT PENYELIDIKAN PERHUTAHAN MALAYSIA (FRIM) ",
+        "bbox": [
+            174,
+            53,
+            570,
+            66
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "52109 KEPONG, SELANGOR DARUL EHSAN",
+        "bbox": [
+            174,
+            69,
+            468,
+            80
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "Tel: 603-6279 7288/7310 Fax: 603 62804620/4629 ",
+        "bbox": [
+            174,
+            84,
+            542,
+            96
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "www.frim.gov.my ",
+        "bbox": [
+            174,
+            100,
+            301,
+            113
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "HAC-MRA ",
+        "bbox": [
+            648,
+            36,
+            732,
+            100
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "STANDARDS MALAYSIA ACGREITED ",
+        "bbox": [
+            754,
+            39,
+            889,
+            91
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "MS ISO/IEC 17025 ",
+        "bbox": [
+            778,
+            94,
+            861,
+            101
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "TESTING ",
+        "bbox": [
+            798,
+            102,
+            841,
+            107
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "SAMM NO.205 ",
+        "bbox": [
+            788,
+            109,
+            851,
+            115
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "Our reference: FRIM (S).600-5/6/5 Klt. 12(39)",
+        "bbox": [
+            146,
+            120,
+            493,
+            134
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "Date:4 September 2020 ",
+        "bbox": [
+            646,
+            119,
+            841,
+            133
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "MAKMAL PENGUJIAN KOMPOSIT KAYU (WCTL) ",
+        "bbox": [
+            146,
+            871,
+            415,
+            883
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "CONFIDENTIAL ",
+        "text_level": 1,
+        "bbox": [
+            151,
+            167,
+            293,
+            182
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "TEST REPORT ",
+        "text_level": 1,
+        "bbox": [
+            485,
+            209,
+            608,
+            223
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/f417f37b0bab4d6acac2b1f7254405b90a29ed905c8528244b840c0b5459b16d.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td colspan=\"2\">Job No.: 23/20</td></tr><tr><td>This report consists of 7 pages</td><td>Page 3 of 7</td></tr><tr><td colspan=\"2\">This report is neither a certificate of quality nor an approval certificate. This report only covers samples supplied by the customer to be tested at FRIM. Wood Composite Testing Laboratory is not responsible in the selection of samples for testing. This report or any part of it cannot be published or used for any other purposes except with the permission from FRIM.</td></tr></table>",
+        "bbox": [
+            151,
+            236,
+            891,
+            292
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "TEST RESULTS ",
+        "text_level": 1,
+        "bbox": [
+            151,
+            309,
+            283,
+            323
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/1508cd90c2b1ccee186c27cd532e23601586acbf17246577bafdf76a6e26545b.jpg",
+        "table_caption": [
+            "Table 2: Internal Bond (BS EN 319: 1993) - EFB Strand Board (OPLY) "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Specimen</td><td>Internal Bond (N/mm2)</td></tr><tr><td>1</td><td>1.90</td></tr><tr><td>2</td><td>1.73</td></tr><tr><td>3</td><td>1.26</td></tr><tr><td>4</td><td>0.70</td></tr><tr><td>5</td><td>0.84</td></tr><tr><td>6</td><td>0.60</td></tr><tr><td>7</td><td>1.85</td></tr><tr><td>8</td><td>0.56</td></tr><tr><td>9</td><td>0.60</td></tr><tr><td>10</td><td>1.54</td></tr><tr><td>Average</td><td>1.16</td></tr><tr><td>Std. Deviation</td><td>0.56</td></tr></table>",
+        "bbox": [
+            326,
+            364,
+            668,
+            589
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/f4f01b5afe2dc7dfde04b0ef1cf41f9569704a43ccf47a66205753c59142e2c6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            151,
+            630,
+            351,
+            716
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/e24452721701dc1c2dee5ba228d14d6810c1bac0a144e390632d915bc88558d1.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            638,
+            627,
+            864,
+            710
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "CONFIDENTIAL ",
+        "bbox": [
+            707,
+            755,
+            849,
+            770
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "PENYELIDIKAN PERHUTAN MALAYSIAN ",
+        "bbox": [
+            72,
+            36,
+            179,
+            114
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "INSTITUT PENYELIDIKAN PERHUTANAN MALAYSIA ",
+        "bbox": [
+            191,
+            46,
+            582,
+            59
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "Forest Research Institute Malaysia (FRIM) ",
+        "bbox": [
+            193,
+            61,
+            509,
+            77
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "52109 Kepong, Selangor ",
+        "bbox": [
+            193,
+            79,
+            363,
+            92
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "Tel: 603-6279 7000 Fax: 603 6273 1314 ",
+        "bbox": [
+            193,
+            92,
+            483,
+            105
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "Portal Rasmi: www.frim.gov.my ",
+        "bbox": [
+            193,
+            109,
+            415,
+            122
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "Our reference: FRIM (S).600-5/6/5 Klt. 12(39)",
+        "bbox": [
+            151,
+            125,
+            498,
+            138
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "Date:4 September 2020 ",
+        "bbox": [
+            679,
+            123,
+            872,
+            136
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "MAKMAL PENGUJIAN KOMPOSIT KAYU (WCTL) ",
+        "bbox": [
+            151,
+            871,
+            420,
+            883
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "CONFIDENTIAL ",
+        "text_level": 1,
+        "bbox": [
+            151,
+            167,
+            293,
+            182
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "TEST REPORT ",
+        "text_level": 1,
+        "bbox": [
+            458,
+            223,
+            582,
+            236
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/7151912f791c42f9f193e8a590d9cc5b9fcf4c4f479a8ee1e850547de09d8a73.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td colspan=\"2\">Job No.: 23/20</td></tr><tr><td>This report consists of 7 pages</td><td>Page 4 of 7</td></tr><tr><td colspan=\"2\">This report is neither a certificate of quality nor an approval certificate. This report only covers samples supplied by the customer to be tested at FRIM. Wood Composite Testing Laboratory is not responsible in the selection of samples for testing. This report or any part of it cannot be published or used for any other purposes except with the permission from FRIM.</td></tr></table>",
+        "bbox": [
+            151,
+            247,
+            894,
+            309
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "TEST RESULTS ",
+        "text_level": 1,
+        "bbox": [
+            151,
+            336,
+            283,
+            351
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/739a0ec9a4166917b190fd2f2c142a77982735c0da8ffb68ab73788de76eefc1.jpg",
+        "table_caption": [
+            "Table 3: Surface Soundness (BS EN 311: 2002) - EFB Strand Board (OPLY) "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Specimen</td><td>Surface Soundness (N/mm2)</td></tr><tr><td>1</td><td>2.92</td></tr><tr><td>2</td><td>1.71</td></tr><tr><td>3</td><td>3.00</td></tr><tr><td>4</td><td>2.80</td></tr><tr><td>5</td><td>1.42</td></tr><tr><td>6</td><td>2.46</td></tr><tr><td>7</td><td>2.48</td></tr><tr><td>8</td><td>3.21</td></tr><tr><td>9</td><td>2.57</td></tr><tr><td>10</td><td>2.08</td></tr><tr><td>Average</td><td>2.46</td></tr><tr><td>Std. Deviation</td><td>0.58</td></tr></table>",
+        "bbox": [
+            328,
+            390,
+            684,
+            623
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/2fa7df9f4d49dfae6aae4a72631d7bcdf2cdb473a5c60bd183a41e16f12c2d07.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            151,
+            677,
+            354,
+            765
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/30a923707b761de4dad2d3666b74f41d9a0a25ea68d324fbed3ef0ba37adedb4.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            640,
+            673,
+            869,
+            755
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "CONFIDENTIAL ",
+        "bbox": [
+            714,
+            791,
+            854,
+            805
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "FRIIM ",
+        "bbox": [
+            72,
+            36,
+            179,
+            114
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "INSTITUT PENYELIDIKAN PERHUTANAN MALAYSIA ",
+        "bbox": [
+            191,
+            46,
+            580,
+            58
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "Forest Research Institute Malaysia (FRIM) ",
+        "bbox": [
+            193,
+            61,
+            508,
+            76
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "52109 Kepong, Selangor ",
+        "bbox": [
+            193,
+            79,
+            363,
+            92
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "Tel: 603-6279 7000 Fax: 603 6273 1314 ",
+        "bbox": [
+            193,
+            92,
+            481,
+            105
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "Portal Rasmi: www.frim.gov.my ",
+        "bbox": [
+            193,
+            109,
+            415,
+            122
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "Our reference: FRIM (S).600-5/6/5 Klt. 12(39)",
+        "bbox": [
+            151,
+            125,
+            498,
+            136
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "Date:4 September 2020 ",
+        "bbox": [
+            679,
+            120,
+            872,
+            134
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "MAKMAL PENGUJIAN KOMPOSIT KAYU (WCTL) ",
+        "bbox": [
+            156,
+            870,
+            425,
+            882
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "CONFIDENTIAL ",
+        "text_level": 1,
+        "bbox": [
+            151,
+            167,
+            293,
+            182
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "TEST REPORT ",
+        "text_level": 1,
+        "bbox": [
+            458,
+            213,
+            582,
+            227
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/43f0435c41fd97bea166ef90155f0e0e6a3354ed9d917df7ca8fe894b9aa3930.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td colspan=\"2\">Job No.: 23/20</td></tr><tr><td>This report consists of 7 pages</td><td>Page 5 of 7</td></tr><tr><td colspan=\"2\">This report is neither a certificate of quality nor an approval certificate. This report only covers samples supplied by the customer to be tested at FRIM. Wood Composite Testing Laboratory is not responsible in the selection of samples for testing. This report or any part of it cannot be published or used for any other purposes except with the permission from FRIM. Test marked “Not SAMM Accredited” in this report are not included in the SAMM Accreditation Schedule of our laboratory.</td></tr></table>",
+        "bbox": [
+            151,
+            241,
+            894,
+            308
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "TEST RESULTS ",
+        "text_level": 1,
+        "bbox": [
+            151,
+            332,
+            283,
+            347
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/afa247f4d85348158c84a12058192f7304dc201e55d2c099607e7ba70231b5be.jpg",
+        "table_caption": [
+            "Table 4: Screw Withdrawal (BS EN 320: 2011) - EFB Strand Board (OPLY) "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Specimen</td><td>Screw Withdrawal (Face)\n(N/mm)</td></tr><tr><td>1</td><td>138</td></tr><tr><td>2</td><td>148</td></tr><tr><td>3</td><td>140</td></tr><tr><td>4</td><td>105</td></tr><tr><td>5</td><td>152</td></tr><tr><td>6</td><td>187</td></tr><tr><td>7</td><td>187</td></tr><tr><td>8</td><td>181</td></tr><tr><td>9</td><td>252</td></tr><tr><td>10</td><td>248</td></tr><tr><td>Average</td><td>174</td></tr><tr><td>Std. Deviation</td><td>48</td></tr></table>",
+        "bbox": [
+            260,
+            386,
+            681,
+            625
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/7a1141dbf6b5989ce43428534dd2961a3cab0c48d742ad650edd4dc3ee8128b9.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            151,
+            694,
+            349,
+            779
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/5cdc2da9cc0e1a8e1b1c7881ac5c9183736c32c51b0cbdcd1c2e7bf2913a6d4c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            636,
+            694,
+            864,
+            772
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "CONFIDENTIAL ",
+        "bbox": [
+            707,
+            795,
+            849,
+            810
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "FRIIM ",
+        "bbox": [
+            74,
+            36,
+            183,
+            114
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "INSTITUT PENYELIDIKAN PERHUTANAN MALAYSIA ",
+        "bbox": [
+            193,
+            46,
+            582,
+            59
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "Forest Research Institute Malaysia (FRIM) ",
+        "bbox": [
+            193,
+            61,
+            509,
+            78
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "52109 Kepong, Selangor ",
+        "bbox": [
+            193,
+            79,
+            364,
+            92
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "Tel: 603-6279 7000 Fax: 603 6273 1314 ",
+        "bbox": [
+            193,
+            94,
+            483,
+            107
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "Portal Rasmi: www.frim.gov.my ",
+        "bbox": [
+            193,
+            109,
+            417,
+            123
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "Our reference: FRIM (S).600-5/6/5 Klt. 12(39)",
+        "bbox": [
+            151,
+            125,
+            500,
+            139
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "Date:4 September 2020 ",
+        "bbox": [
+            679,
+            125,
+            874,
+            138
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "MAKMAL PENGUJIAN KOMPOSIT KAYU (WCTL) ",
+        "bbox": [
+            150,
+            871,
+            419,
+            883
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "CONFIDENTIAL ",
+        "text_level": 1,
+        "bbox": [
+            150,
+            167,
+            293,
+            183
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "TEST REPORT ",
+        "text_level": 1,
+        "bbox": [
+            457,
+            197,
+            582,
+            211
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/4fe3f24b835f704ed80df858a9f37f774b1a0eb4a7093df9953da5b792f65955.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td colspan=\"2\">Job No.: 23/20</td></tr><tr><td>This report consists of 7 pages</td><td>Page 6 of 7</td></tr><tr><td colspan=\"2\">This report is neither a certificate of quality nor an approval certificate. This report only covers samples supplied by the customer to be tested at FRIM. Wood Composite Testing Laboratory is not responsible in the selection of samples for testing. This report or any part of it cannot be published or used for any other purposes except with the permission from FRIM.</td></tr></table>",
+        "bbox": [
+            151,
+            225,
+            892,
+            283
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "TEST RESULTS ",
+        "text_level": 1,
+        "bbox": [
+            150,
+            310,
+            283,
+            325
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/860116082aefb719a3dcea1844535ddf621c2a0f44446797006a5da8640206dd.jpg",
+        "table_caption": [
+            "Table 5: Thickness Swelling (BS EN 317: 1993) - EFB Strand Board (OPLY) "
+        ],
+        "table_footnote": [
+            "Note: Specimens were soaked in $20^{\\circ}\\mathrm{C}$ water for 24 hours "
+        ],
+        "table_body": "<table><tr><td>Specimen</td><td>Thickness Swelling (%)</td></tr><tr><td>1</td><td>7.2</td></tr><tr><td>2</td><td>6.2</td></tr><tr><td>3</td><td>5.9</td></tr><tr><td>4</td><td>6.8</td></tr><tr><td>5</td><td>6.1</td></tr><tr><td>6</td><td>6.3</td></tr><tr><td>7</td><td>6.5</td></tr><tr><td>8</td><td>6.9</td></tr><tr><td>9</td><td>6.1</td></tr><tr><td>10</td><td>6.3</td></tr><tr><td>Average</td><td>6.4</td></tr><tr><td>Std. Deviation</td><td>0.4</td></tr></table>",
+        "bbox": [
+            353,
+            365,
+            686,
+            595
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/b6ab7b797bd46e72520834fa0928465a04a9a82775363485ad5777ad0f9ad9b7.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            151,
+            650,
+            349,
+            735
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/bc4e9b0574e2c96c7eaa4ac4966f4bcca1c7a48caefeb3c930a237459dc10a75.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            638,
+            647,
+            864,
+            729
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "CONFIDENTIAL ",
+        "bbox": [
+            707,
+            766,
+            849,
+            780
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "PENYELIDIKAN PERHUTAN ",
+        "bbox": [
+            72,
+            36,
+            181,
+            114
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "INSTITUT PENYELIDIKAN PERHUTANAN MALAYSIA ",
+        "bbox": [
+            191,
+            46,
+            582,
+            59
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "Forest Research Institute Malaysia (FRIM) ",
+        "bbox": [
+            193,
+            63,
+            509,
+            78
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "52109 Kepong, Selangor ",
+        "bbox": [
+            193,
+            80,
+            364,
+            92
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "Tel: 603-6279 7000 Fax: 603 6273 1314 ",
+        "bbox": [
+            193,
+            94,
+            483,
+            107
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "Portal Rasmi: www.frim.gov.my ",
+        "bbox": [
+            193,
+            109,
+            415,
+            123
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "Our reference: FRIM (S).600-5/6/5 Klt. 12(39)",
+        "bbox": [
+            150,
+            125,
+            500,
+            139
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "Date:4 September 2020 ",
+        "bbox": [
+            679,
+            123,
+            872,
+            136
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "MAKMAL PENGUJIAN KOMPOSIT KAYU (WCTL) ",
+        "bbox": [
+            150,
+            871,
+            420,
+            883
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "CONFIDENTIAL ",
+        "text_level": 1,
+        "bbox": [
+            146,
+            167,
+            290,
+            183
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "TEST REPORT ",
+        "text_level": 1,
+        "bbox": [
+            453,
+            198,
+            577,
+            213
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "images/d6c0553b96da905cb1290f99556898edf75a148a5262f010a90819409c90899c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td colspan=\"2\">Job No.: 23/20</td></tr><tr><td>This report consists of 7 pages</td><td>Page 7 of 7</td></tr><tr><td colspan=\"2\">This report is neither a certificate of quality nor an approval certificate. This report only covers samples supplied by the customer to be tested at FRIM. Wood Composite Testing Laboratory is not responsible in the selection of samples for testing. This report or any part of it cannot be published or used for any other purposes except with the permission from FRIM.</td></tr></table>",
+        "bbox": [
+            146,
+            225,
+            889,
+            284
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "TEST RESULTS ",
+        "text_level": 1,
+        "bbox": [
+            146,
+            311,
+            278,
+            325
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "images/6e8442d5684f822525fdd63c7e4a9857f4b09f45cd857af79423c2aaedb57d25.jpg",
+        "table_caption": [
+            "Table 6: Water Absorption (In-house method) - EFB Strand Board (OPLY) "
+        ],
+        "table_footnote": [
+            "Note: ${50}\\mathrm{\\;{mm}} \\times  {50}\\mathrm{\\;{mm}}$ specimens were soaked in ${20}^{ \\circ  }\\mathrm{C}$ water for 24 hours, followed by weight increment determination "
+        ],
+        "table_body": "<table><tr><td>Specimen</td><td>Water Absorption (%)</td></tr><tr><td>1</td><td>58.6</td></tr><tr><td>2</td><td>39.5</td></tr><tr><td>3</td><td>31.0</td></tr><tr><td>4</td><td>53.8</td></tr><tr><td>5</td><td>33.7</td></tr><tr><td>6</td><td>33.2</td></tr><tr><td>7</td><td>58.2</td></tr><tr><td>8</td><td>61.1</td></tr><tr><td>9</td><td>30.2</td></tr><tr><td>10</td><td>28.8</td></tr><tr><td>Average</td><td>42.8</td></tr><tr><td>Std. Deviation</td><td>13.4</td></tr></table>",
+        "bbox": [
+            349,
+            366,
+            683,
+            596
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/f1bd018b78e7de2c9001bb790075b3d37ea1ca93f034694f235f599a70843f1c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            148,
+            677,
+            346,
+            763
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/b34a55f06e6db3e690b2e52e3606e02cf9bcfa86aef78406abafdc0c353f865b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            633,
+            675,
+            861,
+            755
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "CONFIDENTIAL ",
+        "bbox": [
+            704,
+            792,
+            846,
+            809
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "ENYELIDIKAN PERHUTAN MALAYSIA ",
+        "bbox": [
+            69,
+            39,
+            176,
+            116
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "INSTITUT PENYELIDIKAN PERHUTANAN MALAYSIA ",
+        "bbox": [
+            189,
+            48,
+            579,
+            61
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "Forest Research Institute Malaysia (FRIM) ",
+        "bbox": [
+            189,
+            64,
+            506,
+            80
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "52109 Kepong, Selangor ",
+        "bbox": [
+            189,
+            80,
+            361,
+            94
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "Tel: 603-6279 7000 Fax: 603 6273 1314 ",
+        "bbox": [
+            189,
+            95,
+            478,
+            108
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "Portal Rasmi: www.frim.gov.my ",
+        "bbox": [
+            189,
+            111,
+            412,
+            125
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "Our reference: FRIM (S).600-5/6/5 Klt. 12(39)",
+        "bbox": [
+            146,
+            126,
+            495,
+            140
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "Date:4 September 2020 ",
+        "bbox": [
+            676,
+            125,
+            869,
+            139
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "MAKMAL PENGUJIAN KOMPOSIT KAYU (WCTL) ",
+        "bbox": [
+            146,
+            875,
+            417,
+            886
+        ],
+        "page_idx": 7
+    }
+]

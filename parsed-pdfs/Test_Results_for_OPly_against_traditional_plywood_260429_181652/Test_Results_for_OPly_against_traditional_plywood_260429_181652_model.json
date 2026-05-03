@@ -1,0 +1,502 @@
+[
+    [
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.39,
+                0.164,
+                0.608,
+                0.192
+            ],
+            "angle": 0,
+            "content": "Simplified Comparison Table"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.086,
+                0.196,
+                0.913,
+                0.825
+            ],
+            "angle": 0,
+            "content": "<table><tr><td rowspan=\"2\"></td><td colspan=\"2\">Oply 12mm</td><td colspan=\"2\">Plywood 12mm</td><td rowspan=\"2\">Remark</td></tr><tr><td>min</td><td>max</td><td>min</td><td>max</td></tr><tr><td>Density (kg/m3)</td><td>600</td><td>725</td><td>500</td><td>600</td><td>Plywood is lighter by approx. 20% ~ 25%.</td></tr><tr><td>Modulus of Rupture (N/mm2)</td><td>30</td><td>50</td><td>30</td><td>60</td><td>Plywood has two axis - one axis is always greater than the other. Oply MOR is within the range. no different in two axis.</td></tr><tr><td>Thickness Swelling 24 hrs</td><td>8%</td><td>12%</td><td>8%</td><td>14%</td><td>Both are about the same.</td></tr><tr><td>Internal Bonding (N/mm2)</td><td>1</td><td>2</td><td colspan=\"2\">Not Applicable</td><td>To measure the strength of core.\nNote: for plywood - Chisel Test for the bonding quality between plies.\nIB of Oply is better than typical particle board &amp; MDF (at range of 0.8)</td></tr><tr><td>Surface Soundness</td><td colspan=\"2\">Not yet carried out</td><td colspan=\"2\">Not Applicable</td><td>To measure the quality of surface.</td></tr><tr><td>Face Screw Withdrawal (N)</td><td>1,900</td><td>2,200</td><td>1,100</td><td>1,400</td><td rowspan=\"2\">Oply is better than plywood in both face and edge.</td></tr><tr><td>Edge Screw Withdrawal (N)</td><td>1,400</td><td>1,900</td><td>1,050</td><td>1,300</td></tr></table>"
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.218,
+                0.198,
+                0.724,
+                0.23
+            ],
+            "angle": 0,
+            "content": "Oply Test Result - Analysis 1 - Thickness Swelling 24 hr vs. density"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.086,
+                0.291,
+                0.926,
+                0.781
+            ],
+            "angle": 0,
+            "content": null
+        }
+    ],
+    [
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.111,
+                0.191,
+                0.35,
+                0.215
+            ],
+            "angle": 0,
+            "content": "MOR vs. Density (kg/m3) - 9mm Plywood"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.108,
+                0.219,
+                0.479,
+                0.484
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.5,
+                0.194,
+                0.733,
+                0.217
+            ],
+            "angle": 0,
+            "content": "MOR N/mm2 vs. Density (kg/m3) - 12mm"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.499,
+                0.223,
+                0.864,
+                0.481
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.111,
+                0.519,
+                0.364,
+                0.538
+            ],
+            "angle": 0,
+            "content": "MOR N/mm2 vs. Density (kg/m3) - 16mm ~ 17mm Plywood"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.108,
+                0.538,
+                0.483,
+                0.802
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.499,
+                0.519,
+                0.796,
+                0.547
+            ],
+            "angle": 0,
+            "content": "PLYWOOD MOR vs. Density Summary:"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.5,
+                0.547,
+                0.715,
+                0.567
+            ],
+            "angle": 0,
+            "content": "1. The density and MOR are proportional."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.498,
+                0.586,
+                0.848,
+                0.687
+            ],
+            "angle": 0,
+            "content": "2. Same density NOT necessary shows similar MOR. Comparing 16mm & 12mm, approx. same density, 16mm MOR is much lower than 12mm MOR even 16mm is thicker than 12mm, 16mm max MOR is only 25N/mm2 whereas 12mm min MOR is above 30N/mm2."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.498,
+                0.707,
+                0.842,
+                0.748
+            ],
+            "angle": 0,
+            "content": "3. Different orientation shows different MOR by approx double in value."
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.498,
+                0.547,
+                0.848,
+                0.748
+            ],
+            "angle": 0,
+            "content": null
+        }
+    ],
+    [
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.218,
+                0.198,
+                0.577,
+                0.228
+            ],
+            "angle": 0,
+            "content": "Oply Test Result - Analysis 2 - MOR vs. density"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.084,
+                0.279,
+                0.703,
+                0.825
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.735,
+                0.216,
+                0.83,
+                0.24
+            ],
+            "angle": 0,
+            "content": "Commonality:"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.734,
+                0.264,
+                0.817,
+                0.285
+            ],
+            "angle": 0,
+            "content": "fiber HK was"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.735,
+                0.29,
+                0.863,
+                0.31
+            ],
+            "angle": 0,
+            "content": "hammermill 1 x with"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.735,
+                0.315,
+                0.808,
+                0.333
+            ],
+            "angle": 0,
+            "content": "screen size"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.736,
+                0.338,
+                0.845,
+                0.358
+            ],
+            "angle": 0,
+            "content": "12mm/shieved to"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.735,
+                0.363,
+                0.879,
+                0.382
+            ],
+            "angle": 0,
+            "content": "remove dust and flour"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.735,
+                0.386,
+                0.884,
+                0.408
+            ],
+            "angle": 0,
+            "content": "dust/Resin no heating"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.735,
+                0.41,
+                0.875,
+                0.432
+            ],
+            "angle": 0,
+            "content": "45C/pmdi sg buloh/sc"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.735,
+                0.434,
+                0.876,
+                0.456
+            ],
+            "angle": 0,
+            "content": "95%/fiber length 2.82"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.735,
+                0.46,
+                0.795,
+                0.48
+            ],
+            "angle": 0,
+            "content": "cm(AVG)"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.735,
+                0.505,
+                0.872,
+                0.528
+            ],
+            "angle": 0,
+            "content": "MOR range 35 ~ 40+"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.736,
+                0.531,
+                0.789,
+                0.552
+            ],
+            "angle": 0,
+            "content": "Sample:"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.736,
+                0.556,
+                0.844,
+                0.575
+            ],
+            "angle": 0,
+            "content": "68, 69, *70 & *71"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.736,
+                0.602,
+                0.861,
+                0.624
+            ],
+            "angle": 0,
+            "content": "*70 & 71 resin 11%."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.736,
+                0.625,
+                0.88,
+                0.646
+            ],
+            "angle": 0,
+            "content": "Resin \\(10\\%\\) sample 56"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.736,
+                0.649,
+                0.851,
+                0.67
+            ],
+            "angle": 0,
+            "content": "Resin no heating."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.719,
+                0.722,
+                0.854,
+                0.748
+            ],
+            "angle": 0,
+            "content": "NOTE: ALL these"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.72,
+                0.752,
+                0.892,
+                0.778
+            ],
+            "angle": 0,
+            "content": "sample data with TS at"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.72,
+                0.781,
+                0.845,
+                0.806
+            ],
+            "angle": 0,
+            "content": "range \\(9\\%\\) - \\(12\\%\\)."
+        }
+    ],
+    [
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.218,
+                0.198,
+                0.703,
+                0.23
+            ],
+            "angle": 0,
+            "content": "Oply Test Result - Analysis 3a - Plywood Screw Withdrawal Test"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.084,
+                0.254,
+                0.911,
+                0.781
+            ],
+            "angle": 0,
+            "content": null
+        }
+    ],
+    [
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.218,
+                0.198,
+                0.703,
+                0.23
+            ],
+            "angle": 0,
+            "content": "Oply Test Result - Analysis 3b - Plywood Screw Withdrawal Test"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.083,
+                0.255,
+                0.903,
+                0.779
+            ],
+            "angle": 0,
+            "content": null
+        }
+    ],
+    [
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.218,
+                0.199,
+                0.723,
+                0.228
+            ],
+            "angle": 0,
+            "content": "Oply Test Result - Analysis 3c - Oply FACE Screw Withdrawal Test"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.084,
+                0.234,
+                0.911,
+                0.766
+            ],
+            "angle": 0,
+            "content": null
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.218,
+                0.198,
+                0.726,
+                0.23
+            ],
+            "angle": 0,
+            "content": "Oply Test Result - Analysis 3d - Oply EDGE Screw Withdrawal Test"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.083,
+                0.279,
+                0.894,
+                0.793
+            ],
+            "angle": 0,
+            "content": null
+        }
+    ]
+]

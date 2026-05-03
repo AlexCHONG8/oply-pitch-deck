@@ -1,0 +1,792 @@
+[
+    {
+        "type": "text",
+        "text": "TEST REPORT ",
+        "text_level": 1,
+        "bbox": [
+            396,
+            177,
+            679,
+            201
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/755e5e2f6a380edc39e2f927d8a220c87dd05091337cd2d91b2aaca7aea688ac.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>LABORATORY: MECHANICAL (ML)\nSERIES NO: FIDEC/10/2020\nTEST SAMPLE RECEIVED: 26 JUN 2020</td><td>DATE OF REPORT: 10 JUL 2020</td></tr><tr><td>COMPANY/ORGANIZATION:\nLEMBAGA MINYAK SAWIT\nMALAYSIA(MPOB),\nJALAN SEKOLAH, PEKAN BANGI LAMA,\n43000 KAJANG, SELANGOR</td><td>CONTACT PERSON: MR.ZAWAWI\nIBRAHIM\nTEL: 013-3547590\nFAX:\nEMAIL: zawawi@mpob.gov.my</td></tr><tr><td colspan=\"2\">TYPE OF MATERIAL: SB BOARD 12mm\nQUANTITY:\n10 PCS - BENDING STRENGTH\n10 PCS - THICKNESS SWELLING/ WATER ABSORPTION\n10 PCS - INTERNAL BONDING\n10 PCS - SCREW WITHDRAWAL (FACE)\n10 PCS - SURFACE SOUNDNESS</td></tr><tr><td colspan=\"2\">TEST REQUIREMENTS:\n• BS EN 310:1993 - Wood based panels. Determination of Modulus of Elasticity in Bending and of Bending Strength\n• *BS EN 319:1993 - Particleboards and fibreboards. Determination of tensile strength perpendicular the plane.\n• *BS EN 317: 1993 - Particleboards and fibreboards. Determination of swelling in thickness after immersion in water\n• *BS EN 320:2011 - Particleboards and fibreboards. Determination of resistance to axial withdrawal of screws.\n• *BS EN 311:2002 - Wood based panels. Surface Soundness. Test Method.</td></tr><tr><td colspan=\"2\">CONFORMANCE TO TEST REQUIREMENTS:\nSample FIBREBOARD (refers as a FIDEC/10/2020) has been tested according to BS EN 310:1993, BS EN 319: 1993, BS EN 317: 1993, BS EN 320:2011, BS EN 311:2002.</td></tr><tr><td colspan=\"2\">APPROVED SIGNATORY:\n(Available at\n(DR. LOH YUEH FENG)</td></tr></table>",
+        "bbox": [
+            169,
+            218,
+            906,
+            838
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Series No.: FIDEC/10/20 ",
+        "bbox": [
+            169,
+            894,
+            386,
+            908
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Page 1 of 3 ",
+        "bbox": [
+            524,
+            896,
+            619,
+            909
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/541b7444628f743adabb02fda62280db3f4d0317dd4095de643efdb882d6102a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            768,
+            878,
+            828,
+            924
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "N ",
+        "bbox": [
+            90,
+            29,
+            173,
+            90
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "MTIB ",
+        "bbox": [
+            90,
+            91,
+            174,
+            109
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "LEMBAGA PERINDUSTRIAN KAYU MALAYSIA ",
+        "bbox": [
+            190,
+            27,
+            627,
+            41
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "MALAYSIAN TIMBER INDUSTRY BOARD ",
+        "bbox": [
+            190,
+            42,
+            477,
+            52
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "(Kementerian Industri Utama) ",
+        "bbox": [
+            192,
+            52,
+            370,
+            63
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "QUALITY SYSTEM UKA S QUANTUM MANAGEMENT 074 ",
+        "bbox": [
+            635,
+            23,
+            781,
+            83
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "MS ISO 9001:2008 REG NO. AR 3307 ",
+        "bbox": [
+            635,
+            84,
+            781,
+            90
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Iac-MRA ",
+        "bbox": [
+            789,
+            23,
+            881,
+            88
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "STANDARDS MALAYSIA ACRDTED CERTIFICATION BODY ",
+        "bbox": [
+            881,
+            24,
+            988,
+            67
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "MS ISO/IEC 17025 ",
+        "bbox": [
+            896,
+            70,
+            975,
+            79
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "TEST ",
+        "bbox": [
+            904,
+            79,
+            944,
+            86
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "SAMM NO.671 ",
+        "bbox": [
+            904,
+            86,
+            969,
+            90
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "PERKHIDMATAN BERKUALITI KEPUASAN PELANGGAN ",
+        "bbox": [
+            252,
+            925,
+            791,
+            940
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/11446f914d1e04b4f36bbbbcb944878376019d8244bc406ccd4a7662edd55d6c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"2\">DATE OF TEST:</td><td>START : 27 JUN 2020</td></tr><tr><td>END : 03 JUL 2020</td></tr><tr><td>TEMPERATURE TESTING ROOM:</td><td>23.5°C</td></tr><tr><td>RELATIVE HUMIDITY TESTING ROOM</td><td>50.2%\n%</td></tr><tr><td colspan=\"2\">NUMBER OF SAMPLES : FIDEC/10/20</td></tr></table>",
+        "bbox": [
+            190,
+            132,
+            875,
+            247
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/2dc1b0d23afcca376cd26f281c47d13dd563ec6da32603e1989d22b2b6dce483.jpg",
+        "table_caption": [
+            "BS EN 310: 1993 Wood based panels. Determination of modulus of elasticity in bending and of bending strength. "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>No.</td><td>TEST DESCRIPTION</td><td>RESULT</td><td>STDV</td><td>CV%</td></tr><tr><td>1.0</td><td>Modulus of Rupture (MOR)</td><td>39.6 MPa</td><td>3.75</td><td>9.48%</td></tr><tr><td>2.0</td><td>Modulus of Elasticity (MOE)</td><td>2180 MPa</td><td>183.94</td><td>8.45%</td></tr></table>",
+        "bbox": [
+            199,
+            320,
+            860,
+            400
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/c3241a12c0151697a997935f6d7a33c3be3cddf426e4869ef34a376eded17b71.jpg",
+        "table_caption": [
+            "* BS EN 319:1993 Particleboards and fibreboards- Determination of tensile strength perpendicular to the plane "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>SAMPLE</td><td>Internal Bonding (MPa)</td></tr><tr><td>1.0</td><td>1.8 MPa</td></tr></table>",
+        "bbox": [
+            195,
+            504,
+            860,
+            565
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/d95b5eb9617b3cf27421a1c22ab987e3f40663ea72b87ab5581530292bebaef8.jpg",
+        "table_caption": [
+            "* BS EN 317: 1993 - Particleboards and fibreboards. Determination of swelling in thickness after immersion in water "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Sample</td><td rowspan=\"3\">Hours</td><td colspan=\"3\">Thickness Swelling</td><td colspan=\"3\">Water Absorption</td></tr><tr><td rowspan=\"2\">(%)</td><td colspan=\"2\">(mm)</td><td rowspan=\"2\">(%)</td><td colspan=\"2\">(gram)</td></tr><tr><td>Before</td><td>After</td><td>Before</td><td>After</td></tr><tr><td>1.0</td><td>24</td><td>9.0</td><td>11.72</td><td>12.78</td><td>34.6</td><td>21.74</td><td>29.19</td></tr></table>",
+        "bbox": [
+            192,
+            662,
+            860,
+            790
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "中",
+        "bbox": [
+            97,
+            29,
+            181,
+            91
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "MTIB ",
+        "bbox": [
+            98,
+            92,
+            181,
+            110
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "LEMBAGA PERINDUSTRIAN KAYU MALAYSIA ",
+        "bbox": [
+            197,
+            29,
+            632,
+            42
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "MALAYSIAN TIMBER INDUSTRY BOARD ",
+        "bbox": [
+            199,
+            43,
+            483,
+            52
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "(Kementerian Industri Utama) ",
+        "bbox": [
+            200,
+            54,
+            377,
+            64
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "QUALITY SYSTEM UKA S QUALITY MANAGEMENT SIRIM 074 ",
+        "bbox": [
+            642,
+            28,
+            788,
+            85
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "MS ISO 9001:2008 REG NO. AR 3307 ",
+        "bbox": [
+            642,
+            85,
+            789,
+            91
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "Iac-MRA ",
+        "bbox": [
+            794,
+            23,
+            886,
+            90
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "STANDARDS MALAYSIA ",
+        "bbox": [
+            886,
+            25,
+            988,
+            68
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "MS ISO/IEC 17025 ",
+        "bbox": [
+            904,
+            73,
+            983,
+            79
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "TESTING ",
+        "bbox": [
+            920,
+            81,
+            975,
+            87
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "SAMM NO.671 ",
+        "bbox": [
+            909,
+            87,
+            975,
+            92
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "Pusat Biokomposit dan Gentian (FIDEC) ",
+        "bbox": [
+            190,
+            69,
+            420,
+            79
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "Lot 152, Jalan 4, Kompleks Perabot Olak Lempit, 42700 Banting ",
+        "bbox": [
+            199,
+            81,
+            548,
+            91
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "Tel: 603-3149 1502 / 1509 Fax: 603-3149 1607 ",
+        "bbox": [
+            200,
+            92,
+            459,
+            101
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "Portal Rasmi: www.mtib.gov.my ",
+        "bbox": [
+            200,
+            103,
+            375,
+            114
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "Series No.: FIDEC/10/20 ",
+        "bbox": [
+            173,
+            894,
+            389,
+            909
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "Page 2 of 3 ",
+        "bbox": [
+            525,
+            897,
+            622,
+            911
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "$\\therefore m : x = 1$ 或 ${3x} + {4y} + 1 = 0$ ",
+        "bbox": [
+            733,
+            887,
+            805,
+            926
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "PERKHIDMATAN BERKUALITI KEPUASAN PELANGGAN ",
+        "bbox": [
+            255,
+            926,
+            794,
+            941
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/500e9c0a3dfc1356042aaa84c984a574e9ab5371021a10ab2e8564376d987d2b.jpg",
+        "table_caption": [
+            "*BS EN 320:2011 - Particleboards and fibreboards. Determination of resistance to axial withdrawal of screws. "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"2\">SAMPLE</td><td colspan=\"3\">Screw Withdrawal</td></tr><tr><td colspan=\"2\">Face</td><td>Edge</td></tr><tr><td rowspan=\"2\">1.0</td><td>Max Force (N)</td><td>Screw strength\n(N/mm)</td><td>Max Force (N)</td></tr><tr><td>1993</td><td>173.1</td><td>NR</td></tr></table>",
+        "bbox": [
+            192,
+            199,
+            862,
+            295
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/0db5825261994ad091bf40797531303a965c92ea77aad861ec0e575f22889feb.jpg",
+        "table_caption": [
+            "*BS EN 311:2002 - Wood based panels. Surface Soundness. Test Method. "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>SAMPLE</td><td>Surface Soundness (MPa)</td></tr><tr><td>1.0</td><td>2.64 MPa</td></tr></table>",
+        "bbox": [
+            192,
+            377,
+            860,
+            439
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "* non accredited test ",
+            "* NR- no relevant "
+        ],
+        "bbox": [
+            189,
+            561,
+            334,
+            588
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Note: ",
+        "bbox": [
+            192,
+            604,
+            236,
+            615
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "This report is neither a certificate of quality nor an approval certificate. This report is only covers sample supplied by customer to be tested at MTIB. Mechanical Testing Laboratory is not responsible in selection of samples for testing. This report or any part of it cannot be published or used of any other purpose except with the permission from MTIB. ",
+        "bbox": [
+            189,
+            631,
+            873,
+            691
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "TESTED BY: ",
+        "bbox": [
+            187,
+            736,
+            292,
+            750
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/bd727370f914f25caf9d4f0f8301b2511e8e625bd68193a281c4e7a7bc75bc06.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            186,
+            766,
+            433,
+            809
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "MOHD RADZI BIN BUANG ",
+        "bbox": [
+            187,
+            811,
+            412,
+            824
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "TECHNICAL ASSISTANT ",
+        "bbox": [
+            186,
+            835,
+            391,
+            855
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "CHECKED BY: ",
+        "bbox": [
+            597,
+            739,
+            721,
+            752
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/7a4c403013f527737e7870a4a2612db03da788d3523e5091666cc11d3bec3cf5.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            533,
+            757,
+            804,
+            813
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "DR LOH YUEH FENG ",
+        "bbox": [
+            572,
+            814,
+            757,
+            826
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "APPROVED SIGNATORY ",
+        "bbox": [
+            563,
+            838,
+            766,
+            851
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "MTIB ",
+        "bbox": [
+            88,
+            32,
+            173,
+            115
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "LEMBAGA PERINDUSTRIAN KAYU MALAYSIA  \nMALAYSIAN TIMBER INDUSTRY BOARD  \n(Kementerian Industri Utama) ",
+        "bbox": [
+            189,
+            31,
+            626,
+            67
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "Pusat Biokomposit dan Gentian (FIDEC) ",
+        "bbox": [
+            190,
+            72,
+            415,
+            83
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "Lot 152, Jalan 4, Kompleks Olak Lempit, 42700 Banting ",
+        "bbox": [
+            190,
+            84,
+            542,
+            95
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "Tel: 603-3149 1502 / 1509 Fax: 603-3149 1607 ",
+        "bbox": [
+            190,
+            95,
+            454,
+            105
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "Portal Rasmi: www.mtib.gov.my ",
+        "bbox": [
+            190,
+            106,
+            370,
+            118
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "QUALITY SYSTEM UKAS QUALITY MANAGEMENT   \nSIRIM 074   \nMS ISO 9001:2008 REG NO.AR3307 ",
+        "bbox": [
+            635,
+            29,
+            783,
+            93
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "Iac-MRA ",
+        "bbox": [
+            789,
+            25,
+            878,
+            92
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "STANDARDS MALAYSIA  \nACcredited CERTIFICATION CODE  \nMS ISO/IEC 17025 TESTING SAMM NO.671 ",
+        "bbox": [
+            881,
+            25,
+            988,
+            93
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "Series No.: FIDEC/10/20 ",
+        "bbox": [
+            166,
+            890,
+            385,
+            906
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "Page 3 of 3 ",
+        "bbox": [
+            522,
+            893,
+            616,
+            906
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "$\\frac{5}{1} + u + {4q} = 1 + u + {uq}$ dH ",
+        "bbox": [
+            765,
+            881,
+            820,
+            931
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "PERKHIDMATAN BERKUALITI KEPUASAN PELANGGAN ",
+        "bbox": [
+            254,
+            929,
+            792,
+            943
+        ],
+        "page_idx": 2
+    }
+]

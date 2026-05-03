@@ -1,0 +1,410 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/f1ffb65be12bf80d6cbd06fb2b3aa9081bb48255333d8ab6a3bda5b1e2a5a521.jpg",
+        "table_caption": [
+            "Simplified Comparison Table "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"2\"></td><td colspan=\"2\">Oply 12mm</td><td colspan=\"2\">Plywood 12mm</td><td rowspan=\"2\">Remark</td></tr><tr><td>min</td><td>max</td><td>min</td><td>max</td></tr><tr><td>Density (kg/m3)</td><td>600</td><td>725</td><td>500</td><td>600</td><td>Plywood is lighter by approx. 20% ~ 25%.</td></tr><tr><td>Modulus of Rupture (N/mm2)</td><td>30</td><td>50</td><td>30</td><td>60</td><td>Plywood has two axis - one axis is always greater than the other. Oply MOR is within the range. no different in two axis.</td></tr><tr><td>Thickness Swelling 24 hrs</td><td>8%</td><td>12%</td><td>8%</td><td>14%</td><td>Both are about the same.</td></tr><tr><td>Internal Bonding (N/mm2)</td><td>1</td><td>2</td><td colspan=\"2\">Not Applicable</td><td>To measure the strength of core.\nNote: for plywood - Chisel Test for the bonding quality between plies.\nIB of Oply is better than typical particle board &amp; MDF (at range of 0.8)</td></tr><tr><td>Surface Soundness</td><td colspan=\"2\">Not yet carried out</td><td colspan=\"2\">Not Applicable</td><td>To measure the quality of surface.</td></tr><tr><td>Face Screw Withdrawal (N)</td><td>1,900</td><td>2,200</td><td>1,100</td><td>1,400</td><td rowspan=\"2\">Oply is better than plywood in both face and edge.</td></tr><tr><td>Edge Screw Withdrawal (N)</td><td>1,400</td><td>1,900</td><td>1,050</td><td>1,300</td></tr></table>",
+        "bbox": [
+            85,
+            194,
+            912,
+            823
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Oply Test Result - Analysis 1 - Thickness Swelling 24 hr vs. density ",
+        "text_level": 1,
+        "bbox": [
+            217,
+            196,
+            722,
+            228
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/df9814fb21871292ce7e82573e7afe7e3c24cedc8a334937f09dd9c7b7c4245d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            85,
+            290,
+            925,
+            779
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/d97c0fb4e416a40daef324792cf6893c38997b3488884c422256c79518037cc5.jpg",
+        "image_caption": [
+            "MOR vs. Density (kg/m3) - 9mm Plywood "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            107,
+            218,
+            478,
+            482
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/9fb586bfce01b688c173b44dfe08304d781fef82d4b863f5e5dbae39b2a8174e.jpg",
+        "image_caption": [
+            "MOR N/mm2 vs. Density (kg/m3) - 12mm "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            498,
+            221,
+            863,
+            480
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/bda64e8ca7687d795d61b3d12297abb67971f81717faac5c22b4473da0461fc6.jpg",
+        "image_caption": [
+            "MOR N/mm2 vs. Density (kg/m3) - 16mm ~ 17mm Plywood "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            107,
+            537,
+            482,
+            801
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "PLYWOOD MOR vs. Density Summary: ",
+        "text_level": 1,
+        "bbox": [
+            498,
+            517,
+            795,
+            546
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "1. The density and MOR are proportional. ",
+            "2. Same density NOT necessary shows similar MOR. Comparing 16mm & 12mm, approx. same density, 16mm MOR is much lower than 12mm MOR even 16mm is thicker than 12mm, 16mm max MOR is only 25N/mm2 whereas 12mm min MOR is above 30N/mm2. ",
+            "3. Different orientation shows different MOR by approx double in value. "
+        ],
+        "bbox": [
+            497,
+            546,
+            847,
+            747
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/e4630b562cea8dba16d83e0d353637731fbf6cbf2969a49cd1d85e9e9dfa1c73.jpg",
+        "image_caption": [
+            "Oply Test Result - Analysis 2 - MOR vs. density "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            83,
+            278,
+            702,
+            823
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Commonality: ",
+        "bbox": [
+            734,
+            215,
+            829,
+            238
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "fiber HK was ",
+        "bbox": [
+            733,
+            263,
+            816,
+            284
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "hammermill 1 x with ",
+        "bbox": [
+            734,
+            289,
+            862,
+            309
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "screen size ",
+        "bbox": [
+            734,
+            314,
+            807,
+            332
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "12mm/shieved to ",
+        "bbox": [
+            734,
+            337,
+            844,
+            357
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "remove dust and flour ",
+        "bbox": [
+            734,
+            361,
+            878,
+            381
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "dust/Resin no heating ",
+        "bbox": [
+            734,
+            384,
+            883,
+            406
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "45C/pmdi sg buloh/sc ",
+        "bbox": [
+            734,
+            408,
+            873,
+            431
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "95%/fiber length 2.82 ",
+        "bbox": [
+            734,
+            433,
+            875,
+            455
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "cm(AVG) ",
+        "bbox": [
+            734,
+            458,
+            794,
+            478
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "MOR range 35 ~ 40+ ",
+        "bbox": [
+            734,
+            504,
+            871,
+            527
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Sample: ",
+        "bbox": [
+            734,
+            529,
+            788,
+            551
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "68, 69, *70 & *71 ",
+        "bbox": [
+            734,
+            554,
+            843,
+            574
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "*70 & 71 resin 11%. ",
+        "bbox": [
+            734,
+            601,
+            860,
+            623
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Resin $10\\%$ sample 56 ",
+        "bbox": [
+            734,
+            623,
+            879,
+            645
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Resin no heating. ",
+        "bbox": [
+            734,
+            648,
+            850,
+            668
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "NOTE: ALL these ",
+        "bbox": [
+            718,
+            721,
+            853,
+            747
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "sample data with TS at ",
+        "bbox": [
+            719,
+            751,
+            891,
+            776
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "range $9\\%$ - $12\\%$ . ",
+        "bbox": [
+            719,
+            779,
+            844,
+            805
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/e2cd9221b19ec88d8df779ad34e29d8675d8864e3e1db465ed50078d4aff9cf9.jpg",
+        "image_caption": [
+            "Oply Test Result - Analysis 3a - Plywood Screw Withdrawal Test "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            83,
+            253,
+            910,
+            779
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/495e1033d7324b91025a36be9c316f3b9dfe744fac9f15a34115b5dc8029e60e.jpg",
+        "image_caption": [
+            "Oply Test Result - Analysis 3b - Plywood Screw Withdrawal Test "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            82,
+            253,
+            902,
+            778
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/93d8904c96abc70d3edca4ffbdcc0a32ca455b552c5cb29cec1b455be178efd8.jpg",
+        "image_caption": [
+            "Oply Test Result - Analysis 3c - Oply FACE Screw Withdrawal Test "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            83,
+            233,
+            910,
+            764
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Oply Test Result - Analysis 3d - Oply EDGE Screw Withdrawal Test ",
+        "text_level": 1,
+        "bbox": [
+            217,
+            196,
+            725,
+            228
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/e9b4f9e462649d336916c0c4e88ff225220ed28591cecb7826c4b0fea660f52a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            82,
+            278,
+            892,
+            791
+        ],
+        "page_idx": 7
+    }
+]

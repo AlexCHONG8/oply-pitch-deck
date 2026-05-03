@@ -1,0 +1,1702 @@
+{
+    "pdf_info": [
+        {
+            "para_blocks": [
+                {
+                    "type": "table",
+                    "bbox": [
+                        72,
+                        116,
+                        767,
+                        490
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                327,
+                                97,
+                                511,
+                                114
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        327,
+                                        97,
+                                        511,
+                                        114
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                327,
+                                                97,
+                                                511,
+                                                114
+                                            ],
+                                            "type": "text",
+                                            "content": "Simplified Comparison Table"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 0,
+                            "angle": 0,
+                            "type": "table_caption"
+                        },
+                        {
+                            "bbox": [
+                                72,
+                                116,
+                                767,
+                                490
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        72,
+                                        116,
+                                        767,
+                                        490
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                116,
+                                                767,
+                                                490
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=\"2\"></td><td colspan=\"2\">Oply 12mm</td><td colspan=\"2\">Plywood 12mm</td><td rowspan=\"2\">Remark</td></tr><tr><td>min</td><td>max</td><td>min</td><td>max</td></tr><tr><td>Density (kg/m3)</td><td>600</td><td>725</td><td>500</td><td>600</td><td>Plywood is lighter by approx. 20% ~ 25%.</td></tr><tr><td>Modulus of Rupture (N/mm2)</td><td>30</td><td>50</td><td>30</td><td>60</td><td>Plywood has two axis - one axis is always greater than the other. Oply MOR is within the range. no different in two axis.</td></tr><tr><td>Thickness Swelling 24 hrs</td><td>8%</td><td>12%</td><td>8%</td><td>14%</td><td>Both are about the same.</td></tr><tr><td>Internal Bonding (N/mm2)</td><td>1</td><td>2</td><td colspan=\"2\">Not Applicable</td><td>To measure the strength of core.\nNote: for plywood - Chisel Test for the bonding quality between plies.\nIB of Oply is better than typical particle board &amp; MDF (at range of 0.8)</td></tr><tr><td>Surface Soundness</td><td colspan=\"2\">Not yet carried out</td><td colspan=\"2\">Not Applicable</td><td>To measure the quality of surface.</td></tr><tr><td>Face Screw Withdrawal (N)</td><td>1,900</td><td>2,200</td><td>1,100</td><td>1,400</td><td rowspan=\"2\">Oply is better than plywood in both face and edge.</td></tr><tr><td>Edge Screw Withdrawal (N)</td><td>1,400</td><td>1,900</td><td>1,050</td><td>1,300</td></tr></table>",
+                                            "image_path": "f1ffb65be12bf80d6cbd06fb2b3aa9081bb48255333d8ab6a3bda5b1e2a5a521.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 1,
+                            "angle": 0,
+                            "type": "table_body"
+                        }
+                    ],
+                    "index": 1
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                841,
+                595
+            ],
+            "page_idx": 0
+        },
+        {
+            "para_blocks": [
+                {
+                    "bbox": [
+                        183,
+                        117,
+                        608,
+                        136
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                183,
+                                117,
+                                608,
+                                136
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        183,
+                                        117,
+                                        608,
+                                        136
+                                    ],
+                                    "type": "text",
+                                    "content": "Oply Test Result - Analysis 1 - Thickness Swelling 24 hr vs. density"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        72,
+                        173,
+                        778,
+                        464
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                72,
+                                173,
+                                778,
+                                464
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        72,
+                                        173,
+                                        778,
+                                        464
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                173,
+                                                778,
+                                                464
+                                            ],
+                                            "type": "image",
+                                            "image_path": "df9814fb21871292ce7e82573e7afe7e3c24cedc8a334937f09dd9c7b7c4245d.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 1,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 1
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                841,
+                595
+            ],
+            "page_idx": 1
+        },
+        {
+            "para_blocks": [
+                {
+                    "type": "image",
+                    "bbox": [
+                        90,
+                        130,
+                        402,
+                        287
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                93,
+                                113,
+                                294,
+                                127
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        93,
+                                        113,
+                                        294,
+                                        127
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                93,
+                                                113,
+                                                294,
+                                                127
+                                            ],
+                                            "type": "text",
+                                            "content": "MOR vs. Density (kg/m3) - 9mm Plywood"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 0,
+                            "angle": 0,
+                            "type": "image_caption"
+                        },
+                        {
+                            "bbox": [
+                                90,
+                                130,
+                                402,
+                                287
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        90,
+                                        130,
+                                        402,
+                                        287
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                90,
+                                                130,
+                                                402,
+                                                287
+                                            ],
+                                            "type": "image",
+                                            "image_path": "d97c0fb4e416a40daef324792cf6893c38997b3488884c422256c79518037cc5.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 1,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        419,
+                        132,
+                        726,
+                        286
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                420,
+                                115,
+                                616,
+                                129
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        420,
+                                        115,
+                                        616,
+                                        129
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                420,
+                                                115,
+                                                616,
+                                                129
+                                            ],
+                                            "type": "text",
+                                            "content": "MOR N/mm2 vs. Density (kg/m3) - 12mm"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2,
+                            "angle": 0,
+                            "type": "image_caption"
+                        },
+                        {
+                            "bbox": [
+                                419,
+                                132,
+                                726,
+                                286
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        419,
+                                        132,
+                                        726,
+                                        286
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                419,
+                                                132,
+                                                726,
+                                                286
+                                            ],
+                                            "type": "image",
+                                            "image_path": "9fb586bfce01b688c173b44dfe08304d781fef82d4b863f5e5dbae39b2a8174e.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        90,
+                        320,
+                        406,
+                        477
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                93,
+                                308,
+                                306,
+                                320
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        93,
+                                        308,
+                                        306,
+                                        320
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                93,
+                                                308,
+                                                306,
+                                                320
+                                            ],
+                                            "type": "text",
+                                            "content": "MOR N/mm2 vs. Density (kg/m3) - 16mm ~ 17mm Plywood"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 4,
+                            "angle": 0,
+                            "type": "image_caption"
+                        },
+                        {
+                            "bbox": [
+                                90,
+                                320,
+                                406,
+                                477
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        90,
+                                        320,
+                                        406,
+                                        477
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                90,
+                                                320,
+                                                406,
+                                                477
+                                            ],
+                                            "type": "image",
+                                            "image_path": "bda64e8ca7687d795d61b3d12297abb67971f81717faac5c22b4473da0461fc6.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 5,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 5
+                },
+                {
+                    "bbox": [
+                        419,
+                        308,
+                        669,
+                        325
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                419,
+                                308,
+                                669,
+                                325
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        419,
+                                        308,
+                                        669,
+                                        325
+                                    ],
+                                    "type": "text",
+                                    "content": "PLYWOOD MOR vs. Density Summary:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        418,
+                        325,
+                        713,
+                        445
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 10,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                420,
+                                325,
+                                601,
+                                337
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        420,
+                                        325,
+                                        601,
+                                        337
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                420,
+                                                325,
+                                                601,
+                                                337
+                                            ],
+                                            "type": "text",
+                                            "content": "1. The density and MOR are proportional."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "bbox": [
+                                418,
+                                348,
+                                713,
+                                408
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        418,
+                                        348,
+                                        713,
+                                        408
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                418,
+                                                348,
+                                                713,
+                                                408
+                                            ],
+                                            "type": "text",
+                                            "content": "2. Same density NOT necessary shows similar MOR. Comparing 16mm & 12mm, approx. same density, 16mm MOR is much lower than 12mm MOR even 16mm is thicker than 12mm, 16mm max MOR is only 25N/mm2 whereas 12mm min MOR is above 30N/mm2."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "bbox": [
+                                418,
+                                420,
+                                708,
+                                445
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        418,
+                                        420,
+                                        708,
+                                        445
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                418,
+                                                420,
+                                                708,
+                                                445
+                                            ],
+                                            "type": "text",
+                                            "content": "3. Different orientation shows different MOR by approx double in value."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 9
+                        }
+                    ],
+                    "sub_type": "text"
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                841,
+                595
+            ],
+            "page_idx": 2
+        },
+        {
+            "para_blocks": [
+                {
+                    "type": "image",
+                    "bbox": [
+                        70,
+                        166,
+                        591,
+                        490
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                183,
+                                117,
+                                485,
+                                135
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        183,
+                                        117,
+                                        485,
+                                        135
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                183,
+                                                117,
+                                                485,
+                                                135
+                                            ],
+                                            "type": "text",
+                                            "content": "Oply Test Result - Analysis 2 - MOR vs. density"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 0,
+                            "angle": 0,
+                            "type": "image_caption"
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                166,
+                                591,
+                                490
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        166,
+                                        591,
+                                        490
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                70,
+                                                166,
+                                                591,
+                                                490
+                                            ],
+                                            "type": "image",
+                                            "image_path": "e4630b562cea8dba16d83e0d353637731fbf6cbf2969a49cd1d85e9e9dfa1c73.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 1,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        618,
+                        128,
+                        698,
+                        142
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                618,
+                                128,
+                                698,
+                                142
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        618,
+                                        128,
+                                        698,
+                                        142
+                                    ],
+                                    "type": "text",
+                                    "content": "Commonality:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "bbox": [
+                        617,
+                        157,
+                        687,
+                        169
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                617,
+                                157,
+                                687,
+                                169
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        617,
+                                        157,
+                                        687,
+                                        169
+                                    ],
+                                    "type": "text",
+                                    "content": "fiber HK was"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "bbox": [
+                        618,
+                        172,
+                        725,
+                        184
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                618,
+                                172,
+                                725,
+                                184
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        618,
+                                        172,
+                                        725,
+                                        184
+                                    ],
+                                    "type": "text",
+                                    "content": "hammermill 1 x with"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "bbox": [
+                        618,
+                        187,
+                        679,
+                        198
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                618,
+                                187,
+                                679,
+                                198
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        618,
+                                        187,
+                                        679,
+                                        198
+                                    ],
+                                    "type": "text",
+                                    "content": "screen size"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5
+                },
+                {
+                    "bbox": [
+                        618,
+                        201,
+                        710,
+                        213
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                618,
+                                201,
+                                710,
+                                213
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        618,
+                                        201,
+                                        710,
+                                        213
+                                    ],
+                                    "type": "text",
+                                    "content": "12mm/shieved to"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        618,
+                        215,
+                        739,
+                        227
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                618,
+                                215,
+                                739,
+                                227
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        618,
+                                        215,
+                                        739,
+                                        227
+                                    ],
+                                    "type": "text",
+                                    "content": "remove dust and flour"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7
+                },
+                {
+                    "bbox": [
+                        618,
+                        229,
+                        743,
+                        242
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                618,
+                                229,
+                                743,
+                                242
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        618,
+                                        229,
+                                        743,
+                                        242
+                                    ],
+                                    "type": "text",
+                                    "content": "dust/Resin no heating"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "bbox": [
+                        618,
+                        243,
+                        735,
+                        257
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                618,
+                                243,
+                                735,
+                                257
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        618,
+                                        243,
+                                        735,
+                                        257
+                                    ],
+                                    "type": "text",
+                                    "content": "45C/pmdi sg buloh/sc"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9
+                },
+                {
+                    "bbox": [
+                        618,
+                        258,
+                        736,
+                        271
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                618,
+                                258,
+                                736,
+                                271
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        618,
+                                        258,
+                                        736,
+                                        271
+                                    ],
+                                    "type": "text",
+                                    "content": "95%/fiber length 2.82"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10
+                },
+                {
+                    "bbox": [
+                        618,
+                        273,
+                        668,
+                        285
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                618,
+                                273,
+                                668,
+                                285
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        618,
+                                        273,
+                                        668,
+                                        285
+                                    ],
+                                    "type": "text",
+                                    "content": "cm(AVG)"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11
+                },
+                {
+                    "bbox": [
+                        618,
+                        300,
+                        733,
+                        314
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                618,
+                                300,
+                                733,
+                                314
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        618,
+                                        300,
+                                        733,
+                                        314
+                                    ],
+                                    "type": "text",
+                                    "content": "MOR range 35 ~ 40+"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12
+                },
+                {
+                    "bbox": [
+                        618,
+                        315,
+                        663,
+                        328
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                618,
+                                315,
+                                663,
+                                328
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        618,
+                                        315,
+                                        663,
+                                        328
+                                    ],
+                                    "type": "text",
+                                    "content": "Sample:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13
+                },
+                {
+                    "bbox": [
+                        618,
+                        330,
+                        709,
+                        342
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                618,
+                                330,
+                                709,
+                                342
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        618,
+                                        330,
+                                        709,
+                                        342
+                                    ],
+                                    "type": "text",
+                                    "content": "68, 69, *70 & *71"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14
+                },
+                {
+                    "bbox": [
+                        618,
+                        358,
+                        724,
+                        371
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                618,
+                                358,
+                                724,
+                                371
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        618,
+                                        358,
+                                        724,
+                                        371
+                                    ],
+                                    "type": "text",
+                                    "content": "*70 & 71 resin 11%."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15
+                },
+                {
+                    "bbox": [
+                        618,
+                        371,
+                        740,
+                        384
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                618,
+                                371,
+                                740,
+                                384
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        618,
+                                        371,
+                                        740,
+                                        384
+                                    ],
+                                    "type": "text",
+                                    "content": "Resin "
+                                },
+                                {
+                                    "bbox": [
+                                        618,
+                                        371,
+                                        740,
+                                        384
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "10\\%"
+                                },
+                                {
+                                    "bbox": [
+                                        618,
+                                        371,
+                                        740,
+                                        384
+                                    ],
+                                    "type": "text",
+                                    "content": " sample 56"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16
+                },
+                {
+                    "bbox": [
+                        618,
+                        386,
+                        715,
+                        398
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                618,
+                                386,
+                                715,
+                                398
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        618,
+                                        386,
+                                        715,
+                                        398
+                                    ],
+                                    "type": "text",
+                                    "content": "Resin no heating."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17
+                },
+                {
+                    "bbox": [
+                        604,
+                        429,
+                        718,
+                        445
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                604,
+                                429,
+                                718,
+                                445
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        604,
+                                        429,
+                                        718,
+                                        445
+                                    ],
+                                    "type": "text",
+                                    "content": "NOTE: ALL these"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18
+                },
+                {
+                    "bbox": [
+                        605,
+                        447,
+                        750,
+                        462
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                605,
+                                447,
+                                750,
+                                462
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        605,
+                                        447,
+                                        750,
+                                        462
+                                    ],
+                                    "type": "text",
+                                    "content": "sample data with TS at"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19
+                },
+                {
+                    "bbox": [
+                        605,
+                        464,
+                        710,
+                        479
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                605,
+                                464,
+                                710,
+                                479
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        605,
+                                        464,
+                                        710,
+                                        479
+                                    ],
+                                    "type": "text",
+                                    "content": "range "
+                                },
+                                {
+                                    "bbox": [
+                                        605,
+                                        464,
+                                        710,
+                                        479
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "9\\%"
+                                },
+                                {
+                                    "bbox": [
+                                        605,
+                                        464,
+                                        710,
+                                        479
+                                    ],
+                                    "type": "text",
+                                    "content": " - "
+                                },
+                                {
+                                    "bbox": [
+                                        605,
+                                        464,
+                                        710,
+                                        479
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "12\\%"
+                                },
+                                {
+                                    "bbox": [
+                                        605,
+                                        464,
+                                        710,
+                                        479
+                                    ],
+                                    "type": "text",
+                                    "content": "."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                841,
+                595
+            ],
+            "page_idx": 3
+        },
+        {
+            "para_blocks": [
+                {
+                    "type": "image",
+                    "bbox": [
+                        70,
+                        151,
+                        766,
+                        464
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                183,
+                                117,
+                                591,
+                                136
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        183,
+                                        117,
+                                        591,
+                                        136
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                183,
+                                                117,
+                                                591,
+                                                136
+                                            ],
+                                            "type": "text",
+                                            "content": "Oply Test Result - Analysis 3a - Plywood Screw Withdrawal Test"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 0,
+                            "angle": 0,
+                            "type": "image_caption"
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                151,
+                                766,
+                                464
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        151,
+                                        766,
+                                        464
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                70,
+                                                151,
+                                                766,
+                                                464
+                                            ],
+                                            "type": "image",
+                                            "image_path": "e2cd9221b19ec88d8df779ad34e29d8675d8864e3e1db465ed50078d4aff9cf9.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 1,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 1
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                841,
+                595
+            ],
+            "page_idx": 4
+        },
+        {
+            "para_blocks": [
+                {
+                    "type": "image",
+                    "bbox": [
+                        69,
+                        151,
+                        759,
+                        463
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                183,
+                                117,
+                                591,
+                                136
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        183,
+                                        117,
+                                        591,
+                                        136
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                183,
+                                                117,
+                                                591,
+                                                136
+                                            ],
+                                            "type": "text",
+                                            "content": "Oply Test Result - Analysis 3b - Plywood Screw Withdrawal Test"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 0,
+                            "angle": 0,
+                            "type": "image_caption"
+                        },
+                        {
+                            "bbox": [
+                                69,
+                                151,
+                                759,
+                                463
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        151,
+                                        759,
+                                        463
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                69,
+                                                151,
+                                                759,
+                                                463
+                                            ],
+                                            "type": "image",
+                                            "image_path": "495e1033d7324b91025a36be9c316f3b9dfe744fac9f15a34115b5dc8029e60e.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 1,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 1
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                841,
+                595
+            ],
+            "page_idx": 5
+        },
+        {
+            "para_blocks": [
+                {
+                    "type": "image",
+                    "bbox": [
+                        70,
+                        139,
+                        766,
+                        455
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                183,
+                                118,
+                                608,
+                                135
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        183,
+                                        118,
+                                        608,
+                                        135
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                183,
+                                                118,
+                                                608,
+                                                135
+                                            ],
+                                            "type": "text",
+                                            "content": "Oply Test Result - Analysis 3c - Oply FACE Screw Withdrawal Test"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 0,
+                            "angle": 0,
+                            "type": "image_caption"
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                139,
+                                766,
+                                455
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        139,
+                                        766,
+                                        455
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                70,
+                                                139,
+                                                766,
+                                                455
+                                            ],
+                                            "type": "image",
+                                            "image_path": "93d8904c96abc70d3edca4ffbdcc0a32ca455b552c5cb29cec1b455be178efd8.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 1,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 1
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                841,
+                595
+            ],
+            "page_idx": 6
+        },
+        {
+            "para_blocks": [
+                {
+                    "bbox": [
+                        183,
+                        117,
+                        610,
+                        136
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                183,
+                                117,
+                                610,
+                                136
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        183,
+                                        117,
+                                        610,
+                                        136
+                                    ],
+                                    "type": "text",
+                                    "content": "Oply Test Result - Analysis 3d - Oply EDGE Screw Withdrawal Test"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        69,
+                        166,
+                        751,
+                        471
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                69,
+                                166,
+                                751,
+                                471
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        166,
+                                        751,
+                                        471
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                69,
+                                                166,
+                                                751,
+                                                471
+                                            ],
+                                            "type": "image",
+                                            "image_path": "e9b4f9e462649d336916c0c4e88ff225220ed28591cecb7826c4b0fea660f52a.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 1,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 1
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                841,
+                595
+            ],
+            "page_idx": 7
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": true,
+    "_vlm_ocr_enable": true,
+    "_version_name": "2.7.6"
+}
